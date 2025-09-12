@@ -1,0 +1,35 @@
+    RewriteEngine On
+    
+    # Redirect HTTP to HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    
+    # Redirect to custom 404 error page
+    ErrorDocument 404 /404.php
+    
+    # Redirect requests with .php to extensionless URL
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.php [NC]
+    RewriteRule ^([^.]+)\.php$ /%1 [R=301,L]
+    
+    # Remove .php extension from URLs
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([a-zA-Z0-9_-]+)$ .php [L]
+    
+    # Block access to .git directory and related files
+    RedirectMatch 403 ^/.*/\.git
+    
+    # Block access to other hidden or config files
+    <FilesMatch "^\.env|\.htaccess|\.htpasswd|composer\.(json|lock)|package\.json$">
+        Require all denied
+    </FilesMatch>
+    
+    # Block backup/config/dump files often used by attackers
+    <FilesMatch "(\.bak|\.sql|\.ini|\.log|\.old|\.orig|\.swp|~)$">
+        Require all denied
+    </FilesMatch>
+    
+    # Block known malicious scripts by filename
+    <FilesMatch "404javascript\.js|404testpage.*|sk-jspark_init\.php">
+        Require all denied
+    </FilesMatch>
