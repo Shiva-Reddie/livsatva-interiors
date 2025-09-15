@@ -2,14 +2,19 @@
 <html lang="en">
 
 <head>
+    
+
+<?php
+$base_url = "https://localhost/livsatva-interiors/";
+?>
 
     <!-- Metas -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="HTML5 Template Archo onepage themeforest">
-    <meta name="description" content="Archo - Onepage Multi-Purpose HTML5 Template">
-    <meta name="author" content="">
+    <meta name="keywords" content="Livsatva Interiors, Interior Design, Interior Design Company, Interior Design Services, Interior Design in India">
+    <meta name="description" content="Livsatva Interiors is a leading interior design company in India. We offer a wide range of interior design services to our clients.">
+    <meta name="author" content="Livsatva Interiors">
 
     <!-- Title  -->
     <title>Livsatva Interiors</title>
@@ -110,7 +115,7 @@
         <div class="container-fluid">
 
             <!-- Logo -->
-            <a class="logo" href="./index.php">
+            <a class="logo" href="<?php echo $base_url; ?>">
                 <img src="assets/images/livsatva-logo.png" alt="logo">
             </a>
 
@@ -126,7 +131,7 @@
                     
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">About</a>
+                        <a class="nav-link" href="<?php echo $base_url; ?>about.php">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
@@ -158,7 +163,7 @@
                         <a class="nav-link" href="">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
+                        <a class="nav-link" href="<?php echo $base_url; ?>contact.php">Contact</a>
                     </li>
 
                     <li class="nav-item">

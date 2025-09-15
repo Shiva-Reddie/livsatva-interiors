@@ -1,143 +1,16 @@
-﻿<!DOCTYPE html>
-<html lang="zxx">
-
-<head>
-
-    <!-- Metas -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="HTML5 Template Archo onepage themeforest">
-    <meta name="description" content="Archo - Onepage Multi-Purpose HTML5 Template">
-    <meta name="author" content="">
-
-    <!-- Title  -->
-    <title>Archo</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico">
-
-    <!-- Google Fonts -->
-    <link href="../../css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="../../css-3?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
-    <link href="../../css-1?family=Teko:300,400,500,600,700&display=swap" rel="stylesheet">
-    <link href="../../css-2?family=Playfair+Display:400,500,600,700,800,900&display=swap" rel="stylesheet">
-
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css">
-
-    <link href="css/twentytwenty.css" rel="stylesheet" type="text/css">
-
-    <!-- Core Style Css -->
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
-
-    <!-- ==================== Start Loading ==================== -->
-
-    <div id="preloader">
-        <div class="loading-text">Loading</div>
-    </div>
-
-    <!-- ==================== End Loading ==================== -->
-
-
-    <!-- ==================== Start progress-scroll-button ==================== -->
-
-    <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-        </svg>
-    </div>
-
-    <!-- ==================== End progress-scroll-button ==================== -->
-
-
-    <!-- ==================== Start cursor ==================== -->
-
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
-
-    <!-- ==================== End cursor ==================== -->
-
-
-    <!-- ==================== Start Navbar ==================== -->
-
-    <nav class="navbar change navbar-expand-lg">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="img/logo-light.png" alt="logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"><i class="fas fa-bars"></i></span>
-            </button>
-
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Main Home</a>
-                            <a class="dropdown-item" href="index3.html">Architecture</a>
-                            <a class="dropdown-item" href="index2.html">Interior Design</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio-mas2.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="blog.html">Blogs</a>
-                            <a class="dropdown-item" href="blog-details.html">Post Details</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <div class="social-icon">
-                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                    <a href="#0"><i class="fab fa-behance"></i></a>
-                </div>
-                <div class="search">
-                    <span class="icon pe-7s-search cursor-pointer"></span>
-                    <div class="search-form text-center custom-font">
-                        <form>
-                            <input type="text" name="search" placeholder="Search">
-                        </form>
-                        <span class="close pe-7s-close cursor-pointer"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- ==================== End Navbar ==================== -->
-
+﻿<?php include('./header.php') ?>
 
 
     <!-- ==================== Start Header ==================== -->
 
-    <header class="pages-header bg-img valign parallaxie" data-background="img/pg1.jpg" data-overlay-dark="5">
+    <header class="pages-header bg-img valign parallaxie" data-background="assets/img/pg1.jpg" data-overlay-dark="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cont text-center">
                         <h1>About Us</h1>
                         <div class="path">
-                            <a href="#0">Home</a><span>/</span><a href="#0" class="active">About Us</a>
+                            <a href="<?php echo $base_url; ?>">Home</a><span>/</span><a href="#0" class="active">About Us</a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +78,7 @@
     <!-- ==================== Start Services ==================== -->
 
     <section class="services halfbg">
-        <div class="background bg-img valign parallaxie" data-background="img/04.jpg" data-overlay-dark="7">
+        <div class="background bg-img valign parallaxie" data-background="assets/img/04.jpg" data-overlay-dark="7">
             <a class="play-button vid" href="https://youtu.be/AzwC6umvd1s">
                 <svg class="circle-fill">
                     <circle cx="43" cy="43" r="39" stroke="#fff" stroke-width=".5"></circle>
@@ -304,7 +177,7 @@
 
     <!-- ==================== Start Testimonials ==================== -->
 
-    <section class="testimonials grid section-padding bg-img parallaxie" data-background="img/001.jpg" data-overlay-dark="9">
+    <section class="testimonials grid section-padding bg-img parallaxie" data-background="assets/img/001.jpg" data-overlay-dark="9">
         <div class="container">
             <div class="section-head text-center">
                 <div class="row justify-content-center">
@@ -318,7 +191,7 @@
                 <div class="col-lg-12">
                     <div class="testim">
                         <div class="item">
-                            <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                            <span class="quote-icon"><img src="assets/img/clients/quote.svg" alt=""></span>
                             <div class="cont">
                                 <p class="playfont">"I just love their design for all stunning details. You must know
                                     what can you do for a project before taking it, but with Archo, the sky is the
@@ -327,13 +200,13 @@
                             </div>
                             <div class="info">
                                 <div class="author">
-                                    <img src="img/clients/1.jpg" alt="">
+                                    <img src="assets/img/clients/1.jpg" alt="">
                                 </div>
                                 <h6>Mitchl Jhon <span>Envato Customer</span> </h6>
                             </div>
                         </div>
                         <div class="item">
-                            <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                            <span class="quote-icon"><img src="assets/img/clients/quote.svg" alt=""></span>
                             <div class="cont">
                                 <p class="playfont">"I just love their design for all stunning details. You must know
                                     what can you do for a project before taking it, but with Archo, the sky is the
@@ -342,13 +215,13 @@
                             </div>
                             <div class="info">
                                 <div class="author">
-                                    <img src="img/clients/2.jpg" alt="">
+                                    <img src="assets/img/clients/2.jpg" alt="">
                                 </div>
                                 <h6>Jane Smith <span>Envato Customer</span> </h6>
                             </div>
                         </div>
                         <div class="item">
-                            <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                            <span class="quote-icon"><img src="assets/img/clients/quote.svg" alt=""></span>
                             <div class="cont">
                                 <p class="playfont">"I just love their design for all stunning details. You must know
                                     what can you do for a project before taking it, but with Archo, the sky is the
@@ -357,13 +230,13 @@
                             </div>
                             <div class="info">
                                 <div class="author">
-                                    <img src="img/clients/3.jpg" alt="">
+                                    <img src="assets/img/clients/3.jpg" alt="">
                                 </div>
                                 <h6>Alison Clutcher <span>Envato Customer</span> </h6>
                             </div>
                         </div>
                         <div class="item">
-                            <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                            <span class="quote-icon"><img src="assets/img/clients/quote.svg" alt=""></span>
                             <div class="cont">
                                 <p class="playfont">"I just love their design for all stunning details. You must know
                                     what can you do for a project before taking it, but with Archo, the sky is the
@@ -372,7 +245,7 @@
                             </div>
                             <div class="info">
                                 <div class="author">
-                                    <img src="img/clients/4.jpg" alt="">
+                                    <img src="assets/img/clients/4.jpg" alt="">
                                 </div>
                                 <h6>Peter Jefferson <span>Envato Customer</span> </h6>
                             </div>
@@ -410,7 +283,7 @@
             <div class="row">
                 <div class="item col-lg-3 col-md-6">
                     <div class="img">
-                        <img src="img/team/1.jpg" alt="">
+                        <img src="assets/img/team/1.jpg" alt="">
                         <div class="social">
                             <a href="#0"><i class="fab fa-facebook-f"></i></a>
                             <a href="#0"><i class="fab fa-twitter"></i></a>
@@ -425,7 +298,7 @@
                 </div>
                 <div class="item col-lg-3 col-md-6">
                     <div class="img">
-                        <img src="img/team/3.jpg" alt="">
+                        <img src="assets/img/team/3.jpg" alt="">
                         <div class="social">
                             <a href="#0"><i class="fab fa-facebook-f"></i></a>
                             <a href="#0"><i class="fab fa-twitter"></i></a>
@@ -440,7 +313,7 @@
                 </div>
                 <div class="item col-lg-3 col-md-6">
                     <div class="img">
-                        <img src="img/team/2.jpg" alt="">
+                        <img src="assets/img/team/2.jpg" alt="">
                         <div class="social">
                             <a href="#0"><i class="fab fa-facebook-f"></i></a>
                             <a href="#0"><i class="fab fa-twitter"></i></a>
@@ -455,7 +328,7 @@
                 </div>
                 <div class="item col-lg-3 col-md-6">
                     <div class="img">
-                        <img src="img/team/4.jpg" alt="">
+                        <img src="assets/img/team/4.jpg" alt="">
                         <div class="social">
                             <a href="#0"><i class="fab fa-facebook-f"></i></a>
                             <a href="#0"><i class="fab fa-twitter"></i></a>
@@ -496,7 +369,7 @@
                     <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s">
                         <div class="post-img">
                             <div class="img">
-                                <img src="img/blog/1.jpg" alt="">
+                                <img src="assets/img/blog/1.jpg" alt="">
                             </div>
                         </div>
                         <div class="cont">
@@ -518,7 +391,7 @@
                     <div class="item wow fadeInUp md-mb50" data-wow-delay=".1s">
                         <div class="post-img">
                             <div class="img">
-                                <img src="img/blog/2.jpg" alt="">
+                                <img src="assets/img/blog/2.jpg" alt="">
                             </div>
                         </div>
                         <div class="cont">
@@ -542,106 +415,4 @@
 
     <!-- ==================== End Blog ==================== -->
 
-
-
-    <!-- ==================== Start Footer ==================== -->
-
-    <footer class="main-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="item abot">
-                        <div class="logo-footer mb-20">
-                            <a href="#0" class="logo">
-                                <img src="img/logo-light.png" alt="">
-                            </a>
-                        </div>
-                        <p>Our team takes over everything, from an idea and concept development to realization.</p>
-                        <div class="social-icon">
-                            <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#0"><i class="fab fa-twitter"></i></a>
-                            <a href="#0"><i class="fab fa-behance"></i></a>
-                            <a href="#0"><i class="fab fa-pinterest-p"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 offset-lg-1">
-                    <div class="item usful-links">
-                        <div class="fothead">
-                            <h6>Useful Links</h6>
-                        </div>
-                        <ul>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#0">Interior Design</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#0">Design Agency</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#0">Mattress Shop</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#0">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Call</h6>
-                        </div>
-                        <p>+7(111)123456789</p>
-                        <p>+1(000)987654321</p>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Write</h6>
-                        </div>
-                        <p>contact@Archo.com</p>
-                        <p>Username@website.com</p>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Visit</h6>
-                        </div>
-                        <p>B17 Princess Road, London, Greater London
-                            NW18JR, United Kingdom</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="text-left">
-                            <p>© 2020, Archo Template. Made with passion by <a href="https://themeforest.net/user/ui-themez">UI-ThemeZ</a>.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-right">
-                            <p>All right reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- ==================== End Footer ==================== -->
-
-
-
-
-
-
-    <!-- jQuery -->
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.min.js"></script>
-
-    <!-- plugins -->
-    <script src="js/plugins.js"></script>
-
-    <!-- custom scripts -->
-    <script src="js/scripts.js"></script>
-
-</body>
-
-</html>
+<?php include('./footer.php') ?>
