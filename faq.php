@@ -1,139 +1,393 @@
 ﻿<?php include('./header.php') ?>
 
-    <!-- ==================== Start Header ==================== -->
+<style>
+:root {
+    --deep-blue: #01386e;
+    --sky-blue: #0092f9;
+    --muted: #6c757d;
+    --card-bg: #ffffff;
+    --glass: rgba(255, 255, 255, 0.06);
+}
 
-    <header class="pages-header bg-img valign parallaxie" data-background="./assets/images/contact-ban.webp" data-overlay-dark="5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="cont text-center">
-                        <h1>Frequently Asked Questions</h1>
-                        <div class="path">
-                              <a href="<?php echo $base_url; ?>">Home</a><span>/</span><a href="#0" class="active">Frequently </a>
-                        </div>
+/* body {
+        background: linear-gradient(180deg, rgba(1, 56, 110, 0.04) 0%, rgba(0, 146, 249, 0.02) 100%);
+        font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        color: #222;
+    } */
+
+.faq-hero {
+    padding: 48px 0;
+}
+
+.faq-card {
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(1, 56, 110, 0.08);
+    overflow: hidden;
+}
+
+/* Left column (visual) */
+.faq-visual {
+    background: linear-gradient(135deg, var(--deep-blue) 0%, var(--sky-blue) 100%);
+    color: #fff;
+    padding: 36px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.faq-visual h2 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+    font-size: 1.9rem;
+    color: #fff;
+}
+
+.faq-visual p.lead {
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 18px;
+}
+
+.faq-model {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(1, 56, 110, 0.25);
+    border: 6px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Right column (faq controls) */
+.faq-controls {
+    padding: 28px;
+}
+
+.chip {
+    display: inline-flex;
+    gap: .45rem;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: .86rem;
+    margin: 4px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(1, 56, 110, 0.06), rgba(0, 146, 249, 0.04));
+    border: 1px solid rgba(1, 56, 110, 0.06);
+}
+
+.chip.active {
+    background: linear-gradient(90deg, var(--deep-blue), var(--sky-blue));
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(0, 146, 249, 0.14);
+    border: 0;
+}
+
+.search-input {
+    border-radius: 12px;
+    box-shadow: none !important;
+    border: 1px solid rgba(1, 56, 110, 0.08);
+    padding-left: 14px;
+}
+
+.accordion-button {
+    border-radius: 10px;
+    margin-bottom: 8px;
+    background: linear-gradient(180deg, #fff, #fbfbff);
+    border: 1px solid var(--sky-blue);
+    color: var(--deep-blue);
+    font-weight: 600;
+    padding: .9rem 1.1rem;
+}
+
+.accordion-body {
+    color: var(--muted);
+    padding: 1rem 1.1rem;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--deep-blue);
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background: linear-gradient(90deg, rgb(0 146 249), rgba(1, 56, 110, 0.04));
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-flex;
+    gap: .6rem;
+    align-items: center;
+    color: #fff;
+}
+
+.faq-visual img {
+    width: 100%;
+}
+
+/* small screens tweak */
+@media (max-width: 991.98px) {
+    .faq-visual {
+        align-items: center;
+        text-align: center;
+        padding: 28px;
+    }
+
+    .faq-visual h2 {
+        font-size: 1.6rem;
+    }
+}
+</style>
+
+<!-- ==================== Start Header ==================== -->
+
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/images/contact-ban.webp"
+    data-overlay-dark="5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cont text-center">
+                    <h1>Frequently Asked Questions</h1>
+                    <div class="path">
+                        <a href="<?php echo $base_url; ?>">Home</a><span>/</span><a href="#0" class="active">Frequently
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <!-- ==================== End Header ==================== -->
-
-    <!-- ==================== Start Contact ==================== -->
-
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
-    }
-    .faq-header {
-      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&q=80&w=1600') center/cover no-repeat;
-      color: #fff;
-      padding: 80px 20px;
-      text-align: center;
-    }
-    .faq-header h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-    }
-    .accordion-button:not(.collapsed) {
-      color: #fff;
-      background-color: #6c757d;
-    }
-    .accordion-button:focus {
-      box-shadow: none;
-    }
-  </style>
-</head>
-<body>
-
-
-
-  <!-- FAQ Section -->
-  <section class="container my-5">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="accordion" id="faqAccordion">
-
-          <!-- Q1 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What interior design services do you offer?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faqOne" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                We offer complete interior design solutions including residential, commercial, and office spaces. From concept development to furniture selection, lighting, and décor, we take care of everything.
-              </div>
-            </div>
-          </div>
-
-          <!-- Q2 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How long does an interior design project usually take?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Project timelines depend on the scale and complexity. Typically, a home design project can take anywhere from 4 to 12 weeks, including planning, approvals, and execution.
-              </div>
-            </div>
-          </div>
-
-          <!-- Q3 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Do you provide customized designs?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faqThree" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Absolutely! We create tailor-made designs based on your lifestyle, preferences, and budget. Each project is unique and designed to reflect your personality.
-              </div>
-            </div>
-          </div>
-
-          <!-- Q4 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                What is the cost of hiring an interior designer?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                The cost varies depending on the scope of the project, size of the space, and materials chosen. We offer flexible packages and transparent pricing after an initial consultation.
-              </div>
-            </div>
-          </div>
-
-          <!-- Q5 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Do you handle project execution as well?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="faqFive" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Yes, we not only design but also manage the entire execution process. Our team coordinates with contractors, vendors, and suppliers to ensure smooth delivery.
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </div>
-  </section>
+</header>
 
-  <!-- Bootstrap 5.3.2 JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<!-- ==================== End Header ==================== -->
 
-    <!-- ==================== End about ==================== -->
+<!-- ==================== Start Contact ==================== -->
+
+
+
+
+
+
+<section class="faq-hero">
+    <div class="container">
+        <div class="card faq-card">
+            <div class="row g-0">
+                <!-- Left: Visual / model -->
+                <div class="col-lg-5">
+                    <div class="faq-visual h-100 p-4">
+                        <div class="mb-3 highlight"><i class="fa-solid fa-square-check"></i> Frequently Asked</div>
+                        <h2>Got questions about Livsatva Interiors?</h2>
+                        <p class="lead">Design process, timelines, pricing, and customization — we’ve answered the
+                            common ones below. Still unsure? Contact us directly.</p>
+
+                        <!-- features -->
+                        <div class="d-flex gap-3 mt-3 flex-wrap">
+                            <div class="text-start">
+                                <div class="small">Free consultation</div>
+                                <div class="small text-white-50">Phone or on-site</div>
+                            </div>
+                            <div class="text-start">
+                                <div class="small">3D visualizations</div>
+                                <div class="small text-white-50">Before build</div>
+                            </div>
+                        </div>
+
+                        <!-- model / placeholder image -->
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+                            alt="Model / interior sample" class="faq-model mt-4">
+
+                    </div>
+                </div>
+
+                <!-- Right: FAQ content -->
+                <div class="col-lg-7">
+                    <div class="faq-controls p-4">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div>
+                                <h5 class="mb-0" style="color:var(--deep-blue)">Frequently Asked Questions</h5>
+                                <small class="text-muted">Quick answers to common queries</small>
+                            </div>
+                            <!-- <div class="text-end">
+                                    <a href="mailto:info@livsatva.com" class="btn btn-outline-primary btn-sm"
+                                        style="border-radius:10px;">
+                                        <i class="fa-regular fa-envelope"></i> Contact Us
+                                    </a>
+                                </div> -->
+                        </div>
+
+
+
+                        <!-- category chips -->
+                        <div class="mb-3" id="categoryChips">
+                            <span class="chip active" data-cat="all"><i class="fa-solid fa-list-check"></i>
+                                All</span>
+                            <span class="chip" data-cat="pricing">Pricing</span>
+                            <span class="chip" data-cat="process">Process</span>
+                            <span class="chip" data-cat="timeline">Timeline</span>
+                            <span class="chip" data-cat="warranty">Warranty</span>
+                            <span class="chip" data-cat="custom">Customization</span>
+                        </div>
+
+                        <!-- accordion -->
+                        <div class="accordion" id="faqAccordion">
+
+                            <!-- FAQ item 1 -->
+                            <div class="mb-2 faq-item" data-categories="process timeline">
+                                <h2 class="accordion-header" id="faqHeading1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapse1" aria-expanded="false"
+                                        aria-controls="faqCollapse1">
+                                        What is your design process from consultation to handover?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Our process starts with a free consultation (on-site or virtual). We then
+                                        create concept designs and 3D visualisations, finalize materials and
+                                        finishes, agree on a contract and timeline, and proceed to execution with
+                                        regular progress updates until handover.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ item 2 -->
+                            <div class="mb-2 faq-item" data-categories="pricing custom">
+                                <h2 class="accordion-header" id="faqHeading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapse2" aria-expanded="false"
+                                        aria-controls="faqCollapse2">
+                                        How do you price an interior project?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Pricing depends on scope: area (sq ft), materials, custom cabinetry, MEP
+                                        changes, and finishes. We provide a transparent estimate and can break down
+                                        costs by civil, carpentry, electrical, and furnishings.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ item 3 -->
+                            <div class="mb-2 faq-item" data-categories="timeline">
+                                <h2 class="accordion-header" id="faqHeading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapse3" aria-expanded="false"
+                                        aria-controls="faqCollapse3">
+                                        Typical project timeline — how long will my project take?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        A simple refresh (painting + minor works) can take 2–4 weeks. A full
+                                        renovation with structural changes typically ranges from 8–16 weeks
+                                        depending on scale, approvals and site conditions.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ item 4 -->
+                            <div class="mb-2 faq-item" data-categories="warranty">
+                                <h2 class="accordion-header" id="faqHeading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapse4" aria-expanded="false"
+                                        aria-controls="faqCollapse4">
+                                        Do you provide warranty and after-sales support?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Yes — we offer warranty on workmanship and selected fittings. Typical
+                                        coverage: 6–12 months for workmanship; manufacturer warranties apply for
+                                        supplied appliances/fixtures. After-sales support is available via
+                                        phone/email.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ item 5 -->
+                            <div class="mb-2 faq-item" data-categories="custom pricing">
+                                <h2 class="accordion-header" id="faqHeading5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapse5" aria-expanded="false"
+                                        aria-controls="faqCollapse5">
+                                        Can I customize materials or request bespoke furniture?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Absolutely. We design and manufacture bespoke furniture and can source
+                                        bespoke finishes. Customization will affect timelines and cost — we provide
+                                        clear options during design stage.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ item 6 -->
+                            <div class="mb-2 faq-item" data-categories="process pricing">
+                                <h2 class="accordion-header" id="faqHeading6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faqCollapse6" aria-expanded="false"
+                                        aria-controls="faqCollapse6">
+                                        How do you handle site visits, approvals, and project supervision?
+                                    </button>
+                                </h2>
+                                <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        We schedule periodic site visits during execution, coordinate necessary
+                                        municipal approvals, and assign a project manager who supervises daily
+                                        activity and reports weekly to the client.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!-- /accordion -->
+
+                        <!-- fallback contact -->
+                        <!-- <div class="mt-3">
+                            <small class="text-muted">Didn't find your question? <a
+                                    href="mailto:info@livsatva.com">Email us</a> or call <strong>+91 98765
+                                    43210</strong></small>
+                        </div> -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS (bundle includes Popper) -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+<script>
+// category chip filter
+document.querySelectorAll('#categoryChips .chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+        document.querySelectorAll('#categoryChips .chip').forEach(c => c.classList.remove(
+            'active'));
+        chip.classList.add('active');
+        const cat = chip.getAttribute('data-cat');
+
+        document.querySelectorAll('.faq-item').forEach(item => {
+            const cats = item.getAttribute('data-categories').split(' ');
+            if (cat === 'all' || cats.includes(cat)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+});
+</script>
+
+
+
+
+<!-- ==================== End about ==================== -->
 <?php include('./footer.php') ?>

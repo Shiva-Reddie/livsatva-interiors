@@ -1070,7 +1070,7 @@ span:hover {
   transition-delay: 0.3s;
 }
 
-.imago  img{
+.imago img {
   border-radius: 5px;
 }
 
@@ -1230,7 +1230,7 @@ body {
 
 [data-overlay-dark]:before {
   background: #02050b;
-  background: #012346;
+  /* background: #012346; */
 }
 
 [data-overlay-light]:before {
@@ -1294,7 +1294,7 @@ body {
 
 [data-overlay-dark="5"]:before,
 [data-overlay-light="5"]:before {
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 [data-overlay-dark="6"]:before,
@@ -2161,13 +2161,13 @@ body {
   -webkit-transition: opacity 0.5s, visibility 0.5s;
   -o-transition: opacity 0.5s, visibility 0.5s;
   transition: opacity 0.5s, visibility 0.5s;
-    text-shadow: 1px 1px #fff;
+  text-shadow: 1px 1px #fff;
 
 }
 
 
 
- 
+
 .cta__slider-item .caption .thin {
   color: var(--s);
   color: #fff;
@@ -3118,23 +3118,23 @@ body {
 }
 
 .process .item .bg-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 auto 30px;
-    text-align: center;
-    position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+  text-align: center;
+  position: relative;
 }
 
 .process .item .bg-img:after {
-    content: "";
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    right: 7px;
-    bottom: 7px;
-    border-radius: 50%;
-    background: rgb(255 196 0 / 52%);
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  right: 7px;
+  bottom: 7px;
+  border-radius: 50%;
+  background: rgb(255 196 0 / 52%);
 }
 
 .process .item .bg-img h3 {
@@ -4449,6 +4449,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .contact .info .item .icon {
@@ -4550,11 +4552,11 @@ body {
 }
 
 .main-footer .fothead h6 {
-    color: #ffffff;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 
 .main-footer .fotcont .fothead h6 {
@@ -4578,11 +4580,11 @@ body {
 }
 
 .main-footer .sub-footer {
-    padding: 5px 0;
-    margin-top: 50px;
-    border-top: 1px solid rgba(255, 255, 255, 0.02);
-    color: #fff;
-    border-top: 1px solid #dddddd33;
+  padding: 5px 0;
+  margin-top: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.02);
+  color: #fff;
+  border-top: 1px solid #dddddd33;
 }
 
 .main-footer .sub-footer p {
@@ -5447,21 +5449,21 @@ body {
 .about {
   position: relative;
   background-image: url(https://uithemez.com/i/archo/img/line-pattern.png);
-  padding: 10px 20px;
+
 }
 
 .process {
-    
-    background-image: url("../images/bg-12.jpg");
+
+  background-image: url("../images/bg-12.jpg");
 }
 
 
 .cta__slider-item {
-   
-    height: 660px;
 
-    background-size: cover;
-    background-position: center;
+  height: 660px;
+
+  background-size: cover;
+  background-position: center;
 }
 
 .cta_heading {
@@ -5470,13 +5472,13 @@ body {
 
 
 .main-footer.dark {
-    background: #252531;
-    color: #fff;
-    background-image: url(../images/footer-bg.webp);
-    box-shadow: rgb(1 36 74 / 95%) 0 0 0 1000px inset;
-    /* background-size: cover; */
-    background-position: center;
-   
+  background: #252531;
+  color: #fff;
+  background-image: url(../images/footer-bg.webp);
+  box-shadow: rgb(1 36 74 / 95%) 0 0 0 1000px inset;
+  /* background-size: cover; */
+  background-position: center;
+
 }
 
 .nav-item.dropdown:hover .dropdown-menu {
@@ -5484,5 +5486,6 @@ body {
 }
 
 .dropdown-menu {
-  margin-top: 0; /* optional, aligns better */
+  margin-top: 0;
+  /* optional, aligns better */
 }
