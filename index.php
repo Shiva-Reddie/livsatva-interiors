@@ -1006,30 +1006,7 @@
                 <!-- FontAwesome CDN -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-                <!-- Styling for icons inside inputs -->
-                <style>
-                .input-with-icon {
-                    position: relative;
-                }
-
-                .input-with-icon i {
-                    position: absolute;
-                    left: 10px;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    color: var(--p);
-                }
-
-                .input-with-icon input,
-                .input-with-icon textarea {
-                    width: 100%;
-                    padding: 10px 10px 10px 35px;
-                    /* add space for icon */
-                    border: 1px solid #ccc;
-                    border-radius: 5px;
-                }
-                </style>
-
+             
             </div>
         </div>
     </div>

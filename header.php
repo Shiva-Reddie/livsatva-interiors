@@ -93,9 +93,9 @@ $base_url = "https://localhost/livsatva-interiors/";
 
     <!-- ==================== Start Loading ==================== -->
 
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div class="loading-text">Livsatva Interiors</div>
-    </div>
+    </div> -->
 
     <!-- ==================== End Loading ==================== -->
 
@@ -126,7 +126,7 @@ $base_url = "https://localhost/livsatva-interiors/";
 
             <!-- Logo -->
             <a class="logo" href="<?php echo $base_url; ?>">
-                <img src="assets/images/livsatva-logo.png" alt="logo">
+                <img src="assets/images/liv-logo.jpg" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -150,20 +150,16 @@ $base_url = "https://localhost/livsatva-interiors/";
                             aria-haspopup="true" aria-expanded="false">Products</a>
 
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="">Modular Kitchen</a>
+                            <a class="dropdown-item" href="./kitchen.php">Modular Kitchen</a>
                             <a class="dropdown-item" href="">Modular Wardrobe</a>
                             <a class="dropdown-item" href="">Modular crockery</a>
 
                             <a class="dropdown-item" href="">Office</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                            aria-expanded="false">Blog</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="">Blogs</a>
-                            <a class="dropdown-item" href="">Post Details</a>
-                        </div>
+                    <li class="nav-item ">
+                        <a href="./blog.php" class="nav-link">Blog</a>
+                   
                     </li>
 
                     <li class="nav-item">

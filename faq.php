@@ -9,11 +9,7 @@
     --glass: rgba(255, 255, 255, 0.06);
 }
 
-/* body {
-        background: linear-gradient(180deg, rgba(1, 56, 110, 0.04) 0%, rgba(0, 146, 249, 0.02) 100%);
-        font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-        color: #222;
-    } */
+
 
 .faq-hero {
     padding: 48px 0;
@@ -91,10 +87,10 @@
 }
 
 .accordion-button {
-    border-radius: 10px;
-    margin-bottom: 8px;
+      border-radius: 5px;
+    /* margin-bottom: 15px; */
     background: linear-gradient(180deg, #fff, #fbfbff);
-    border: 1px solid var(--sky-blue);
+    /* border: 1px solid #ececec; */
     color: var(--deep-blue);
     font-weight: 600;
     padding: .9rem 1.1rem;
@@ -105,7 +101,7 @@
     padding: 1rem 1.1rem;
     background: #fff;
     border-radius: 10px;
-    border: 1px solid var(--deep-blue);
+    /* border: 1px solid var(--deep-blue); */
     margin-bottom: 20px;
 }
 
@@ -124,6 +120,12 @@
     width: 100%;
 }
 
+
+.faq-item {
+       margin-bottom: 20px !important;
+    box-shadow: 1px 1px 4px 0px #0000002b;
+    border-radius: 10px;
+}
 /* small screens tweak */
 @media (max-width: 991.98px) {
     .faq-visual {
@@ -171,66 +173,37 @@
         <div class="card faq-card">
             <div class="row g-0">
                 <!-- Left: Visual / model -->
-                <div class="col-lg-5">
-                    <div class="faq-visual h-100 p-4">
-                        <div class="mb-3 highlight"><i class="fa-solid fa-square-check"></i> Frequently Asked</div>
-                        <h2>Got questions about Livsatva Interiors?</h2>
-                        <p class="lead">Design process, timelines, pricing, and customization — we’ve answered the
-                            common ones below. Still unsure? Contact us directly.</p>
-
-                        <!-- features -->
-                        <div class="d-flex gap-3 mt-3 flex-wrap">
-                            <div class="text-start">
-                                <div class="small">Free consultation</div>
-                                <div class="small text-white-50">Phone or on-site</div>
-                            </div>
-                            <div class="text-start">
-                                <div class="small">3D visualizations</div>
-                                <div class="small text-white-50">Before build</div>
-                            </div>
-                        </div>
-
-                        <!-- model / placeholder image -->
-                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
-                            alt="Model / interior sample" class="faq-model mt-4">
-
-                    </div>
-                </div>
+           
 
                 <!-- Right: FAQ content -->
-                <div class="col-lg-7">
-                    <div class="faq-controls p-4">
-                        <div class="d-flex align-items-center justify-content-between mb-3">
-                            <div>
-                                <h5 class="mb-0" style="color:var(--deep-blue)">Frequently Asked Questions</h5>
+                <div class="col-lg-12">
+                    <div class="faq-controls bg-light p-4">
+                        <div class=" mb-3">
+                            <div class="text-center">
+                                <h2 class="mb-0" style="color:var(--deep-blue)">Frequently Asked Questions</h2>
                                 <small class="text-muted">Quick answers to common queries</small>
                             </div>
-                            <!-- <div class="text-end">
-                                    <a href="mailto:info@livsatva.com" class="btn btn-outline-primary btn-sm"
-                                        style="border-radius:10px;">
-                                        <i class="fa-regular fa-envelope"></i> Contact Us
-                                    </a>
-                                </div> -->
+                      
                         </div>
 
 
 
                         <!-- category chips -->
-                        <div class="mb-3" id="categoryChips">
+                        <div class="mb-50 text-center" id="categoryChips">
                             <span class="chip active" data-cat="all"><i class="fa-solid fa-list-check"></i>
                                 All</span>
-                            <span class="chip" data-cat="pricing">Pricing</span>
-                            <span class="chip" data-cat="process">Process</span>
-                            <span class="chip" data-cat="timeline">Timeline</span>
-                            <span class="chip" data-cat="warranty">Warranty</span>
-                            <span class="chip" data-cat="custom">Customization</span>
+                            <span class="chip" data-cat="pricing">Kitchen</span>
+                            <span class="chip" data-cat="process">Wardrobe</span>
+                            <span class="chip" data-cat="timeline">Crokery</span>
+                            <span class="chip" data-cat="warranty">Living </span>
+                            <span class="chip" data-cat="custom">Tv unit</span>
                         </div>
 
                         <!-- accordion -->
                         <div class="accordion" id="faqAccordion">
 
                             <!-- FAQ item 1 -->
-                            <div class="mb-2 faq-item" data-categories="process timeline">
+                            <div class=" faq-item" data-categories="process timeline">
                                 <h2 class="accordion-header" id="faqHeading1">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqCollapse1" aria-expanded="false"
@@ -250,7 +223,7 @@
                             </div>
 
                             <!-- FAQ item 2 -->
-                            <div class="mb-2 faq-item" data-categories="pricing custom">
+                            <div class=" faq-item" data-categories="pricing custom">
                                 <h2 class="accordion-header" id="faqHeading2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqCollapse2" aria-expanded="false"
@@ -269,7 +242,7 @@
                             </div>
 
                             <!-- FAQ item 3 -->
-                            <div class="mb-2 faq-item" data-categories="timeline">
+                            <div class=" faq-item" data-categories="timeline">
                                 <h2 class="accordion-header" id="faqHeading3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqCollapse3" aria-expanded="false"
@@ -288,7 +261,7 @@
                             </div>
 
                             <!-- FAQ item 4 -->
-                            <div class="mb-2 faq-item" data-categories="warranty">
+                            <div class=" faq-item" data-categories="warranty">
                                 <h2 class="accordion-header" id="faqHeading4">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqCollapse4" aria-expanded="false"
@@ -308,7 +281,7 @@
                             </div>
 
                             <!-- FAQ item 5 -->
-                            <div class="mb-2 faq-item" data-categories="custom pricing">
+                            <div class=" faq-item" data-categories="custom pricing">
                                 <h2 class="accordion-header" id="faqHeading5">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqCollapse5" aria-expanded="false"
@@ -327,7 +300,7 @@
                             </div>
 
                             <!-- FAQ item 6 -->
-                            <div class="mb-2 faq-item" data-categories="process pricing">
+                            <div class=" faq-item" data-categories="process pricing">
                                 <h2 class="accordion-header" id="faqHeading6">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faqCollapse6" aria-expanded="false"

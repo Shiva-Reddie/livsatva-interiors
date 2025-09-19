@@ -3,10 +3,9 @@
 <style>
 /* Glassmorphism + Luxury Gold Style */
 .glass-card {
-    background: rgba(255, 255, 255, 0.12);
-    border-radius: 18px;
-    border: 1px solid rgba(255, 215, 0, 0.35);
-    /* subtle golden border */
+    background: rgb(255 255 255);
+    border-radius: 5px;
+    /* border: 1px solid rgba(255, 215, 0, 0.35); */
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     color: #fff;
@@ -15,40 +14,42 @@
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
     position: relative;
     overflow: hidden;
+    background-image: url(https://theme7x.com/inteshape/images/background/cross-line2.png);
 }
 
 /* Hover Glow Effect */
 .glass-card:hover {
-    transform: translateY(-12px) scale(1.03);
-    box-shadow: 0 12px 30px rgba(255, 215, 0, 0.4), 0 0 20px rgba(0, 146, 249, 0.3);
-    border: 1px solid #FFD700;
+    transform: translateY(-5px) scale(1.02);
+    /* box-shadow: 0 12px 30px rgba(255, 215, 0, 0.4), 0 0 20px rgba(0, 146, 249, 0.3);
+    border: 1px solid #FFD700; */
 }
 
 /* Animated Icon */
 .glass-card .icon i {
-    color: #FFD700;
+    color: var(--s);
     transition: all 0.4s ease;
-    filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.6));
+    /* filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.6)); */
 }
 
 .glass-card:hover .icon i {
-    color: #fff;
+    color: var(--p);
     transform: scale(1.25) rotate(8deg);
-    filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.8));
+    /* filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.8)); */
 }
 
 /* Headings */
 .glass-card h4 {
-    color: #fff;
+  color: var(--p);
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 1rem;
+    font-size: 24px;
 }
 
 /* Text */
 .glass-card p {
-    color: #f3f3f3;
-    font-size: 15px;
+
+    font-size: 14px;
     line-height: 1.7;
 }
 
@@ -62,12 +63,10 @@
     margin-bottom: 20px;
 }
 
-.mission-vision h6 {
-    color: #fff !important;
-}
+
 
 .mission-vision p {
-    color: #e5e5e5;
+    color: #000;
 }
 
 
@@ -297,8 +296,7 @@
 <!-- ==================== End about ==================== -->
 
 <!-- ==================== Start Mission & Vision ==================== -->
-<section class="mission-vision py-5"
-    style="background: linear-gradient(135deg, #01386e 0%, #0092f9 100%); position: relative; overflow: hidden;">
+<section class="mission-vision py-5">
     <div class="container">
         <!-- <div class="text-center mb-5 text-white">
             <h2 class="fw-bold" style="color:#FFD700;">Our Philosophy</h2>
@@ -344,7 +342,36 @@
 </section>
 <!-- ==================== End Mission & Vision ==================== -->
 
-
+<div class="numbers section-padding space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h3><span class="nbr custom-font">352</span></h3>
+                        <h6>Projects Completed</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h3><span class="nbr custom-font">567</span></h3>
+                        <h6>Satisfied Clients</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h3><span class="nbr custom-font">656</span><i>M</i></h3>
+                        <h6>Monthly Revenue</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <h3><span class="nbr custom-font">17</span></h3>
+                        <h6>Awards Won</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- ==================== Our Story Section ==================== -->
 <section class="about ourstory-section">
@@ -355,13 +382,13 @@
                 <!-- Left Side Profile -->
                 <div class="ourstory-profile">
                     <img src="./assets/img/team/1.jpg" alt="Founder" class="ourstory-img">
-                    <h4 class="ourstory-name">John Doe</h4>
+                    <h4 class="ourstory-name">Shiva Raj</h4>
                     <p class="ourstory-role">Founder & Chief Designer</p>
 
                     <!-- Social Links -->
                     <div class="ourstory-social">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>

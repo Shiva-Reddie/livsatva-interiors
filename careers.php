@@ -22,17 +22,7 @@
 
 <style>
 /* Job Card */
-.job-card {
-    border: none;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
 
-.job-card:hover {
-    transform: translateY(-10px);
-}
 
 .job-card .card-body {
     padding: 25px;
@@ -78,6 +68,12 @@
     color: #888;
 }
 
+
+li{
+
+        padding: 5px 0px;
+    font-size: 14px;
+}
 .form-group {
     position: relative;
     margin-bottom: 20px;
@@ -137,11 +133,24 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+        border: none;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-image: url(https://img.freepik.com/premium-photo/drawing-loft-office-interior-with-laptops-table-blank-brick-wall-workplace-lifestyle-concept-3d-rendering_670147-58398.jpg?w=1480);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: rgb(255 255 255 / 94%) 0 0 0 1000px inset;
 }
 
 .job-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); */
 }
 
 .job-card h5 {
@@ -222,6 +231,14 @@
     background: #0092f9;
     color: #fff;
 }
+
+h6{
+    color: var(--p);
+}
+
+li i{
+    color: #0091fa;
+}
 </style>
 </head>
 
@@ -239,7 +256,7 @@
             </div>
             <div class="row">
                 <!-- Job 1 -->
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="job-card">
                         <h5>Frontend Developer <span class="badge ms-2">Full-time</span></h5>
                         <p class="mt-2">We’re looking for a creative frontend developer with strong React & UI/UX
@@ -255,7 +272,7 @@
                 </div>
 
                 <!-- Job 2 -->
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="job-card p-4">
                         <h5>
                             Interior Designer
@@ -265,7 +282,8 @@
                             clients.</p>
 
                         <!-- Job Details -->
-                        <ul class="list-unstyled text-muted mb-3">
+                                              <ul class="small mb-3">
+
                             <li><i class="fa-solid fa-location-dot me-2"></i> Remote / On-site</li>
                             <li><i class="fa-solid fa-clock me-2"></i> Experience: 3+ Years</li>
                             <li><i class="fa-solid fa-graduation-cap me-2"></i> Qualification: B.Des / M.Des /
@@ -279,19 +297,19 @@
                         <!-- Key Responsibilities -->
                         <h6 class="fw-bold">Responsibilities:</h6>
                         <ul class="small mb-3">
-                            <li>Conceptualize and develop innovative interior designs.</li>
-                            <li>Collaborate with clients to understand requirements and preferences.</li>
-                            <li>Prepare mood boards, 3D renders, and detailed layouts.</li>
-                            <li>Work closely with vendors and contractors to ensure project success.</li>
+                            <li><i class="fas fa-lightbulb me-2"></i> Conceptualize and develop innovative interior designs.</li>
+                            <li><i class="fas fa-handshake me-2"></i> Collaborate with clients to understand requirements and preferences.</li>
+                            <li><i class="fas fa-palette me-2"></i> Prepare mood boards, 3D renders, and detailed layouts.</li>
+                            <li><i class="fas fa-people-arrows me-2"></i> Work closely with vendors and contractors to ensure project success.</li>
                         </ul>
 
                         <!-- Perks -->
                         <h6 class="fw-bold">What We Offer:</h6>
                         <ul class="small mb-3">
-                            <li>Competitive salary and performance bonuses.</li>
-                            <li>Creative freedom and growth opportunities.</li>
-                            <li>Health & wellness benefits.</li>
-                            <li>Chance to work with global luxury projects.</li>
+                            <li><i class="fas fa-money-bill-wave me-2"></i> Competitive salary and performance bonuses.</li>
+                            <li><i class="fas fa-rocket me-2"></i> Creative freedom and growth opportunities.</li>
+                            <li><i class="fas fa-heart me-2"></i> Health & wellness benefits.</li>
+                            <li><i class="fas fa-globe me-2"></i> Chance to work with global luxury projects.</li>
                         </ul>
 
                         <!-- Apply Button -->

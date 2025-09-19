@@ -28,12 +28,12 @@ $(function () {
         if (bodyScroll > 300) {
 
             navbar.addClass("nav-scroll");
-            logo.attr("src", "assets/images/livsatva-logo.png");
+            logo.attr("src", "assets/images/liv-logo.jpg");
 
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr("src", "assets/images/livsatva-logo.png");
+            logo.attr("src", "assets/images/liv-logo.jpg");
         }
     });
 
