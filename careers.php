@@ -256,7 +256,7 @@ li i{
             </div>
             <div class="row">
                 <!-- Job 1 -->
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <div class="job-card">
                         <h5>Frontend Developer <span class="badge ms-2">Full-time</span></h5>
                         <p class="mt-2">We’re looking for a creative frontend developer with strong React & UI/UX
@@ -269,7 +269,7 @@ li i{
                         <button class="btn btn-apply mt-3 " data-bs-toggle="modal" data-bs-target="#applyModal">Apply
                             Now</button>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Job 2 -->
                 <div class="col-md-12">

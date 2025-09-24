@@ -1228,6 +1228,7 @@ body {
 [data-overlay-dark]:before {
     background: #02050b;
     /* background: #012346; */
+    background: #01508c;
 }
 
 [data-overlay-light]:before {
@@ -1291,7 +1292,7 @@ body {
 
 [data-overlay-dark="5"]:before,
 [data-overlay-light="5"]:before {
-    opacity: 0.2;
+    opacity: 0.8;
 }
 
 [data-overlay-dark="6"]:before,
@@ -2240,7 +2241,7 @@ body {
 }
 
 .pages-header {
-    height: 45vh;
+    height: 55vh;
 }
 
 .pages-header .cont h1 {
@@ -2829,6 +2830,7 @@ body {
 .portfolio .gallery .items .info {
     background-image: url(../img/line-pattern.png);
     padding: 10px 20px;
+    display: none;
 }
 
 .portfolio .gallery .items .info h5 {
@@ -5471,6 +5473,10 @@ body {
     background-position: center;
 }
 
+.bg1{
+    background-image: url("../images/bg-12.jpg");
+}
+
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -5545,7 +5551,7 @@ body {
     font-family: "Poppins", sans-serif;
     position: relative;
 
-    background-image: url(https://t.commonsupport.com/intenax/images/background/pattern-19.png);
+    /* background-image: url(https://t.commonsupport.com/intenax/images/background/pattern-19.png); */
     background-size: auto;
     padding-top: 200px;
 }
@@ -5740,4 +5746,8 @@ body {
 
 .mission-vision {
     background-color: #f8f4f3;
+}
+
+.showroom_visit_steps {
+    color: #006dc9;
 }

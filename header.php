@@ -170,7 +170,7 @@ $base_url = "https://localhost/livsatva-interiors/";
                         <a class="nav-link" href="./faq.php">Faq</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Gallery</a>
+                        <a class="nav-link" href="./gallery.php">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo $base_url; ?>contact.php">Contact</a>
@@ -181,7 +181,7 @@ $base_url = "https://localhost/livsatva-interiors/";
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="">Book a Showroom Visit</a>
+                        <a class="nav-link" href="./book-a-showroom-visit.php">Book a Showroom Visit</a>
                     </li>
 
                 </ul>

@@ -522,14 +522,7 @@
 </script>
 
 
-<script>
-    function updateProgress(stepIndex) {
-        // stepIndex starts at 1
-        const progress = document.querySelector('.steps .progress');
-        const percent = (stepIndex - 1) * 25 + 20; // fill proportionally
-        progress.style.width = percent + '%';
-    }
-</script>
+
 
 <section class="portfolio section-padding">
     <div class="container">
