@@ -2695,7 +2695,7 @@ body {
 }
 
 .numbers .item h6 {
-       font-size: 14px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -2751,10 +2751,13 @@ body {
 .portfolio .gallery .items .item-img {
     overflow: hidden;
     position: relative;
-    height: 440px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid var(--s);
+    border-radius: 8px;
 }
 
-.portfolio .gallery .items .item-img > a {
+.portfolio .gallery .items .item-img>a {
     display: block;
 }
 
@@ -4451,13 +4454,13 @@ body {
 }
 
 .contact .info .item .icon {
-      font-size: 30px;
+    font-size: 30px;
     color: var(--p);
     padding-right: 30px;
 }
 
 .contact .info .item .cont h6 {
-     font-size: 25px;
+    font-size: 25px;
     color: var(--s);
     margin-bottom: 10px;
     font-weight: 500;
@@ -5125,7 +5128,7 @@ body {
         width: 15px;
     }
 
-    .brands .box-top .row > div {
+    .brands .box-top .row>div {
         width: 50%;
     }
 
@@ -5473,7 +5476,7 @@ body {
     background-position: center;
 }
 
-.bg1{
+.bg1 {
     background-image: url("../images/bg-12.jpg");
 }
 
@@ -5557,8 +5560,8 @@ body {
 }
 
 
- .big-title {
-        position: absolute;
+.big-title {
+    position: absolute;
     left: 0px;
     right: 0px;
     top: 30px;
@@ -5570,6 +5573,7 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+
 .luxury-container {
     display: flex;
     gap: 40px;
@@ -5736,8 +5740,7 @@ body {
     scale: 1.3;
 }
 
-.blog-pg
-.item {
+.blog-pg .item {
     background-color: #00376a33;
     background-color: #018ef52b;
     padding: 10px;
@@ -5750,4 +5753,209 @@ body {
 
 .showroom_visit_steps {
     color: #006dc9;
+}
+
+/* book a vist  */
+
+:root {
+    --p: #01386e;
+    --s: #0092f9;
+}
+
+
+
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+/* About Section */
+.about-showroom img {
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* .features-box {
+        background: var(--p);
+        color: #fff;
+        padding: 30px;
+        border-radius: 16px;
+    } */
+
+.features-box ul {
+    padding-left: 1.2rem;
+}
+
+.features-box ul li {
+    margin-bottom: 10px;
+}
+
+/* Form Card */
+.form-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    padding-top: 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.form-card button {
+    background: var(--s);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+.form-card button:hover {
+    background: var(--p);
+}
+
+/* Timeline */
+.timeline {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.timeline h3 {
+    margin-bottom: 50px;
+}
+
+.timeline-step {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.timeline-step:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-step img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.timeline-step .content {
+    padding: 20px;
+}
+
+.timeline-step .content h5 {
+    color: var(--p);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Section dividers */
+.divider {
+    height: 80px;
+    background: linear-gradient(to right, var(--s), var(--p));
+    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+}
+
+/* AOS animations base tweaks */
+[data-aos] {
+    transition: all 0.6s ease-in-out;
+}
+
+.home-measurement-card {
+
+    box-shadow: 0 8px 30px rgb(0 0 0 / 57%);
+    transition: all 0.3s ease;
+    background: url(https://img.freepik.com/premium-photo/female-hands-holding-ice-coffee-mug-wooden-worktable-with-laptop-book_67155-9745.jpg?w=1480);
+    padding: 70px !important;
+    background-size: cover;
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+    box-shadow: rgb(2 75 146 / 86%) 0 0 0 1000px inset;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.home-measurement-card:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 0 15px 40px rgba(0,0,0,0.12); */
+
+}
+
+.home-measurement-card p {
+    color: #fff;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.icon-wrapper {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper i {
+    color: #B19777;
+}
+
+.home-measurement-card h4 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.home-measurement-card .btn-primary {
+    background: #B19777;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.home-measurement-card .btn-primary:hover {
+    background: #8E7452;
+}
+
+.feature-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.feature-card i {
+    color: #34739b;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover i {
+    transform: scale(1.1);
+    color: #8E7452;
+}
+
+.feature-card p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.showroom_row {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    padding: 20px;
 }
