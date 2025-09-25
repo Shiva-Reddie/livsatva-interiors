@@ -1,0 +1,50 @@
+
+:root{
+    --heading-color: #002a5c;
+}
+
+
+h1.silage_h1 {
+    color: red;
+    text-align: center;
+}
+
+.card-header {
+    color: #fff;
+    background-color: #00a0e3;
+}
+
+.property_details_heading {
+    width: 100%;
+    display: block;
+}
+
+.property_details_heading span {
+    font-size: 1.5rem;
+}
+
+button.btn.btn-primary.subscribe_btn {
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    border-radius: no;
+    padding: 6px 0px;
+}
+
+button.btn.btn-primary.subscribe_btn {
+    background-color: #00a0e3 !important;
+    color: #fff !important;
+}
+
+.subscribe_btn {
+    background-color: #00a0e3 !important;
+    color: #fff;
+}
+
+
+.card {
+
+    background-color: red !important;
+
+}
+
