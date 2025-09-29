@@ -5,8 +5,8 @@
 
 
     <?php
-$site_url = "https://localhost/livsatva-interiors/";
-?>
+$site_url = 'https://localhost/livsatva-interiors/';
+    ?>
 
     <!-- Metas -->
     <meta charset="utf-8">
@@ -138,8 +138,8 @@ $site_url = "https://localhost/livsatva-interiors/";
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>" role="button" aria-haspopup="true"
-                            aria-expanded="false">Home</a>
+                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>" role="button"
+                            aria-haspopup="true" aria-expanded="false">Home</a>
 
                     </li>
                     <li class="nav-item">
@@ -150,16 +150,19 @@ $site_url = "https://localhost/livsatva-interiors/";
                             aria-haspopup="true" aria-expanded="false">Products</a>
 
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="<?php echo $site_url; ?>kitchen.php">Modular Kitchen</a>
-                            <a class="dropdown-item" href="">Modular Wardrobe</a>
-                            <a class="dropdown-item" href="">Modular crockery</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>modular-kitchen.php">Modular
+                                Kitchen</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>modular-wardrobe.php">Modular
+                                Wardrobe</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>modular-crockery.php">Modular
+                                crockery</a>
 
-                            <a class="dropdown-item" href="">Office</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>office.php">Office</a>
                         </div>
                     </li>
                     <li class="nav-item ">
                         <a href="<?php echo $site_url; ?>blog/" class="nav-link">Blog</a>
-                   
+
                     </li>
 
                     <li class="nav-item">
@@ -181,13 +184,14 @@ $site_url = "https://localhost/livsatva-interiors/";
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $site_url; ?>book-a-showroom-visit.php">Book a Showroom Visit</a>
+                        <a class="nav-link" href="<?php echo $site_url; ?>book-a-showroom-visit.php">Book a Showroom
+                            Visit</a>
                     </li>
 
                 </ul>
-              
+
             </div>
         </div>
     </nav>
 
-    <!-- ==================== End Navbar ==================== -->           
+    <!-- ==================== End Navbar ==================== -->

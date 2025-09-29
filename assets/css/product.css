@@ -512,6 +512,7 @@ body {
     border-radius: 10px;
     background: #fff;
     transition: 0.3s ease-in-out;
+    min-height: 165px;
 }
 
 .doc-card:hover {
