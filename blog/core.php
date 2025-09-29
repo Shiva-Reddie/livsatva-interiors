@@ -386,7 +386,7 @@ function head()
 
             }
           .card-title {
-    color: #1e835b !important;
+    color: #01386e !important;
 }
 
 p {
@@ -449,28 +449,25 @@ p {
 
         <?php include('../header.php') ?>
 <!-- Page Header Start -->
-<section class="page-title-section">
+<header class="pages-header bg-img valign parallaxie" data-overlay-dark="5" style="background-size: cover; background-image: url('<?php echo $site_url; ?>assets/images/blogg.webp'); background-position: center; min-height: 300px; position: relative;">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12">
-                <div class="breadcrumb-area">
-
-
-                    <h2 class="page-title">Blog</h2>
-                    <ul class="breadcrumbs-link">
-                        <li><a href="<?php echo $site_url; ?>">Home</a></li>
-                        <li class="active">Blog</li>
-                    </ul>
+            <div class="col-lg-12">
+                <div class="cont text-center">
+                    <h1>Our Blogs</h1>
+                    <div class="path">
+                        <a href="#0">Home</a><span>/</span><a href="#0" class="active">blogs</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</header>
 <!-- Page Header End -->
 
 
 
-        <div class="container ful_width " style="padding:3rem 0px;">
+        <div class="container ful_width bg2 " style="padding:3rem 0px;">
             <div class="row">
             <?php
         }

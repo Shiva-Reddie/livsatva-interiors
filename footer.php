@@ -7,7 +7,7 @@
                 <div class="item abot">
                     <div class="logo-footer mb-20">
                         <a href="#0" class="logo">
-                            <img src="assets/images/liv-logo.jpg" alt="">
+                            <img src="<?php echo $site_url; ?>assets/images/liv-logo.jpg" alt="">
                         </a>
                     </div>
                     <p>Our team takes over everything, from an idea and concept development to realization.</p>
@@ -88,14 +88,14 @@
 
 
 <!-- jQuery -->
-<script src="assets/js/jquery-3.0.0.min.js"></script>
-<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+<script src="<?php echo $site_url; ?>assets/js/jquery-3.0.0.min.js"></script>
+<script src="<?php echo $site_url; ?>assets/js/jquery-migrate-3.0.0.min.js"></script>
 
 <!-- plugins -->
-<script src="assets/js/plugins.js"></script>
+<script src="<?php echo $site_url; ?>assets/js/plugins.js"></script>
 
 <!-- custom scripts -->
-<script src="assets/js/scripts.js"></script>
+<script src="<?php echo $site_url; ?>assets/js/scripts.js"></script>
 
 </body>
 

@@ -1,15 +1,15 @@
 <?php
-$host     = "localhost"; // Database Host
-$user     = "nayanagr_nayanagroup"; // Database Username
-$password = "nayanagroup@2025"; // Database's user Password
-$database = "nayanagr_nayanagroup"; // Database Name
-
-
-
 // $host     = "localhost"; // Database Host
-// $user     = "root"; // Database Username
-// $password = ""; // Database's user Password
-// $database = "nayanagroup_blog"; // Database Name
+// $user     = "nayanagr_nayanagroup"; // Database Username
+// $password = "nayanagroup@2025"; // Database's user Password
+// $database = "nayanagr_nayanagroup"; // Database Name
+
+
+
+$host     = "localhost"; // Database Host
+$user     = "root"; // Database Username
+$password = ""; // Database's user Password
+$database = "livsatva-interiors"; // Database Name
 
 $connect = new mysqli($host, $user, $password, $database);
 
@@ -21,6 +21,6 @@ if (mysqli_connect_errno()) {
 
 mysqli_set_charset($connect, "utf8mb4");
 
-$base_url = "https://nayanagroup.com/blog/";
+$base_url = "https://localhost/livsatva-interiors/blog/";
 
-$site_url = "https://nayanagroup.com/";
+$site_url = "https://localhost/livsatva-interiors/";

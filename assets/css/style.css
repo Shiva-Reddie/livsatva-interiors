@@ -1561,6 +1561,7 @@ body {
     letter-spacing: 1px;
     padding: 15px 7px;
     margin: 10px;
+    text-transform: capitalize;
 }
 
 .navbar .navbar-nav .dropdown-menu {
@@ -2259,7 +2260,7 @@ body {
 }
 
 .pages-header .cont .path span {
-    margin: 0 20px;
+    margin: 0 10px;
     font-size: 10px;
 }
 
@@ -4000,11 +4001,11 @@ body {
     padding-top: 25px;
 }
 
-.blog-pg .posts .item .content .tags {
+ .tags {
     margin-bottom: 10px;
 }
 
-.blog-pg .posts .item .content .tags a {
+ .tags a {
     font-size: 12px;
     font-weight: 500;
     color: var(--s);
@@ -4012,7 +4013,7 @@ body {
     position: relative;
 }
 
-.blog-pg .posts .item .content .tags a:after {
+ .tags a:after {
     content: "";
     width: 8px;
     height: 2px;
@@ -4022,11 +4023,11 @@ body {
     top: 50%;
 }
 
-.blog-pg .posts .item .content .tags a:last-of-type {
+ .tags a:last-of-type {
     padding-right: 0;
 }
 
-.blog-pg .posts .item .content .tags a:last-of-type:after {
+ .tags a:last-of-type:after {
     display: none;
 }
 
@@ -5478,6 +5479,10 @@ body {
 
 .bg1 {
     background-image: url("../images/bg-12.jpg");
+}
+
+.bg2 {
+    background-image: url("../images/line-pattern.png");
 }
 
 .nav-item.dropdown:hover .dropdown-menu {

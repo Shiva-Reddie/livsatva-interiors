@@ -13,7 +13,7 @@
                 <div class="cont text-center">
                     <h1>Modular Kitchens In Steel</h1>
                     <div class="path">
-                        <a href="<?php echo $base_url; ?>">Home</a><span>/</span><a href="#0" class="active">Modular
+                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Modular
                             Kitchens In Steel</a>
                     </div>
                 </div>

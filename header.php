@@ -5,7 +5,7 @@
 
 
     <?php
-$base_url = "https://localhost/livsatva-interiors/";
+$site_url = "https://localhost/livsatva-interiors/";
 ?>
 
     <!-- Metas -->
@@ -81,10 +81,10 @@ $base_url = "https://localhost/livsatva-interiors/";
     </style>
 
     <!-- Plugins -->
-    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/plugins.css">
 
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/style.css">
 
 </head>
 
@@ -125,8 +125,8 @@ $base_url = "https://localhost/livsatva-interiors/";
         <div class="container-fluid">
 
             <!-- Logo -->
-            <a class="logo" href="<?php echo $base_url; ?>">
-                <img src="assets/images/liv-logo.jpg" alt="logo">
+            <a class="logo" href="<?php echo $site_url; ?>">
+                <img src="<?php echo $site_url; ?>assets/images/liv-logo.jpg" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -138,19 +138,19 @@ $base_url = "https://localhost/livsatva-interiors/";
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>" role="button" aria-haspopup="true"
                             aria-expanded="false">Home</a>
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $base_url; ?>about.php">About</a>
+                        <a class="nav-link" href="<?php echo $site_url; ?>about.php">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button"
                             aria-haspopup="true" aria-expanded="false">Products</a>
 
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./kitchen.php">Modular Kitchen</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>kitchen.php">Modular Kitchen</a>
                             <a class="dropdown-item" href="">Modular Wardrobe</a>
                             <a class="dropdown-item" href="">Modular crockery</a>
 
@@ -158,49 +158,36 @@ $base_url = "https://localhost/livsatva-interiors/";
                         </div>
                     </li>
                     <li class="nav-item ">
-                        <a href="./blog.php" class="nav-link">Blog</a>
+                        <a href="<?php echo $site_url; ?>blog/" class="nav-link">Blog</a>
                    
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./careers.php">Careers</a>
+                        <a class="nav-link" href="<?php echo $site_url; ?>careers.php">Careers</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./faq.php">Faq</a>
+                        <a class="nav-link" href="<?php echo $site_url; ?>faq.php">Faq</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./gallery.php">Gallery</a>
+                        <a class="nav-link" href="<?php echo $site_url; ?>gallery.php">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $base_url; ?>contact.php">Contact</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " href="">Book a Home Visit</a>
+                        <a class="nav-link" href="<?php echo $site_url; ?>contact.php">Contact</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./book-a-showroom-visit.php">Book a Showroom Visit</a>
+                        <a class="nav-link " href="<?php echo $site_url; ?>book-a-home-visit.php">Book a Home Visit</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo $site_url; ?>book-a-showroom-visit.php">Book a Showroom Visit</a>
                     </li>
 
                 </ul>
-                <!-- <div class="social-icon">
-                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                    <a href="#0"><i class="fab fa-behance"></i></a>
-                </div> -->
-                <!-- <div class="search">
-                    <span class="icon pe-7s-search cursor-pointer"></span>
-                    <div class="search-form text-center custom-font">
-                        <form>
-                            <input type="text" name="search" placeholder="Search">
-                        </form>
-                        <span class="close pe-7s-close cursor-pointer"></span>
-                    </div>
-                </div> -->
+              
             </div>
         </div>
     </nav>
 
-    <!-- ==================== End Navbar ==================== -->
+    <!-- ==================== End Navbar ==================== -->           

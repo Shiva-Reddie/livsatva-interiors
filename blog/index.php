@@ -8,62 +8,84 @@ head();
 
 
 <style>
-.map {
-    display: none;
-}
-  body {
-            background: #1e835b24;
-            width: 100%;
-        }
+    .map {
+        display: none;
+    }
 
-.card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
+    body {
+        background: #01386e24;
+        width: 100%;
+    }
 
-}
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
 
-h5 {
+    }
 
-    color: #fff;
-    padding-bottom: 20px;
+    h5 {
 
-}
+        color: #fff;
+        padding-bottom: 20px;
 
-.btn-primary {
-    color: #fff;
-    background-color: #1e835b;
-    border-color: #1e835b;
-}
+    }
 
-.carousel-inner a img {
-    height: 400px;
-    object-fit: cover;
-}
+    .btn-primary {
+        color: #fff;
+        background-color: #01386e;
+        border-color: #01386e;
+    }
 
-.card a img {
-    height: 250px;
-    object-fit: cover;
-    padding: 10px;
+    .card-header:first-child {
+
+    background-color: #014b91 !important;
+    color: #fff !important;
 }
 
-.nav-link {
-    color: #1e835b !important;
+    .carousel-inner a img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .card a img {
+        height: 250px;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+    .nav-link {
+        color: #01386e !important;
+    }
+
+    .nav-tabs .nav-item .nav-link:hover,
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        /* color: #000 !important; */
+        background-color: var(--accent-color);
+    }
+
+    #popular .card-title {
+    color: #01386e !important;
+    font-size: 14px !important;
+    text-transform: capitalize;
+    word-spacing: normal !important;
+    line-height: normal !important;
 }
 
-   .nav-tabs .nav-item .nav-link:hover,
-        .nav-tabs .nav-item.show .nav-link,
-        .nav-tabs .nav-link.active {
-          color: #fff !important;
-          background-color: var(--accent-color);
-        }
+    .nav-item {
+    margin-right: 0rem;
+    color: #fff !important;
+}
+
+    .nav-item a{
+        color: #fff !important;
+    }
+
 </style>
 
 
 <body>
-    <section class="Contact_top mt-3">
-        <!-- <h1 style="font-size: 2rem; font-weight:800; color: #00094a; text-align:center;" class="silage_h1">BLOG </h1> -->
-        <!-- <p class="silage_para"> As silage film manufacturers, we also create products that cover various risks in agriculture.</p> -->
-    </section>
+
     <!DOCTYPE html>
     <html lang="en">
 
@@ -74,11 +96,11 @@ h5 {
 
 
 
-        <link
+        <!-- <link
             href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700"
             rel="stylesheet">
 
-        <link rel="stylesheet" type="css" href="<?php echo $base_url ?>assets/css/style.css">
+        <link rel="stylesheet" type="css" href="<?php echo $base_url ?>assets/css/style.css"> -->
 
     </head>
 
@@ -107,9 +129,9 @@ h5 {
                 $i = 0;
                 $mt3_i = "mt-3";
             ?>
-            <div id="carouselExampleCaptions" class="col-md-12 carousel slide card-header" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <?php
+                <div id="carouselExampleCaptions" class="col-md-12 carousel slide card-header d-none" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <?php
                         while ($row = mysqli_fetch_assoc($run)) {
                             $active1 = "";
                             if ($i == 0) {
@@ -122,9 +144,9 @@ h5 {
                             $i++;
                         }
                         ?>
-                </div>
-                <div class="carousel-inner rounded">
-                    <?php
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <?php
                         $j = 0;
                         $run2 = mysqli_query($connect, "SELECT * FROM `posts` WHERE active='Yes' AND featured='Yes' ORDER BY id DESC");
                         while ($row2 = mysqli_fetch_assoc($run2)) {
@@ -156,27 +178,27 @@ h5 {
                             $j++;
                         }
                         ?>
-                </div>
+                    </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             <?php
             }
             ?>
             <div class="row <?php echo $mt3_i; ?>">
-                
-                
-                
-             <!--<div class="card-header">   <h5><i class="fa fa-list"></i> Latest Posts</h5> </div>-->
+
+
+
+                <!--<div class="card-header">   <h5><i class="fa fa-list"></i> Latest Posts</h5> </div>-->
                 <?php
                 $run   = mysqli_query($connect, "SELECT * FROM `posts` WHERE active='Yes' ORDER BY id DESC LIMIT 8");
                 $count = mysqli_num_rows($run);
@@ -195,27 +217,31 @@ h5 {
                         }
 
                         echo '
-                    <div class="col-md-6 mb-3"> 
-                        <div class="card shadow-sm" style="
+                    <div class="col-md-12 mb-3"> 
+                        <div class="card shadow-sm row d-flex flex-row"  style="
                         height: 100%;
                     ">
+                         <div class="col-6 p-0">
                             <a href="' . url() . '' . $row['url'] . '">
                                 ' . $image . '
-                            </a>
+                            </a></div>
+                          <div class="col-6">
                             <div class="card-body">
                                 <a href="' . url() . '' . $row['url'] . '"><h6 class="card-title">' . $row['title'] . '</h6></a>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="' . url() . 'category.php?id=' . $row['category_id'] . '"><span class="badge bg-primary">' . post_category($row['category_id']) . '</span></a>
+                                <div class="d-flex justify-content-between align-items-center tags">
+                                    <a href="' . url() . 'category.php?id=' . $row['category_id'] . '">
+                                     
+                                    <span class="">' . post_category($row['category_id']) . '</span></a>
                                     <small><i class="fas fa-comments"></i> Comments: 
                                         <a href="' . url() . $row['url'] . '#comments" class="blog-comments"><b>' . post_commentscount($row['id']) . '</b></a>
                                     </small>
                                 </div>
                                 <p class="card-text">' . short_text(strip_tags(html_entity_decode($row['content'])), 100) . '</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div><i class="fas fa-user-edit"></i> ' . post_author($row['author_id']) . '</div>
+                                <div class="d-flex flex-column ">
+                                    <div class=""><i class="fas fa-user-edit"></i> ' . post_author($row['author_id']) . '</div>
                                     <small class="text-muted"><i class="far fa-calendar-alt"></i> ' . $row['date'] . ', ' . $row['time'] . '</small>
                                 </div>
-                            </div>
+                            </div></div>
                         </div>
                     </div>
 ';
@@ -228,15 +254,10 @@ h5 {
 
 
         <script>
-        hideMenu();
+            hideMenu();
         </script>
         <?php
         sidebar();
         // footer();
         ?>
-
-
-
-
-
     </div>

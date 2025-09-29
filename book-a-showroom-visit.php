@@ -15,7 +15,7 @@
 
                     <p>Step inside our world of design – plan your dream kitchen with our experts.</p>
                     <div class="path">
-                        <a href="<?php echo $base_url; ?>">Home</a><span>/</span><a href="#0" class="active">Book a
+                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Book a
                             Showroom Visit
                         </a>
                     </div>

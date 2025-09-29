@@ -17,7 +17,7 @@
                     <p>Let our experts visit your home, take precise measurements, and help design your perfect kitchen.
                     </p>
                     <div class="path">
-                        <a href="<?php echo $base_url; ?>">Home</a><span>/</span><a href="#0" class="active">Book a
+                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Book a
                             Home Visit
                         </a>
                     </div>

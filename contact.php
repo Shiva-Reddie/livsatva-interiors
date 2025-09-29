@@ -12,7 +12,7 @@
                 <div class="cont text-center">
                     <h1>Contact Us</h1>
                     <div class="path">
-                        <a href="<?php echo $base_url; ?>">Home</a><span>/</span><a href="#0" class="active">Contact Us</a>
+                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Contact Us</a>
                     </div>
                 </div>
             </div>

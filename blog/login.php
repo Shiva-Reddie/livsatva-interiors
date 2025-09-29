@@ -48,7 +48,7 @@ body {
                         $check    = mysqli_query($connect, "SELECT username, password FROM `users` WHERE `username`='$username' AND password='$password'");
                         if (mysqli_num_rows($check) > 0) {
                             $_SESSION['sec-username'] = $username;
-                            echo '<meta http-equiv="refresh" content="0;url=https://nayanagroup.com/blog/admin/dashboard.php">';
+                            echo '<meta http-equiv="refresh" content="0;url=https://localhost/livsatva-interiors/blog/admin/dashboard.php">';
                         } else {
                             echo '
 		<div class="alert alert-danger">

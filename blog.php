@@ -1,38 +1,27 @@
 ﻿<?php include('./header.php') ?>
-
-
-    <!-- ==================== Start Header ==================== -->
-
-    <header class="pages-header bg-img valign parallaxie" data-background="./assets/images/blogg.webp" data-overlay-dark="5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="cont text-center">
-                        <h1>Our Blogs</h1>
-                        <div class="path">
-                            <a href="#0">Home</a><span>/</span><a href="#0" class="active">blogs</a>
-                        </div>
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/images/blogg.webp" data-overlay-dark="5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cont text-center">
+                    <h1>Our Blogs</h1>
+                    <div class="path">
+                        <a href="#0">Home</a><span>/</span><a href="#0" class="active">blogs</a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>
+<section class="blog-pg section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <div class="posts row">
 
-    <!-- ==================== End Header ==================== -->
-
-
-
-    <!-- ==================== Start Blog ==================== -->
-
-    <section class="blog-pg section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <div class="posts row">
-                        
 
                     <div class="col-md-6">
-                         <div class="item  mb-30">
+                        <div class="item  mb-30">
                             <div class="img">
                                 <a href="blog-details.html">
                                     <img src="assets/img/blog/b1.jpg" alt="" class="thumparallax">
@@ -71,11 +60,8 @@
                             </div>
                         </div>
                     </div>
-                       
                     <div class="col-md-6">
-
-
-                             <div class="item mb-30">
+                        <div class="item mb-30">
                             <div class="img">
                                 <a href="blog-details.html">
                                     <img src="assets/img/blog/b2.jpg" alt="" class="thumparallax">
@@ -119,7 +105,7 @@
 
                     <div class="col-md-6">
 
-  <div class="item mb-30">
+                        <div class="item mb-30">
                             <div class="img">
                                 <a href="blog-details.html">
                                     <img src="assets/img/blog/b3.jpg" alt="" class="thumparallax">
@@ -157,12 +143,8 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
                     <div class="col-md-6">
-                        
                         <div class="item">
                             <div class="img">
                                 <a href="blog-details.html">
@@ -202,22 +184,18 @@
                             </div>
                         </div>
                     </div>
-   <div class="pagination">
-                            <span class="active"><a href="#0">1</a></span>
-                            <span><a href="#0">2</a></span>
-                            <span><a href="#0"><i class="fas fa-angle-right"></i></a></span>
-                        </div>
-                    </div>
-
-                     
+                    <div class="pagination">
+                        <span class="active"><a href="#0">1</a></span>
+                        <span><a href="#0">2</a></span>
+                        <span><a href="#0"><i class="fas fa-angle-right"></i></a></span>
                     </div>
                 </div>
+
+
             </div>
         </div>
-    </section>
-
-    <!-- ==================== End Blog ==================== -->
-
-
-
+    </div>
+    </div>
+</section>
+<!-- ==================== End Blog ==================== -->
 <?php include('./footer.php') ?>
