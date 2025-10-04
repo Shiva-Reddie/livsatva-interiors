@@ -85,6 +85,8 @@ $site_url = 'https://localhost/livsatva-interiors/';
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/style.css">
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/responsive.css">
 
 </head>
 
@@ -138,7 +140,7 @@ $site_url = 'https://localhost/livsatva-interiors/';
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>" role="button"
+                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>index.php" role="button"
                             aria-haspopup="true" aria-expanded="false">Home</a>
 
                     </li>

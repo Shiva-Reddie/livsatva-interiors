@@ -1,4 +1,4 @@
-﻿<?php include('./header.php') ?>
+﻿<?php include './header.php'; ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- ==================== Start Slider ==================== -->
@@ -30,7 +30,7 @@
                                         galvanized steel.
 
                                     </p>
-                                    <a href="#0" class="btn-curve btn-color mt-30">
+                                    <a href="./contact.php" class="btn-curve btn-color mt-30">
                                         <span>Book a Free Consultation</span>
                                     </a>
                                 </div>
@@ -61,7 +61,7 @@
                                         finishes.
 
                                     </p>
-                                    <a href="#0" class="btn-curve btn-color mt-30">
+                                    <a href="./book-a-home-visit.php" class="btn-curve btn-color mt-30">
                                         <span>Discover Work</span>
                                     </a>
                                 </div>
@@ -96,7 +96,7 @@
                                         galvanized steel.
 
                                     </p>
-                                    <a href="#0" class="btn-curve btn-color mt-30">
+                                    <a href="./book-a-showroom-visit.php" class="btn-curve btn-color mt-30">
                                         <span>Discover Work</span>
                                     </a>
                                 </div>
@@ -190,7 +190,7 @@
                         <li>Interior Design</li>
                         <li>Furniture</li>
                     </ul>
-                    <a href="#0" class="btn-curve btn-color mt-30">
+                    <a href="./modular-kitchen.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
                 </div>
@@ -241,7 +241,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 valign">
-                <div class="exp-content text-right nopat wow fadeInUp" data-wow-delay=".3s">
+                <div class="exp-content text-lg-right text-left nopat wow fadeInUp" data-wow-delay=".3s">
                     <h6 class="sub-title">Kitchen</h6>
                     <h2 class="mb-20 playfont">Kitchen – Modular Steel Kitchens</h2>
                     <p>
@@ -249,7 +249,7 @@
                         and termite-free. Designed for smart functionality and long-lasting performance, they bring
                         strength and elegance to the heart of your home.
                     </p>
-                    <a href="#0" class="btn-curve btn-color mt-30">
+                    <a href="./modular-kitchen.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
                 </div>
@@ -279,7 +279,7 @@
 <section class="about space2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-7 order-2 order-lg-1">
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
@@ -298,7 +298,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 valign">
+            <div class="col-lg-5 valign  order-1 order-lg-2">
                 <div class="exp-content nopat wow fadeInUp" data-wow-delay=".3s">
                     <h6 class="sub-title">Wardrobes</h6>
                     <h2 class="mb-20 playfont">Wardrobes – Steel Modular Wardrobes</h2>
@@ -306,7 +306,7 @@
                         Smart storage meets timeless strength. Our wardrobes are crafted from premium steel, making them
                         termite-proof, durable, and zero-maintenance—all with a sleek, modern finish.
                     </p>
-                    <a href="#0" class="btn-curve btn-color mt-30">
+                    <a href="./modular-wardrobe.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
                 </div>
@@ -325,7 +325,7 @@
                         Organize with elegance and strength. Our steel crockery units are durable, termite-free, and
                         stylishly designed to keep your dining essentials safe and accessible for years to come.
                     </p>
-                    <a href="#0" class="btn-curve btn-color mt-30">
+                    <a href="./modular-crockery.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
                     <!-- <a href="" class="a-btn-arrow-2" target="_self">
@@ -356,7 +356,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-7">
+            <div class="col-lg-7  order-2 order-lg-1">
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
@@ -384,7 +384,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 valign">
+            <div class="col-lg-5 valign  order-1 order-lg-2">
                 <div class="exp-content text-right nopat wow fadeInUp" data-wow-delay=".3s">
                     <h6 class="sub-title">Other Interiors</h6>
                     <h2 class="mb-20 playfont">Other Interiors – Steel Home Interiors
@@ -394,7 +394,7 @@
                         durability. Explore our range and see how style and strength come together to transform your
                         spaces.
                     </p>
-                    <a href="#0" class="btn-curve btn-color mt-30">
+                    <a href="./office.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
 
@@ -415,7 +415,7 @@
                     <h5>Smart steel solutions that bring style and durability to your outdoors.</h5>
                 </div>
                 <div class="more">
-                    <a href="#0">View Project <i class="fas fa-chevron-right"></i></a>
+                    <a href="./modular-kitchen.php">View Project <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 cluom" data-tab="tab-2">
@@ -424,7 +424,7 @@
                     <h5>Elegant, long-lasting interiors designed for luxury hospitality.</h5>
                 </div>
                 <div class="more">
-                    <a href="#0">View Project <i class="fas fa-chevron-right"></i></a>
+                    <a href="./modular-wardrobe.php">View Project <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 cluom" data-tab="tab-3">
@@ -433,7 +433,7 @@
                     <h5> Modern modular steel designs for urban living.</h5>
                 </div>
                 <div class="more">
-                    <a href="#0">View Project <i class="fas fa-chevron-right"></i></a>
+                    <a href="./modular-crockery.php">View Project <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 cluom" data-tab="tab-4">
@@ -442,7 +442,7 @@
                     <h5>Clean lines, durable finishes, and timeless elegance.</h5>
                 </div>
                 <div class="more">
-                    <a href="#0">View Project <i class="fas fa-chevron-right"></i></a>
+                    <a href="./office.php">View Project <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -849,7 +849,7 @@
 </div> -->
 <!-- ==================== End brands ==================== -->
 <!-- ==================== Start Blog ==================== -->
-<section class="blog-grid section-padding mb-50">
+<section class="blog-grid section-padding">
     <div class="container">
         <div class="section-head text-center">
             <div class="row justify-content-center">
@@ -877,7 +877,7 @@
                         <h5 class="playfont"><a href="#0">In Good Taste: Mark Finlay Architects and Interiors</a>
                         </h5>
 
-                        <a href="blog-details.html" class="more">
+                        <a href="#" class="more">
                             <span class="custom-font">Read More</span>
                         </a>
                     </div>
@@ -900,7 +900,7 @@
                         <h5 class="playfont"><a href="#0">Five Things You Should Know About Modern Furniture.</a>
                         </h5>
 
-                        <a href="blog-details.html" class="more">
+                        <a href="" class="more">
                             <span class="custom-font">Read More</span>
                         </a>
                     </div>
@@ -922,7 +922,7 @@
 
                         <h5 class="playfont"><a href="#0">What it's like to be an interior designer?</a></h5>
 
-                        <a href="blog-details.html" class="more">
+                        <a href="#" class="more">
                             <span class="custom-font">Read More</span>
                         </a>
                     </div>
@@ -1006,7 +1006,7 @@
                 <!-- FontAwesome CDN -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-             
+
             </div>
         </div>
     </div>
@@ -1014,7 +1014,7 @@
         <div class="map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6888.934435656514!2d78.37838!3d17.447257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ddd83b95a9%3A0x6199113a72f38d86!2sSBR%20Gateway!5e1!3m2!1sen!2sin!4v1757504194566!5m2!1sen!2sin"
-                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                width="100%" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
@@ -1025,4 +1025,4 @@
 <!-- ==================== End contact ==================== -->
 
 <!-- ==================== End Blog ==================== -->
-<?php include('./footer.php') ?>
+<?php include './footer.php'; ?>

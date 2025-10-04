@@ -407,7 +407,7 @@
                 </div>
             </div>
 
-            <div class="col-md-8 offset-2 text-center">
+            <div class="col-md-8 offset-md-2 col-12 text-center">
                 <form id="contact-form" method="post" action="contact.php">
                     <div class="section-head">
                         <h6 class="custom-font">Contact Us</h6>

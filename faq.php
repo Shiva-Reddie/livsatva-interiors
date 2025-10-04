@@ -1,4 +1,4 @@
-﻿<?php include('./header.php') ?>
+﻿<?php include './header.php'; ?>
 
 <style>
 :root {
@@ -177,7 +177,7 @@
 
                 <!-- Right: FAQ content -->
                 <div class="col-lg-12">
-                    <div class="faq-controls bg-light p-4">
+                    <div class="faq-controls bg-light p-lg-4 p-0">
                         <div class=" mb-3">
                             <div class="text-center">
                                 <h2 class="mb-0" style="color:var(--deep-blue)">Frequently Asked Questions</h2>
@@ -363,4 +363,4 @@ document.querySelectorAll('#categoryChips .chip').forEach(chip => {
 
 
 <!-- ==================== End about ==================== -->
-<?php include('./footer.php') ?>
+<?php include './footer.php'; ?>

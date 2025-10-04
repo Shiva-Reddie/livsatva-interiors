@@ -1,4 +1,4 @@
-﻿<?php include('./header.php') ?>
+﻿<?php include './header.php'; ?>
 
 <style>
 /* Glassmorphism + Luxury Gold Style */
@@ -39,7 +39,7 @@
 
 /* Headings */
 .glass-card h4 {
-  color: var(--p);
+    color: var(--p);
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 1rem;
@@ -57,7 +57,7 @@
 .mission-vision h2 {
     font-size: 2.2rem;
     letter-spacing: 1px;
-    color: #fff !important;
+    /* color: #000 !important; */
     /* text-transform: uppercase; */
     /* text-shadow: 0 0 10px rgba(255, 215, 0, 0.6); */
     margin-bottom: 20px;
@@ -342,36 +342,36 @@
 </section>
 <!-- ==================== End Mission & Vision ==================== -->
 
-<div class="numbers section-padding space">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="item">
-                        <h3><span class="nbr custom-font">352</span></h3>
-                        <h6>Projects Completed</h6>
-                    </div>
+<div class="numbers section-padding space d-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="item">
+                    <h3><span class="nbr custom-font">352</span></h3>
+                    <h6>Projects Completed</h6>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item">
-                        <h3><span class="nbr custom-font">567</span></h3>
-                        <h6>Satisfied Clients</h6>
-                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="item">
+                    <h3><span class="nbr custom-font">567</span></h3>
+                    <h6>Satisfied Clients</h6>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item">
-                        <h3><span class="nbr custom-font">656</span><i>M</i></h3>
-                        <h6>Monthly Revenue</h6>
-                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="item">
+                    <h3><span class="nbr custom-font">656</span><i>M</i></h3>
+                    <h6>Monthly Revenue</h6>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item">
-                        <h3><span class="nbr custom-font">17</span></h3>
-                        <h6>Awards Won</h6>
-                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="item">
+                    <h3><span class="nbr custom-font">17</span></h3>
+                    <h6>Awards Won</h6>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 <!-- ==================== Our Story Section ==================== -->
 <section class="about ourstory-section">
@@ -614,4 +614,4 @@
 
 
 
-<?php include('./footer.php') ?>
+<?php include './footer.php'; ?>
