@@ -28,12 +28,12 @@ $(function () {
         if (bodyScroll > 300) {
 
             navbar.addClass("nav-scroll");
-            logo.attr("src", "https://localhost/livsatva-interiors/assets/images/liv-logo.jpg");
+            logo.attr("src", "./assets/images/logo-png.png");
 
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr("src", "https://localhost/livsatva-interiors/assets/images/liv-logo.jpg");
+            logo.attr("src", "./assets/images/logo-png.png");
         }
     });
 
@@ -157,52 +157,52 @@ $(function () {
     const interleaveOffset = 0.75;
 
     const swiper = new Swiper(slider, {
-    loop: true,
-    direction: "vertical",
-    speed: 800,
-    grabCursor: true,
-    watchSlidesProgress: true,
-    autoplay: {
-    delay: 4500,
-    disableOnInteraction: false
-    },
-    pagination: {
-        el: '.slid-half .swiper-pagination',
-        type: 'fraction',
-    },
-    navigation: {
-    nextEl: sliderNext,
-    prevEl: sliderPrevious
-    },
-    on: {
-    progress: function() {
-        let swiper = this;
+        loop: true,
+        direction: "vertical",
+        speed: 800,
+        grabCursor: true,
+        watchSlidesProgress: true,
+        autoplay: {
+            delay: 4500,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: '.slid-half .swiper-pagination',
+            type: 'fraction',
+        },
+        navigation: {
+            nextEl: sliderNext,
+            prevEl: sliderPrevious
+        },
+        on: {
+            progress: function () {
+                let swiper = this;
 
-        for (let i = 0; i < swiper.slides.length; i++) {
-        let slideProgress = swiper.slides[i].progress;
-        let innerOffset = swiper.height * interleaveOffset;
-        let innerTranslate = slideProgress * innerOffset;
+                for (let i = 0; i < swiper.slides.length; i++) {
+                    let slideProgress = swiper.slides[i].progress;
+                    let innerOffset = swiper.height * interleaveOffset;
+                    let innerTranslate = slideProgress * innerOffset;
 
-        TweenMax.set(swiper.slides[i].querySelector(".slide-inner"), {
-            y: innerTranslate,
-        });
+                    TweenMax.set(swiper.slides[i].querySelector(".slide-inner"), {
+                        y: innerTranslate,
+                    });
+                }
+            },
+            touchStart: function () {
+                let swiper = this;
+                for (let i = 0; i < swiper.slides.length; i++) {
+                    swiper.slides[i].style.transition = "";
+                }
+            },
+            setTransition: function (speed) {
+                let swiper = this;
+                for (let i = 0; i < swiper.slides.length; i++) {
+                    swiper.slides[i].style.transition = speed + "ms";
+                    swiper.slides[i].querySelector(".slide-inner").style.transition =
+                        speed + "ms";
+                }
+            }
         }
-    },
-    touchStart: function() {
-        let swiper = this;
-        for (let i = 0; i < swiper.slides.length; i++) {
-        swiper.slides[i].style.transition = "";
-        }
-    },
-    setTransition: function(speed) {
-        let swiper = this;
-        for (let i = 0; i < swiper.slides.length; i++) {
-        swiper.slides[i].style.transition = speed + "ms";
-        swiper.slides[i].querySelector(".slide-inner").style.transition =
-            speed + "ms";
-        }
-    }
-    }
     });
 
 
@@ -219,7 +219,7 @@ $(function () {
 
         if ($(this).hasClass('current')) {
             return false;
-           }
+        }
     });
 
 
@@ -406,7 +406,7 @@ $(window).on("load", function () {
 
     $('.gallery').isotope({
         itemSelector: '.items',
-      });
+    });
 
     var $gallery = $('.gallery').isotope();
 

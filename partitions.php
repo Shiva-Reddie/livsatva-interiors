@@ -1,4 +1,4 @@
-﻿<?php include './header.php'; ?>
+<?php include './header.php'; ?>
 
 <!-- Core Style Css -->
 <link rel="stylesheet" href="./assets/css/product.css">
@@ -11,10 +11,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="cont text-center">
-                    <h1>Modular Kitchens In Steel</h1>
+                    <h1>Partitions In Steel</h1>
                     <div class="path">
-                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Modular
-                            Kitchens In Steel</a>
+                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Partitions
+                            In Steel</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,6 @@
 <!-- ==================== End Header ==================== -->
 
 
-
 <!-- ==================== Start Intro ==================== -->
 
 <section class="intro-section section-padding about">
@@ -33,16 +32,19 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>The Best Modular Kitchen Designs with a Wide Range of Customization Options!</h2>
+                    <h2>Elegant Steel & Metal Partition Designs for Modern Interiors!</h2>
 
                     <div class="text">
-                        <p>When it comes to creating a kitchen that combines style, functionality, and durability,
-                            Livsatva Interiors’s modular kitchen designs are the perfect solution. At Livsatva
-                            Interiors, we take pride in providing the best modular kitchen designs that meet the unique
-                            needs of homeowners. Our designs are crafted to maximize space and ensure a seamless cooking
-                            experience, making your kitchen the heart of your home.</p>
-
-
+                        <p>Enhance your interiors with Livsatva Interiors’ premium steel and metal partition designs
+                            that
+                            combine style, durability, and functionality. Our partitions feature sleek metal frames,
+                            contemporary textures, and versatile layouts to create visually striking and practical
+                            spaces.
+                            Made from high-quality steel, they offer strength, corrosion resistance, and a sophisticated
+                            industrial look. Whether you desire a minimalist metal divider or a luxurious steel-glass
+                            partition, Livsatva Interiors customizes each design to perfectly fit your space and
+                            interior
+                            aesthetics.</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +57,7 @@
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="assets/images/kit.webp" alt="" />
+                                <img src="assets/img/products/partition3.png" alt="Steel Metal Partition Design" />
                             </div>
                         </div>
                     </div>
@@ -71,21 +73,21 @@
 <section class="py-5 about bg-gray">
     <div class="container">
 
-        <h6 class="sub-title">Kitchen Components</h6>
+        <h6 class="sub-title">Steel & Metal Partition Components</h6>
         <h2 class="mb-20 playfont">
-            Essential parts prepared before installation
+            Essential Steel Parts Prepared Before Partition Installation
         </h2>
         <div class="row">
             <!-- Card 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="component-card">
                     <div class="icon-box">
-                        <i class="fa-solid fa-box"></i>
+                        <i class="fa-solid fa-cubes"></i>
                     </div>
-                    <h5>Cabinet Frames, Shelves & Drawers</h5>
+                    <h5>Steel Frames & Panels</h5>
                     <p>
-                        Assemble and organize all cabinet structures, shelves, and
-                        drawers for efficient setup.
+                        Precision-engineered steel frames and metal panels are preassembled to form a strong and durable
+                        structure for the partition.
                     </p>
                 </div>
             </div>
@@ -93,12 +95,12 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="component-card">
                     <div class="icon-box">
-                        <i class="fa-solid fa-sink"></i>
+                        <i class="fa-solid fa-tv"></i>
                     </div>
-                    <h5>Countertops, Sinks & Faucets</h5>
+                    <h5>Metal Mounts & Channels</h5>
                     <p>
-                        Prepare durable countertops and essential fittings like sinks
-                        and faucets.
+                        Heavy-duty metal mounts, brackets, and integrated channels are prepared for seamless and secure
+                        partition installation.
                     </p>
                 </div>
             </div>
@@ -106,12 +108,12 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="component-card">
                     <div class="icon-box">
-                        <i class="fa-solid fa-tools"></i>
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
                     </div>
-                    <h5>Hardware Sorting & Labeling</h5>
+                    <h5>Steel Hardware & Fittings</h5>
                     <p>
-                        Sort and label all hardware items to ensure smooth installation
-                        workflow.
+                        All steel screws, hinges, and fittings are sorted and labeled to ensure smooth assembly and a
+                        polished industrial finish for the partition.
                     </p>
                 </div>
             </div>
@@ -119,53 +121,51 @@
     </div>
 </section>
 
+
+
 <section class="install-section">
     <div class="container">
         <div class="section-title">
             <h2>Installation Sequence</h2>
             <p class="text-muted">
-                A step-by-step process to ensure smooth and efficient kitchen
-                installation.
+                A step-by-step process to ensure smooth and precise steel & metal partition installation.
             </p>
         </div>
         <div class="timeline1">
             <!-- Step 1 -->
             <div class="step1">
                 <div class="step-icon">
-                    <i class="fa-solid fa-box"></i>
+                    <i class="fa-solid fa-cubes"></i>
                     <div class="step-number">1</div>
                 </div>
-                <h5>Base Cabinets</h5>
+                <h5>Steel Frame Assembly</h5>
                 <p>
-                    We start with precise placement of base cabinets to create a solid
-                    foundation. Proper leveling ensures durability and accurate
-                    alignment for the entire kitchen.
+                    The process begins with assembling and fixing the main steel frame. This forms a strong and durable
+                    foundation that supports the entire partition structure.
                 </p>
             </div>
             <!-- Step 2 -->
             <div class="step1">
                 <div class="step-icon">
-                    <i class="fa-solid fa-box-archive"></i>
+                    <i class="fa-solid fa-layer-group"></i>
                     <div class="step-number">2</div>
                 </div>
-                <h5>Wall Cabinets, Shelves & Drawers</h5>
+                <h5>Metal Panels & Divider Installation</h5>
                 <p>
-                    Next, wall cabinets, shelves, and drawers are carefully installed
-                    for maximum storage. Each piece is aligned to maintain symmetry
-                    and usability.
+                    Next, metal panels, side structures, and divider elements are installed with precision. Each piece
+                    is aligned accurately for a clean, modern, and symmetrical appearance.
                 </p>
             </div>
             <!-- Step 3 -->
             <div class="step1">
                 <div class="step-icon">
-                    <i class="fa-solid fa-sink"></i>
+                    <i class="fa-solid fa-tv"></i>
                     <div class="step-number">3</div>
                 </div>
-                <h5>Countertops, Sinks & Faucets</h5>
+                <h5>Fittings, Brackets & Finishing</h5>
                 <p>
-                    Finally, countertops are fixed securely, followed by installation
-                    of sinks and faucets. This step ensures a polished finish and
-                    complete functionality of your kitchen.
+                    Finally, steel brackets, fittings, and finishing components are secured. The installation
+                    is completed with proper alignment and a polished steel-metal finish for a premium look.
                 </p>
             </div>
         </div>
@@ -173,11 +173,12 @@
 </section>
 
 
+
+
 <section class="quality-section">
     <div class="container">
         <div class="section-title">
             <h6 class="sub-title text-white">Ensuring perfection before delivery</h6>
-
             <h2>Quality Control & Final Touches</h2>
         </div>
         <div class="row">
@@ -187,10 +188,10 @@
                     <div class="quality-icon">
                         <i class="fa-solid fa-check-circle"></i>
                     </div>
-                    <h5>Inspect Installations</h5>
+                    <h5>Inspect Structure</h5>
                     <p>
-                        Thorough inspection to ensure every element is installed with
-                        precision.
+                        Thorough inspection of the steel frame and joints to ensure strength, balance, and perfect
+                        alignment for the partitions.
                     </p>
                 </div>
             </div>
@@ -200,10 +201,10 @@
                     <div class="quality-icon">
                         <i class="fa-solid fa-check-circle"></i>
                     </div>
-                    <h5>Test Doors & Drawers</h5>
+                    <h5>Check Fittings & Panels</h5>
                     <p>
-                        Check smooth operation of doors, drawers, and hardware
-                        mechanisms.
+                        Verify that all fittings, panels, and dividers are securely fixed and operate smoothly without
+                        noise or gaps.
                     </p>
                 </div>
             </div>
@@ -213,10 +214,10 @@
                     <div class="quality-icon">
                         <i class="fa-solid fa-check-circle"></i>
                     </div>
-                    <h5>Make Adjustments</h5>
+                    <h5>Surface Finishing</h5>
                     <p>
-                        Fine-tune alignments and fix any minor issues for a perfect
-                        finish.
+                        Ensure uniform powder coating, remove sharp edges, and refine surface textures for a premium
+                        steel-metal finish.
                     </p>
                 </div>
             </div>
@@ -228,8 +229,8 @@
                     </div>
                     <h5>Clean & Polish</h5>
                     <p>
-                        Final cleaning and polishing to deliver a spotless, ready-to-use
-                        kitchen.
+                        Final cleaning and polishing of the steel surfaces to deliver spotless, elegant, and
+                        ready-to-install partitions.
                     </p>
                 </div>
             </div>
@@ -237,13 +238,15 @@
     </div>
 </section>
 
+
+
 <section class="doc-section about bg-gray">
     <div class="container">
         <div class="section-title">
             <h2>Documentation & Handover</h2>
             <p class="text-muted">
-                Providing all necessary documents, guidance, and training for a
-                smooth handover.
+                Providing all necessary documents, guidance, and support for a smooth and confident handover of your
+                steel & metal partitions.
             </p>
         </div>
 
@@ -255,9 +258,8 @@
                         <h5><i class="fa-solid fa-file-alt"></i> Completion Reports</h5>
                     </div>
                     <p>
-                        We prepare and submit detailed project completion reports
-                        documenting all stages of the installation process for your
-                        records.
+                        We provide detailed completion documentation covering fabrication, installation, and finishing
+                        details of the steel & metal partitions for your records.
                     </p>
                 </div>
             </div>
@@ -271,8 +273,8 @@
                         </h5>
                     </div>
                     <p>
-                        Comprehensive warranty details and maintenance guidelines are
-                        provided to ensure long-term durability and hassle-free use.
+                        Includes warranty coverage and easy maintenance tips to preserve the strength, shine, and
+                        durability of your steel & metal partitions for years.
                     </p>
                 </div>
             </div>
@@ -282,14 +284,12 @@
                 <div class="doc-card">
                     <div class="card-header">
                         <h5>
-                            <i class="fa-solid fa-chalkboard-teacher"></i> Walkthrough &
-                            Training
+                            <i class="fa-solid fa-chalkboard-teacher"></i> Walkthrough & Training
                         </h5>
                     </div>
                     <p>
-                        A complete walkthrough of the installed kitchen is conducted,
-                        along with hands-on training for efficient usage and
-                        maintenance.
+                        A complete walkthrough of your installed steel & metal partitions is conducted, explaining
+                        safety measures, functionality, and cleaning practices.
                     </p>
                 </div>
             </div>
@@ -299,18 +299,24 @@
 
 
 
+
+
 <section class="hero">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <h3 class=" fw-bold text-gradient"
+                <h3 class="fw-bold text-gradient"
                     style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                    Looking for Stainless Steel Modular Kitchen? Plan Your Kitchen with Livsatva Interiors!</h3>
-                <p class="  ">There are a number of aspects to consider before you leap in: Space, Storage, Material —
-                    and many more. At Livsatva Interiors, we help you complete your dream kitchen with ease. You are
-                    just <strong>5 steps</strong> away from getting your home a dream kitchen from Livsatva Interiors.
+                    Looking for Stylish Steel & Metal Partitions? Plan Your Partition with Livsatva Interiors!
+                </h3>
+                <p>
+                    There are several factors to consider before choosing your perfect partition — size, layout,
+                    materials,
+                    and design style. At Livsatva Interiors, we help you craft premium steel & metal partitions that
+                    blend
+                    functionality with aesthetics. You are just <strong>5 steps</strong> away from transforming your
+                    space with Livsatva Interiors.
                 </p>
-
             </div>
         </div>
 
@@ -326,7 +332,8 @@
                     <div class="icon"><i class="fa-solid fa-calculator"></i></div>
                     <div class="content">
                         <div class="title">Estimation</div>
-                        <div class="subtitle">We begin with a clear cost estimation based on requirements.</div>
+                        <div class="subtitle">We start with a clear cost estimate based on your design and space needs.
+                        </div>
                     </div>
                 </div>
 
@@ -335,7 +342,8 @@
                     <div class="icon"><i class="fa-solid fa-pencil-ruler"></i></div>
                     <div class="content">
                         <div class="title">Design & Customization</div>
-                        <div class="subtitle">Our team creates 2D/3D designs tailored to your needs.</div>
+                        <div class="subtitle">Our experts create 2D/3D designs tailored to your steel & metal partition
+                            requirements.</div>
                     </div>
                 </div>
 
@@ -344,7 +352,8 @@
                     <div class="icon"><i class="fa-solid fa-check-circle"></i></div>
                     <div class="content">
                         <div class="title">Customer Approval</div>
-                        <div class="subtitle">Production begins only after your final approval.</div>
+                        <div class="subtitle">Fabrication begins only after your final approval of the partition design.
+                        </div>
                     </div>
                 </div>
 
@@ -352,8 +361,9 @@
                     <div class="step-number">4</div>
                     <div class="icon"><i class="fa-solid fa-industry"></i></div>
                     <div class="content">
-                        <div class="title">State-of-the-Art Production</div>
-                        <div class="subtitle">Manufactured with advanced machinery & superior quality.</div>
+                        <div class="title">Precision Fabrication</div>
+                        <div class="subtitle">Your steel & metal partitions are crafted with advanced machinery and
+                            quality materials.</div>
                     </div>
                 </div>
 
@@ -362,7 +372,8 @@
                     <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
                     <div class="content">
                         <div class="title">On-Time Delivery</div>
-                        <div class="subtitle">Delivered & installed within the committed timeline.</div>
+                        <div class="subtitle">Delivered and installed professionally within the committed timeline.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -371,29 +382,30 @@
                 <div class="d-flex justify-content-between align-items-start">
                     <div>
                         <h5 id="detailTitle">Make An Enquiry</h5>
-                        <p class="muted-note mb-2" id="detailSubtitle">Enquire via our website, WhatsApp, call us or
-                            just walk in to any of our outlet.</p>
+                        <p class="muted-note mb-2" id="detailSubtitle">
+                            Enquire via our website, WhatsApp, call us, or visit any of our outlets to start your
+                            partition design journey.
+                        </p>
                         <p class="mb-0"><strong>Contact Livsatva Interiors engineers</strong></p>
                     </div>
                     <div class="text-end">
                         <div class="small text-muted">Step <span id="currentStep">1</span> of 5</div>
                         <div class="fw-bold fs-5"
                             style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                            Ready?</div>
-                        <!-- <a href="#" class="btn btn-primary btn-lg" style="background:var(--s); border:none">Make An Enquiry <i class="fa-solid fa-arrow-right ms-2"></i></a> -->
-
+                            Ready?
+                        </div>
                     </div>
                 </div>
 
                 <div class="d-flex gap-2 mt-3">
-                    <button id="prevBtn" class="btn btn-outline-secondary" disabled><i
-                            class="fa-solid fa-chevron-left me-1"></i> Prev</button>
-                    <button id="nextBtn" class="btn btn-outline-secondary">Next <i
-                            class="fa-solid fa-chevron-right ms-1"></i></button>
+                    <button id="prevBtn" class="btn btn-outline-secondary" disabled>
+                        <i class="fa-solid fa-chevron-left me-1"></i> Prev
+                    </button>
+                    <button id="nextBtn" class="btn btn-outline-secondary">
+                        Next <i class="fa-solid fa-chevron-right ms-1"></i>
+                    </button>
                 </div>
             </div>
-
-
 
             <div class="col-md-8 offset-md-2 offset-0 col-12 text-center">
                 <form id="contact-form" method="post" action="contact.php">
@@ -406,9 +418,7 @@
 
                     <div class="controls">
                         <div class="row">
-                            <!-- Left Column -->
                             <div class="col-md-6">
-                                <!-- Name -->
                                 <div class="form-group">
                                     <div class="input-with-icon">
                                         <i class="fas fa-user"></i>
@@ -417,11 +427,9 @@
                                             title="Name should contain only letters and spaces">
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="col-md-6">
 
-                                <!-- Mobile Number -->
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <div class="input-with-icon">
                                         <i class="fas fa-phone"></i>
@@ -431,9 +439,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Email -->
-                            <div class="col-md-6">
 
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <div class="input-with-icon">
                                         <i class="fas fa-envelope"></i>
@@ -443,9 +450,7 @@
                                 </div>
                             </div>
 
-                            <!-- Right Column -->
                             <div class="col-md-6">
-                                <!-- Location -->
                                 <div class="form-group">
                                     <div class="input-with-icon">
                                         <i class="fas fa-map-marker-alt"></i>
@@ -453,10 +458,8 @@
                                             required minlength="2">
                                     </div>
                                 </div>
-
                             </div>
 
-                            <!-- Message -->
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <div class="input-with-icon">
@@ -466,14 +469,17 @@
                                     </div>
                                 </div>
 
-                                <button type="submit" class="btn-curve btn-color"><span>Send Message</span></button>
+                                <button type="submit" class="btn-curve btn-color">
+                                    <span>Send Message</span>
+                                </button>
                             </div>
                         </div>
                     </div>
-                </form>
 
+                </form>
             </div>
         </div>
+
     </div>
 </section>
 
@@ -483,30 +489,33 @@ const stepsData = {
 
     1: {
         title: 'Estimation',
-        subtitle: 'We begin by providing a clear and transparent cost estimation based on customer requirements.',
-        note: 'transparent quotation for your needs'
+        subtitle: 'We begin by providing a clear and transparent cost estimation based on your steel & metal partition design, size, and material requirements.',
+        note: 'transparent quotation for your partition project'
     },
     2: {
         title: 'Design & Customization',
-        subtitle: 'Once the order is confirmed, our design team creates detailed 2D/3D designs tailored to the customer’s needs.',
-        note: 'personalized 2D/3D designs'
+        subtitle: 'Once the order is confirmed, our design experts prepare precise 2D/3D layouts for your customized steel & metal partition, ensuring it fits your space perfectly.',
+        note: 'personalized 2D/3D steel & metal partition designs'
     },
     3: {
         title: 'Customer Approval',
-        subtitle: 'The designs are shared with the customer, and production begins only after final approval.',
-        note: 'production after your approval'
+        subtitle: 'We share the final partition design for your review, and production begins only after your complete approval and satisfaction.',
+        note: 'production starts after your design approval'
     },
     4: {
-        title: 'State-of-the-Art Production',
-        subtitle: 'Using advanced machinery and precision engineering, we manufacture the furniture with superior quality and finish.',
-        note: 'advanced machinery & precision work'
+        title: 'Precision Fabrication',
+        subtitle: 'Using advanced fabrication machinery and high-quality steel, we craft your steel & metal partition with precision, strength, and a flawless finish.',
+        note: 'crafted with advanced fabrication technology'
     },
     5: {
         title: 'On-Time Delivery',
-        subtitle: 'The final product is delivered and installed within the committed timeline, ensuring a smooth and hassle-free experience.',
-        note: 'delivered & installed on time'
+        subtitle: 'Your steel & metal partition is safely delivered and installed within the committed timeline, ensuring a smooth and worry-free experience.',
+        note: 'on-time delivery & professional installation'
     }
+
 };
+
+
 
 
 const steps = Array.from(document.querySelectorAll('.step'));
@@ -574,7 +583,6 @@ updateUI();
 
 
 
-
 <section class="portfolio section-padding">
     <div class="container">
         <div class="row">
@@ -582,10 +590,12 @@ updateUI();
             <!-- filter links -->
             <div class="filtering text-center col-12">
                 <div class="filter box">
-                    <span data-filter='*' class="active">All</span>
-                    <span data-filter='.Lshape'>L shape Kitchen</span>
-                    <span data-filter='.ushape'>U shape Kitchen</span>
-                    <span data-filter='.Linear'>Linear Kitchen</span>
+                    <span data-filter='*' class="active">Partition Gallery</span>
+                    <!-- <span data-filter='.sliding'>Sliding Partitions</span>
+                    <span data-filter='.folding'>Folding/Accordion Partitions</span>
+                    <span data-filter='.hinged'>Hinged/Fixed Partitions</span>
+                    <span data-filter='.corner'>Corner/Angle Partitions</span>
+                    <span data-filter='.glass'>Glass & Steel Partitions</span> -->
                 </div>
             </div>
         </div>
@@ -594,132 +604,118 @@ updateUI();
         <div class="row gallery twsty inf-lit full-width">
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="assets/images/ushape.webp">
+            <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition1.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/ushape.webp">
+                        <img alt="" src="./assets/img/products/partition1.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic U-shape</h5>
-                    <span>U-shape Design</span>
+                    <h5>Modern Sliding Partition</h5>
+                    <span>Smooth Sliding Panels</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="assets/images/ushape2.webp">
+            <div class="col-lg-4 col-md-6 col-sm-6 items folding mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition2.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/ushape2.webp">
+                        <img alt="" src="./assets/img/products/partition2.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic U-shape</h5>
-                    <span>U-shape Design</span>
+                    <h5>Folding Partition</h5>
+                    <span>Space-Saving Accordion Design</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="assets/images/ushape3.webp">
+            <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition3.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/ushape3.webp">
+                        <img alt="" src="./assets/img/products/partition3.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic L-shape</h5>
-                    <span>L-shape Design</span>
+                    <h5>Fixed Steel Partition</h5>
+                    <span>Durable Hinged Panels</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Lshape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/lshape1.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/lshape1.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition4.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/partition4.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Choose Your Dream</h5>
-                    <span>Architecture</span>
+                    <h5>Corner Partition</h5>
+                    <span>Angled Panel Layouts</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Linear  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/linear3.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/linear3.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items glass mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition5.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/partition5.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Luxury Villa</h5>
-                    <span>Architecture</span>
+                    <h5>Glass & Steel Partition</h5>
+                    <span>Transparent Modern Panels</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Lshape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/lshape3.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/lshape3.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition6.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/partition6.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Choose Your Dream</h5>
-                    <span>Architecture</span>
+                    <h5>Luxury Sliding Partition</h5>
+                    <span>High-End Sliding Panels</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/ushape4.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/ushape4.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items folding mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition7.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/partition7.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic L-shape</h5>
-                    <span>L-shape Design</span>
+                    <h5>Space-Saving Folding Partition</h5>
+                    <span>Efficient Accordion Panels</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Lshape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/lshape2.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/lshape2.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items glass mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition8.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/partition8.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Choose Your Dream</h5>
-                    <span>Architecture</span>
+                    <h5>Elegant Glass & Steel Partition</h5>
+                    <span>Modern Transparent Design</span>
                 </div>
             </div>
-
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Linear  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/linear1.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/linear1.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items glass mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition9.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/partition9.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Luxury Villa</h5>
-                    <span>Architecture</span>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Linear  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/linear2.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/linear2.webp" alt="">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Luxury Villa</h5>
-                    <span>Architecture</span>
+                    <h5>Elegant Glass & Steel Partition</h5>
+                    <span>Modern Transparent Design</span>
                 </div>
             </div>
 
@@ -730,12 +726,14 @@ updateUI();
 
 
 
+
+
 <!-- FAQ Section -->
 <section class="faq-section py-5 bg-light">
     <div class="container">
         <div class="text-center mb-4">
             <h2 class="fw-bold">Frequently Asked Questions</h2>
-            <p class="text-muted">Find quick answers to common questions about our modular kitchens.</p>
+            <p class="text-muted">Find quick answers to common questions about our steel & metal partitions.</p>
         </div>
 
         <div class="row">
@@ -747,15 +745,15 @@ updateUI();
                         <h2 class="accordion-header" id="faq1-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
-                                What is the purpose of steel in the kitchen?
+                                What are steel & metal partitions?
                             </button>
                         </h2>
                         <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-heading"
                             data-bs-parent="#faqLeft">
                             <div class="accordion-body">
-                                Stainless steel’s exceptional corrosion resistance means that kitchens don’t have to
-                                worry about damage due to spills, steam, or food products. This resistance also benefits
-                                usage outside the kitchen.
+                                Steel & metal partitions are modular panels used to divide, organize, or enhance
+                                spaces in homes, offices, or commercial areas while offering durability, style,
+                                and flexibility.
                             </div>
                         </div>
                     </div>
@@ -765,15 +763,15 @@ updateUI();
                         <h2 class="accordion-header" id="faq2-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                Which steel is best for modular kitchen?
+                                What materials are used for these partitions?
                             </button>
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading"
                             data-bs-parent="#faqLeft">
                             <div class="accordion-body">
-                                304 stainless steel is the most common form of stainless steel used worldwide due to
-                                excellent corrosion resistance and durability. It’s easy to sanitize and ideal for
-                                kitchens.
+                                Premium steel, aluminum frames, tempered glass, powder-coated metal sheets, and
+                                high-quality hardware are used to ensure strength, elegance, and a modern
+                                finish.
                             </div>
                         </div>
                     </div>
@@ -783,14 +781,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq3-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                How much do the kitchens cost?
+                                Can steel & metal partitions be customized?
                             </button>
                         </h2>
                         <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading"
                             data-bs-parent="#faqLeft">
                             <div class="accordion-body">
-                                The price depends on size, material, accessories, and products used. Fill out the
-                                enquiry form to get a call back from our team.
+                                Absolutely! You can customize size, layout, finish, glass or metal panels, and
+                                even add sliding, hinged, or folding mechanisms to suit your space perfectly.
                             </div>
                         </div>
                     </div>
@@ -805,14 +803,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq4-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                What warranty do you offer?
+                                Are steel & metal partitions suitable for offices and homes?
                             </button>
                         </h2>
                         <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading"
                             data-bs-parent="#faqRight">
                             <div class="accordion-body">
-                                We offer a 15-year warranty* (conditions apply) along with maintenance services to keep
-                                your kitchen in top condition.
+                                Yes, these partitions are highly versatile and can be installed in offices,
+                                homes, showrooms, or commercial spaces to create functional and stylish layouts.
                             </div>
                         </div>
                     </div>
@@ -822,14 +820,15 @@ updateUI();
                         <h2 class="accordion-header" id="faq5-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                                What kitchen shutter options are available?
+                                How do I maintain steel & metal partitions?
                             </button>
                         </h2>
                         <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading"
                             data-bs-parent="#faqRight">
                             <div class="accordion-body">
-                                We offer shutters in Stainless Steel, Galvanized Steel, Ceramic/Porcelain, Lacquered
-                                Glass, and more in a wide range of colors.
+                                Maintenance is simple—wipe with a soft cloth, avoid harsh chemicals, and
+                                periodically check hardware for tightness to ensure long-lasting durability and
+                                shine.
                             </div>
                         </div>
                     </div>
@@ -839,14 +838,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq6-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                                How long does it take to make a kitchen?
+                                Can partitions be fixed or movable?
                             </button>
                         </h2>
                         <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading"
                             data-bs-parent="#faqRight">
                             <div class="accordion-body">
-                                Delivery is usually within 30–45 working days after order finalization and advance
-                                payment, depending on material and season.
+                                Steel & metal partitions are available in fixed, sliding, folding, or movable
+                                options to match your spatial requirements and design preferences.
                             </div>
                         </div>
                     </div>
@@ -855,6 +854,7 @@ updateUI();
         </div>
     </div>
 </section>
+
 
 
 

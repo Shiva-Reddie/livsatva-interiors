@@ -63,7 +63,7 @@
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="./assets/img/wardrobe/office.jpg" alt="Modular Office Furniture" />
+                                <img src="./assets/img/products/office6.png" alt="Modular Office Furniture" />
                             </div>
                         </div>
                     </div>
@@ -582,10 +582,10 @@ updateUI();
             <!-- filter links -->
             <div class="filtering text-center col-12">
                 <div class="filter box">
-                    <span data-filter='*' class="active">All</span>
-                    <span data-filter='.workstation'>Workstations</span>
+                    <span data-filter='*' class="active">Office Gallery</span>
+                    <!-- <span data-filter='.workstation'>Workstations</span>
                     <span data-filter='.cabinet'>Cabinets</span>
-                    <span data-filter='.conference'>Conference Tables</span>
+                    <span data-filter='.conference'>Conference Tables</span> -->
                 </div>
             </div>
         </div>
@@ -593,126 +593,127 @@ updateUI();
         <!-- gallery -->
         <div class="row gallery twsty inf-lit full-width">
 
-
-
-
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items cabinet mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/work-s.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/office10.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/work-s.jpg">
+                        <img alt="" src="./assets/img/products/office1.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Lockable Cabinet</h5>
-                    <span>Secure Storage</span>
-                </div>
-            </div>
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items cabinet mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/work-s1.jpg">
-                    <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/work-s1.jpg">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Lockable Cabinet</h5>
-                    <span>Secure Storage</span>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/work.jpg">
-                    <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/work.jpg">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Modular Workstation</h5>
-                    <span>Compact & Efficient</span>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/work1.jpg">
-                    <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/work1.jpg">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Storage Cabinet</h5>
-                    <span>Organized & Functional</span>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/work2.jpg">
-                    <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/work2.jpg">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Conference Table</h5>
-                    <span>Modern & Sleek</span>
+                    <h5>File Storage Cabinets</h5>
+                    <span>Organized Document Storage</span>
                 </div>
             </div>
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items cabinet mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/work-s2.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/office11.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/work-s2.jpg">
+                        <img alt="" src="./assets/img/products/office2.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Lockable Cabinet</h5>
-                    <span>Secure Storage</span>
+                    <h5>Metal Cabinets</h5>
+                    <span>Durable & Space-Saving</span>
+                </div>
+            </div>
+
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/office12.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/office3.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Workstation Pods</h5>
+                    <span>Ergonomic & Efficient</span>
+                </div>
+            </div>
+
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/office13.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/office4.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Team Desks</h5>
+                    <span>Collaborative Workspace Setup</span>
+                </div>
+            </div>
+
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/office14.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/office5.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Conference Room Table</h5>
+                    <span>Stylish Meeting Setup</span>
+                </div>
+            </div>
+
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items cabinet mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/office6.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/office6.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Office Storage Units</h5>
+                    <span>Smart Space Utilization</span>
                 </div>
             </div>
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items conference mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/cabin3.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/office7.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/cabin.jpg">
+                        <img alt="" src="./assets/img/products/office7.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Executive Table</h5>
-                    <span>Premium Design</span>
+                    <h5>Executive Cabin Desk</h5>
+                    <span>Modern Leadership Workspace</span>
                 </div>
             </div>
+
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items conference mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/cabin1.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/office8.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/cabin1.jpg">
+                        <img alt="" src="./assets/img/products/office8.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Executive Table</h5>
-                    <span>Premium Design</span>
+                    <h5>Director’s Table</h5>
+                    <span>Premium Finish & Design</span>
                 </div>
             </div>
+
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items conference mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/cabin2.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/office9.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/cabin2.jpg">
+                        <img alt="" src="./assets/img/products/office9.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Executive Table</h5>
-                    <span>Premium Design</span>
+                    <h5>Meeting Room Setup</h5>
+                    <span>Comfortable & Functional</span>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
+
 
 
 

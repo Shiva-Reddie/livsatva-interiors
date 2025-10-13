@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="./assets/img/wardrobe/wodrobe.jpg" alt="Modular Wardrobe" />
+                                <img src="./assets/img/products/woder6.png" alt="Modular Wardrobe" />
                             </div>
                         </div>
                     </div>
@@ -731,10 +731,10 @@ updateUI();
             <!-- filter links -->
             <div class="filtering text-center col-12">
                 <div class="filter box">
-                    <span data-filter='*' class="active">All</span>
-                    <span data-filter='.sliding'>Sliding Wardrobe</span>
+                    <span data-filter='*' class="active">Wardrobe Gallery</span>
+                    <!-- <span data-filter='.sliding'>Sliding Wardrobe</span>
                     <span data-filter='.hinged'>Hinged Wardrobe</span>
-                    <span data-filter='.corner'>Corner Wardrobe</span>
+                    <span data-filter='.corner'>Corner Wardrobe</span> -->
                 </div>
             </div>
         </div>
@@ -744,9 +744,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/sliding.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder1.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/sliding.jpg">
+                        <img alt="" src="./assets/img/products/woder1.png">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -757,9 +757,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/holding.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder2.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/holding.jpg">
+                        <img alt="" src="./assets/img/products/woder2.png">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -770,9 +770,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/corner2.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder3.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/corner2.jpg">
+                        <img alt="" src="./assets/img/products/woder3.png">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -782,9 +782,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/sliding1.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder4.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/sliding1.jpg">
+                        <img alt="" src="./assets/img/products/woder4.png">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -794,9 +794,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/sliding3.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder5.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/sliding3.jpg">
+                        <img alt="" src="./assets/img/products/woder5.png">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -807,9 +807,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/holding1.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder6.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/holding1.jpg">
+                        <img alt="" src="./assets/img/products/woder6.png">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -819,9 +819,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/holding2.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder7.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/sliding3.jpg">
+                        <img alt="" src="./assets/img/products/woder7.png">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -832,9 +832,21 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/corner1.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder8.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/corner1.jpg">
+                        <img alt="" src="./assets/img/products/woder8.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Corner Wardrobe with Storage</h5>
+                    <span>Functional Corner Design</span>
+                </div>
+            </div>
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder9.png">
+                    <div class="item-img-overlay">
+                        <img alt="" src="./assets/img/products/woder9.png">
                     </div>
                 </div>
                 <div class="info mt-10">

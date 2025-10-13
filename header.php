@@ -128,7 +128,7 @@ $site_url = 'https://localhost/livsatva-interiors/';
 
             <!-- Logo -->
             <a class="logo" href="<?php echo $site_url; ?>">
-                <img src="<?php echo $site_url; ?>assets/images/liv-logo.jpg" alt="logo">
+                <img src="<?php echo $site_url; ?>assets/images/logo-png.png" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -140,8 +140,8 @@ $site_url = 'https://localhost/livsatva-interiors/';
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>index.php" role="button"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
+                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>index.php"
+                            role="button" aria-haspopup="true" aria-expanded="false">Home</a>
 
                     </li>
                     <li class="nav-item">
@@ -160,9 +160,12 @@ $site_url = 'https://localhost/livsatva-interiors/';
                                 crockery</a>
 
                             <a class="dropdown-item" href="<?php echo $site_url; ?>office.php">Office</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>tv-unit.php">TV Unit</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>partitions.php">Partitions</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>others.php">Others</a>
                         </div>
                     </li>
-                    <li class="nav-item ">
+                    <!-- <li class="nav-item ">
                         <a href="<?php echo $site_url; ?>blog/" class="nav-link">Blog</a>
 
                     </li>
@@ -173,7 +176,7 @@ $site_url = 'https://localhost/livsatva-interiors/';
 
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo $site_url; ?>faq.php">Faq</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo $site_url; ?>gallery.php">Gallery</a>
                     </li>
@@ -181,13 +184,22 @@ $site_url = 'https://localhost/livsatva-interiors/';
                         <a class="nav-link" href="<?php echo $site_url; ?>contact.php">Contact</a>
                     </li>
 
+
                     <li class="nav-item">
-                        <a class="nav-link " href="<?php echo $site_url; ?>book-a-home-visit.php">Book a Home Visit</a>
+                        <a href="<?php echo $site_url; ?>book-a-home-visit.php"
+                            class="btn-curve btn-color mt-lg-3 me-2">
+                            <span>Book a Home Visit</span>
+                        </a>
+                        <!-- <a class="nav-link " href="<?php echo $site_url; ?>book-a-home-visit.php">Book a Home Visit</a> -->
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo $site_url; ?>book-a-showroom-visit.php">Book a Showroom
-                            Visit</a>
+                        <a href="<?php echo $site_url; ?>book-a-home-visit.php" class="btn-curve btn-color mt-lg-3">
+                            <span>Book a Showroom
+                                Visit</span>
+                        </a>
+                        <!-- <a class="nav-link" href="<?php echo $site_url; ?>book-a-showroom-visit.php">Book a Showroom
+                            Visit</a> -->
                     </li>
 
                 </ul>

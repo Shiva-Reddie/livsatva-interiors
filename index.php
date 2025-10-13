@@ -16,18 +16,19 @@
                                     <span class="top-corn"></span>
                                     <span class="bottom-corn"></span>
                                     <div class="custom-font">
-                                        <h5 class="thin custom-font"> Style That Lasts Forever</h5>
+                                        <h5 class="thin custom-font"> Style that lasts. Strength that endures.</h5>
                                         <h1 data-splitting="">
                                             <a href="#0">
-                                                MODERN METAL DESIGNS
+                                                Modern Metal Designs
                                             </a>
                                         </h1>
                                     </div>
                                     <p>
+                                        Discover interiors that combine the strength of metal with the grace of modern
+                                        design.
+                                        At LivSatva, every kitchen and wardrobe is crafted from premium steel — durable,
+                                        sleek, and sustainable.
 
-
-                                        Durable, termite-free, and stylish designs crafted with stainless steel and
-                                        galvanized steel.
 
                                     </p>
                                     <a href="./contact.php" class="btn-curve btn-color mt-30">
@@ -51,14 +52,13 @@
                                     <span class="top-corn"></span>
                                     <span class="bottom-corn"></span>
                                     <div class="custom-font">
-                                        <h5 class="thin custom-font"> Style That Stays Forever</h5>
+                                        <h5 class="thin custom-font"> Beautiful today. Brilliant forever.</h5>
                                         <h1 data-splitting=""><a href="#0"> Redefining Modern Interiors</a></h1>
                                     </div>
                                     <p>
-
-
-                                        Eco-friendly, zero-maintenance interiors with powder-coated, noise-free
-                                        finishes.
+                                        Step into the future of interior design with LivSatva’s all-steel creations.
+                                        We replace wood with innovation — creating eco-friendly, termite-free, and
+                                        low-maintenance spaces that stand the test of time.
 
                                     </p>
                                     <a href="./book-a-home-visit.php" class="btn-curve btn-color mt-30">
@@ -82,18 +82,21 @@
                                     <span class="top-corn"></span>
                                     <span class="bottom-corn"></span>
                                     <div class="custom-font">
-                                        <h5 class="thin custom-font"> Style That Lasts Forever</h5>
+                                        <h5 class="thin custom-font">Beautiful. Durable. Sustainable.</h5>
                                         <h1 data-splitting="">
                                             <a href="#0">
-                                                MODERN METAL DESIGNS
+                                                Modern Metal Designs for Modern Living
                                             </a>
                                         </h1>
                                     </div>
                                     <p>
 
+                                        Welcome to LivSatva, where innovation meets elegance.
+                                        We create luxurious, long-lasting steel interiors — from modular kitchens to
+                                        wardrobes — built to transform your home into a masterpiece of strength and
+                                        style.
 
-                                        Durable, termite-free, and stylish designs crafted with stainless steel and
-                                        galvanized steel.
+
 
                                     </p>
                                     <a href="./book-a-showroom-visit.php" class="btn-curve btn-color mt-30">
@@ -128,18 +131,24 @@
                 <div class="col-lg-4">
                     <div class="item-sm wow fadeInUp" data-wow-delay="1s">
                         <div class="box">
-                            <h6 class="mb-20"><span class="custom-font numb">01</span> Talk to Our Experts</h6>
-                            <p>Discuss your ideas with our specialists and explore designs tailored to your style and
-                                space.</p>
+                            <h6 class="mb-20"><span class="custom-font numb">01</span> Connect with Our Experts</h6>
+                            <p> Share your vision with our design specialists.
+                                We understand your lifestyle, preferences, and space to create concepts that perfectly
+                                reflect you.
+
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="item-sm wow fadeInUp" data-wow-delay="1.1s">
                         <div class="box">
-                            <h6 class="mb-20"><span class="custom-font numb">02</span> Preview Design & Quote
+                            <h6 class="mb-20"><span class="custom-font numb">02</span> Visualize Your Dream Design
                             </h6>
-                            <p> Receive a detailed 3D design and transparent quote with no hidden costs.
+                            <p> Get a personalized 3D design preview and a clear, transparent quote — no hidden charges,
+                                no surprises.
+                                You’ll see exactly how your dream kitchen or interior will look before we begin.
+
                             </p>
                         </div>
                     </div>
@@ -147,10 +156,12 @@
                 <div class="col-lg-4">
                     <div class="item-sm wow fadeInUp" data-wow-delay="1.2s">
                         <div class="box">
-                            <h6 class="mb-20"><span class="custom-font numb">03</span> Confirm & Get Installed
+                            <h6 class="mb-20"><span class="custom-font numb">03</span> Confirm & Experience Perfection
                             </h6>
-                            <p>Confirm your choice, and our team ensures smooth installation with durable, termite-free
-                                interiors.
+                            <p> Once approved, our team handles everything — from precision manufacturing to seamless
+                                installation.
+                                Enjoy strong, stylish, and termite-free steel interiors that are built to last.
+
                             </p>
                         </div>
                     </div>
@@ -177,19 +188,21 @@
                 <div class="exp-content nopat wow fadeInUp" data-wow-delay=".3s">
                     <h6 class="sub-title">About Us</h6>
                     <h2 class="mb-20 playfont">
-                        Redefining Interiors with Metal
+                        Who We Are
                     </h2>
                     <p>
-                        We design and build interiors that are durable, stylish, and eco-friendly. Unlike wood, our
-                        stainless steel and galvanized steel solutions are 100% termite-free, noise-free, and
-                        maintenance-free. With powder-coated finishes, we deliver strength, elegance, and sustainability
-                        in every space—be it homes, offices, or commercial projects.
+                        At LivSatva, we don’t just design spaces — we engineer experiences.
+                        Our mission is to replace traditional wooden interiors with premium stainless-steel solutions
+                        that last for decades.
+
                     </p>
-                    <ul>
-                        <li>Architecture</li>
-                        <li>Interior Design</li>
-                        <li>Furniture</li>
-                    </ul>
+                    <h5>Our Vision</h5>
+                    <p>To redefine modern interiors with innovation, integrity, and sustainability.</p>
+                    <h5>Our Promise</h5>
+                    <p>Every design we create blends strength, hygiene, and aesthetics — crafted to suit your lifestyle
+                        and built to last a lifetime. <br>
+                        <b>Design Pure. Live Satva.</b>
+                    </p>
                     <a href="./modular-kitchen.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
@@ -240,20 +253,50 @@
 <section class="about space2">
     <div class="container">
         <div class="row">
+            <div class="col-lg-8 m-auto text-center">
+                <h5>Where Design Meets Durability</h5>
+                <p>At LivSatva, we don’t just create interiors — we craft experiences.
+                    Every product is designed with precision engineering, superior stainless steel, and modern
+                    aesthetics that last for generations.
+                </p>
+                <p><b>No wood. No worries. Just beauty, strength, and sustainability — perfectly balanced.</b></p>
+            </div>
+        </div>
+        <div class="row mt-50">
             <div class="col-lg-5 valign">
-                <div class="exp-content text-lg-right text-left nopat wow fadeInUp" data-wow-delay=".3s">
-                    <h6 class="sub-title">Kitchen</h6>
-                    <h2 class="mb-20 playfont">Kitchen – Modular Steel Kitchens</h2>
+                <div class="exp-content text-lg-left text-left nopat wow fadeInUp" data-wow-delay=".3s">
+                    <h6 class="sub-title"> Built with Steel.
+                        Styled for You. </h6>
+                    <h2 class="mb-20 playfont">Modular Kitchen</h2>
+
                     <p>
-                        Crafted from premium stainless and galvanized steel, our modular kitchens are stylish, durable,
-                        and termite-free. Designed for smart functionality and long-lasting performance, they bring
-                        strength and elegance to the heart of your home.
+
+                        Your kitchen isn’t just a workspace — it’s the heart of your home.
+                        That’s why our steel modular kitchens are designed to combine function, hygiene, and timeless
+                        beauty.
                     </p>
+
+                    <p>
+
+                        Each LivSatva kitchen is a masterpiece — crafted from high-grade stainless steel and coated with
+                        powder-finish perfection, ensuring strength that never fades.
+                    </p>
+
+
+
+
+
+                    <p class="mt-3">
+                        <i class="fa-solid fa-lightbulb text-warning me-2"></i>
+                        <b>Experience the future of cooking — stylish, smart, and sustainable.</b>
+                    </p>
+
                     <a href="./modular-kitchen.php" class="btn-curve btn-color mt-30">
-                        <span>View More</span>
+                        <span><i class="fa-solid fa-arrow-right me-2"></i> View More</span>
                     </a>
                 </div>
             </div>
+
             <div class="col-lg-7">
                 <div class="ab-exp">
                     <div class="row">
@@ -300,12 +343,15 @@
             </div>
             <div class="col-lg-5 valign  order-1 order-lg-2">
                 <div class="exp-content nopat wow fadeInUp" data-wow-delay=".3s">
-                    <h6 class="sub-title">Wardrobes</h6>
-                    <h2 class="mb-20 playfont">Wardrobes – Steel Modular Wardrobes</h2>
+                    <h6 class="sub-title">Elegance in Every Inch</h6>
+                    <h2 class="mb-20 playfont">Modular Wardrobes</h2>
                     <p>
-                        Smart storage meets timeless strength. Our wardrobes are crafted from premium steel, making them
-                        termite-proof, durable, and zero-maintenance—all with a sleek, modern finish.
+                        Your wardrobe should be more than storage — it should be a statement of your style.
+                        LivSatva’s steel wardrobes combine luxury aesthetics with lifetime durability.
+
                     </p>
+                    <p>Designed with precision engineering and finished with powder-coated elegance, our wardrobes
+                        redefine modern minimalism.</p>
                     <a href="./modular-wardrobe.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
@@ -319,12 +365,16 @@
         <div class="row">
             <div class="col-lg-5 valign">
                 <div class="exp-content text-right nopat wow fadeInUp" data-wow-delay=".3s">
-                    <h6 class="sub-title">CROCKERY</h6>
-                    <h2 class="mb-20 playfont">Crockery – Steel Crockery Units</h2>
+                    <h6 class="sub-title">Where Function Meets Fine Living.</h6>
+                    <h2 class="mb-20 playfont">Modular Crockery Units</h2>
                     <p>
-                        Organize with elegance and strength. Our steel crockery units are durable, termite-free, and
-                        stylishly designed to keep your dining essentials safe and accessible for years to come.
+                        A well-designed crockery unit brings class to your dining experience.
+                        LivSatva’s modular steel crockery units are the perfect blend of display, storage, and
+                        sophistication.
+
                     </p>
+                    <p>Whether you want a sleek wall-mounted unit or a full-length display cabinet, LivSatva designs add
+                        a touch of modern luxury to every dining room.</p>
                     <a href="./modular-crockery.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
@@ -352,6 +402,139 @@
     </div>
 </section>
 
+<section class="about space2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 order-2 order-lg-1">
+                <div class="ab-exp">
+                    <div class="row">
+                        <div class="col-md-4 mb-20">
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                        </div>
+                        <!-- <div class="col-md-8 wow fadeInUp" data-wow-delay=".3s">
+                     <div class="img mb-20 wow imago">
+                         <img src="assets/images/partition.webp" alt="">
+                     </div>
+                     </div> -->
+                        <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="img wow imago">
+                                <img src="assets/img/products/partition3.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 valign  order-1 order-lg-2">
+                <div class="exp-content nopat wow fadeInUp" data-wow-delay=".3s">
+                    <h6 class="sub-title">Creating Spaces with Purpose and Style.</h6>
+                    <h2 class="mb-20 playfont">Partitions</h2>
+                    <p>
+                        Modern homes deserve flexibility — and that’s exactly what our steel partitions offer.
+                        Designed to divide spaces without blocking light or openness, LivSatva partitions add a
+                        contemporary edge to your interiors.
+
+                    </p>
+                    <p>From living room dividers to office separators, each piece is crafted from durable, powder-coated
+                        steel, ensuring it stays elegant, rust-free, and maintenance-free.</p>
+                    <a href="./partitions.php" class="btn-curve btn-color mt-30">
+                        <span>View More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about space2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 valign">
+                <div class="exp-content text-lg-right text-left nopat wow fadeInUp" data-wow-delay=".3s">
+                    <h6 class="sub-title">Style Meets Functionality.</h6>
+                    <h2 class="mb-20 playfont">TV Unit</h2>
+                    <p>
+                        Your living room deserves a centerpiece that’s as smart as it is stunning.
+                        LivSatva’s steel TV units are designed to bring elegance, durability, and organization into your
+                        entertainment space.
+
+                    </p>
+                    <p>Made entirely from premium stainless steel, our TV units combine sleek design with superior
+                        functionality, ensuring they remain flawless for years — without fading, warping, or termite
+                        damage.</p>
+                    <a href="./tv-unit.php" class="btn-curve btn-color mt-30">
+                        <span>View More</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="ab-exp">
+                    <div class="row">
+                        <div class="col-md-4 mb-20">
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                        </div>
+                        <!-- <div class="col-md-8 wow fadeInUp" data-wow-delay=".3s">
+                     <div class="img mb-20 wow imago">
+                         <img src="assets/images/tv-unit.webp" alt="">
+                     </div>
+                     </div> -->
+                        <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="img wow imago">
+                                <img src="assets/img/products/tv3.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="about space2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 valign">
+                <div class="exp-content text-right nopat wow fadeInUp" data-wow-delay=".3s">
+                    <h6 class="sub-title">Professional Spaces, Designed to Inspire.</h6>
+                    <h2 class="mb-20 playfont">Office Interiors</h2>
+                    <p>
+                        Your workspace should motivate productivity and reflect your brand’s personality.
+                        LivSatva creates premium steel-based office interiors that are stylish, ergonomic, and built for
+                        long-term performance.
+
+                    </p>
+                    <p>From executive cabins to open workstations, every design is customized to ensure comfort,
+                        durability, and visual appeal — without the wear and tear that comes with traditional wooden
+                        setups.</p>
+                    <a href="./office.php" class="btn-curve btn-color mt-30">
+                        <span>View More</span>
+                    </a>
+                    <!-- <a href="" class="a-btn-arrow-2" target="_self">
+                        <span class="arrow-right"></span>
+                        READ
+                    </a> -->
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="ab-exp">
+                    <div class="row">
+                        <div class="col-md-4 mb-20">
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                        </div>
+                        <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="img wow imago image-anime reveal">
+                                <img src="assets/img/products/office8.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="about space ">
     <div class="container">
         <div class="row">
@@ -364,12 +547,12 @@
                         </div>
                         <div class="col-md-8 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img mb-20 wow imago">
-                                <img src="assets/img/ab1.jpg" alt="" />
+                                <img src="assets/img/products/other1.png" alt="" />
                             </div>
                         </div>
                         <div class="col-md-7 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago">
-                                <img src="assets/img/ab2.jpg" alt="" />
+                                <img src="assets/img/products/other5.png" alt="" />
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -387,14 +570,16 @@
             <div class="col-lg-5 valign  order-1 order-lg-2">
                 <div class="exp-content text-right nopat wow fadeInUp" data-wow-delay=".3s">
                     <h6 class="sub-title">Other Interiors</h6>
-                    <h2 class="mb-20 playfont">Other Interiors – Steel Home Interiors
+                    <h2 class="mb-20 playfont">Beds & Vanity Units
                     </h2>
                     <p>
-                        Livsatva’s steel interiors stand out with thoughtful design, smart functionality, and unmatched
-                        durability. Explore our range and see how style and strength come together to transform your
-                        spaces.
+                        Our steel beds and vanity units combine aesthetic comfort with unmatched durability.
+                        Unlike wood, steel furniture doesn’t warp, crack, or weaken with time — it stays beautiful for
+                        decades.
+
                     </p>
-                    <a href="./office.php" class="btn-curve btn-color mt-30">
+                    <p></p>
+                    <a href="./others.php" class="btn-curve btn-color mt-30">
                         <span>View More</span>
                     </a>
 
@@ -406,7 +591,7 @@
 
 <!-- ==================== End about ==================== -->
 <!-- ==================== Start works ==================== -->
-<section class="portfolio full-bg">
+<section class="portfolio full-bg d-none">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-md-6 cluom current" data-tab="tab-1">
@@ -1014,8 +1199,7 @@
         <div class="map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6888.934435656514!2d78.37838!3d17.447257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ddd83b95a9%3A0x6199113a72f38d86!2sSBR%20Gateway!5e1!3m2!1sen!2sin!4v1757504194566!5m2!1sen!2sin"
-                width="100%" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                width="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
     </div>

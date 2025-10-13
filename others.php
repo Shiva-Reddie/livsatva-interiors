@@ -1,4 +1,4 @@
-﻿<?php include './header.php'; ?>
+<?php include './header.php'; ?>
 
 <!-- Core Style Css -->
 <link rel="stylesheet" href="./assets/css/product.css">
@@ -11,10 +11,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="cont text-center">
-                    <h1>Modular Kitchens In Steel</h1>
+                    <h1>Beds and Vanity Units</h1>
                     <div class="path">
-                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Modular
-                            Kitchens In Steel</a>
+                        <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Beds and
+                            Vanity Units</a>
                     </div>
                 </div>
             </div>
@@ -33,16 +33,36 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>The Best Modular Kitchen Designs with a Wide Range of Customization Options!</h2>
+                    <h2>Elegant Steel & Metal Beds and Vanity Units for a Modern Lifestyle</h2>
 
                     <div class="text">
-                        <p>When it comes to creating a kitchen that combines style, functionality, and durability,
-                            Livsatva Interiors’s modular kitchen designs are the perfect solution. At Livsatva
-                            Interiors, we take pride in providing the best modular kitchen designs that meet the unique
-                            needs of homeowners. Our designs are crafted to maximize space and ensure a seamless cooking
-                            experience, making your kitchen the heart of your home.</p>
+                        <p>Redefine your bedroom with Livsatva Interiors’ premium steel and metal furniture collection.
+                            Our contemporary beds and vanity units combine sleek design, solid durability, and luxurious
+                            finishes.
+                            Built with high-quality steel, each piece offers a perfect balance of strength and modern
+                            charm.
+                            Whether you prefer a minimalist industrial style or a classy metallic tone, our furniture
+                            brings sophistication and comfort together beautifully.</p>
+                    </div>
 
-
+                    <!-- Feature Icons -->
+                    <div class="features mt-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fa-solid fa-bed fa-lg text-primary me-3"></i>
+                            <span>Durable steel bed frames with premium finishing</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fa-solid fa-screwdriver-wrench fa-lg text-primary me-3"></i>
+                            <span>Customizable designs to suit your space & style</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fa-solid fa-bath fa-lg text-primary me-3"></i>
+                            <span>Stylish metal vanity units with smart storage</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-star fa-lg text-primary me-3"></i>
+                            <span>Elegant, corrosion-resistant, and easy to maintain</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,7 +75,7 @@
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="assets/images/kit.webp" alt="" />
+                                <img src="assets/img/products/other8.png" alt="Steel Metal Beds and Vanity Units" />
                             </div>
                         </div>
                     </div>
@@ -66,26 +86,29 @@
     </div>
 </section>
 
+
+
 <!-- ==================== End Intro ==================== -->
 
 <section class="py-5 about bg-gray">
     <div class="container">
 
-        <h6 class="sub-title">Kitchen Components</h6>
+        <h6 class="sub-title">Steel & Metal Bed & Vanity Components</h6>
         <h2 class="mb-20 playfont">
-            Essential parts prepared before installation
+            Precision-Crafted Elements That Define Modern Bedroom Elegance
         </h2>
         <div class="row">
             <!-- Card 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="component-card">
                     <div class="icon-box">
-                        <i class="fa-solid fa-box"></i>
+                        <i class="fa-solid fa-bed"></i>
                     </div>
-                    <h5>Cabinet Frames, Shelves & Drawers</h5>
+                    <h5>Steel Bed Frames & Supports</h5>
                     <p>
-                        Assemble and organize all cabinet structures, shelves, and
-                        drawers for efficient setup.
+                        Engineered steel bed frames offer exceptional strength, stability, and long-lasting performance.
+                        Each structure is designed for comfort and built to withstand daily use without compromising on
+                        style.
                     </p>
                 </div>
             </div>
@@ -93,12 +116,12 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="component-card">
                     <div class="icon-box">
-                        <i class="fa-solid fa-sink"></i>
+                        <i class="fa-solid fa-bath"></i>
                     </div>
-                    <h5>Countertops, Sinks & Faucets</h5>
+                    <h5>Metal Vanity Units & Mirrors</h5>
                     <p>
-                        Prepare durable countertops and essential fittings like sinks
-                        and faucets.
+                        Elegant vanity frames made from high-quality metal feature sleek finishes and integrated mirror
+                        mounts, creating a modern yet timeless look for your dressing space.
                     </p>
                 </div>
             </div>
@@ -106,12 +129,13 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="component-card">
                     <div class="icon-box">
-                        <i class="fa-solid fa-tools"></i>
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
                     </div>
-                    <h5>Hardware Sorting & Labeling</h5>
+                    <h5>Precision Hardware & Finishes</h5>
                     <p>
-                        Sort and label all hardware items to ensure smooth installation
-                        workflow.
+                        Durable hinges, handles, and corner fittings are crafted in premium steel with
+                        corrosion-resistant coatings,
+                        ensuring smooth assembly and a refined finish that lasts for years.
                     </p>
                 </div>
             </div>
@@ -119,53 +143,51 @@
     </div>
 </section>
 
+
+
 <section class="install-section">
     <div class="container">
         <div class="section-title">
-            <h2>Installation Sequence</h2>
+            <h2>Bed Installation Sequence</h2>
             <p class="text-muted">
-                A step-by-step process to ensure smooth and efficient kitchen
-                installation.
+                A step-by-step process to ensure sturdy and comfortable bed installation with premium finishing.
             </p>
         </div>
         <div class="timeline1">
             <!-- Step 1 -->
             <div class="step1">
                 <div class="step-icon">
-                    <i class="fa-solid fa-box"></i>
+                    <i class="fa-solid fa-bed"></i>
                     <div class="step-number">1</div>
                 </div>
-                <h5>Base Cabinets</h5>
+                <h5>Frame & Headboard Assembly</h5>
                 <p>
-                    We start with precise placement of base cabinets to create a solid
-                    foundation. Proper leveling ensures durability and accurate
-                    alignment for the entire kitchen.
+                    The installation starts with assembling the bed frame and attaching the headboard. Each joint is
+                    aligned precisely to ensure strength and long-lasting support.
                 </p>
             </div>
             <!-- Step 2 -->
             <div class="step1">
                 <div class="step-icon">
-                    <i class="fa-solid fa-box-archive"></i>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
                     <div class="step-number">2</div>
                 </div>
-                <h5>Wall Cabinets, Shelves & Drawers</h5>
+                <h5>Storage & Base Fittings</h5>
                 <p>
-                    Next, wall cabinets, shelves, and drawers are carefully installed
-                    for maximum storage. Each piece is aligned to maintain symmetry
-                    and usability.
+                    Hydraulic lifts, drawers, or under-storage boxes are installed with care to ensure smooth operation
+                    and stability of the bed structure.
                 </p>
             </div>
             <!-- Step 3 -->
             <div class="step1">
                 <div class="step-icon">
-                    <i class="fa-solid fa-sink"></i>
+                    <i class="fa-solid fa-brush"></i>
                     <div class="step-number">3</div>
                 </div>
-                <h5>Countertops, Sinks & Faucets</h5>
+                <h5>Finishing & Quality Check</h5>
                 <p>
-                    Finally, countertops are fixed securely, followed by installation
-                    of sinks and faucets. This step ensures a polished finish and
-                    complete functionality of your kitchen.
+                    The bed is polished or laminated, ensuring a smooth, elegant finish. Every fitting is checked for
+                    balance, comfort, and durability.
                 </p>
             </div>
         </div>
@@ -173,11 +195,13 @@
 </section>
 
 
+
+
+
 <section class="quality-section">
     <div class="container">
         <div class="section-title">
             <h6 class="sub-title text-white">Ensuring perfection before delivery</h6>
-
             <h2>Quality Control & Final Touches</h2>
         </div>
         <div class="row">
@@ -185,12 +209,12 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="quality-card">
                     <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
+                        <i class="fa-solid fa-bed"></i>
                     </div>
-                    <h5>Inspect Installations</h5>
+                    <h5>Frame Stability Check</h5>
                     <p>
-                        Thorough inspection to ensure every element is installed with
-                        precision.
+                        The bed frame and joints are tested for strength, balance, and alignment to ensure long-lasting
+                        stability and comfort.
                     </p>
                 </div>
             </div>
@@ -198,12 +222,12 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="quality-card">
                     <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
+                        <i class="fa-solid fa-box-open"></i>
                     </div>
-                    <h5>Test Doors & Drawers</h5>
+                    <h5>Storage Mechanism Test</h5>
                     <p>
-                        Check smooth operation of doors, drawers, and hardware
-                        mechanisms.
+                        Hydraulic lifts, drawers, and under-storage systems are checked for smooth operation and secure
+                        fitting without noise or friction.
                     </p>
                 </div>
             </div>
@@ -211,12 +235,12 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="quality-card">
                     <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
+                        <i class="fa-solid fa-brush"></i>
                     </div>
-                    <h5>Make Adjustments</h5>
+                    <h5>Surface & Edge Finishing</h5>
                     <p>
-                        Fine-tune alignments and fix any minor issues for a perfect
-                        finish.
+                        All surfaces are polished, corners rounded, and textures refined to deliver a flawless, smooth
+                        finish that matches premium standards.
                     </p>
                 </div>
             </div>
@@ -224,12 +248,12 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="quality-card">
                     <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
+                        <i class="fa-solid fa-broom"></i>
                     </div>
-                    <h5>Clean & Polish</h5>
+                    <h5>Final Cleaning & Assembly Check</h5>
                     <p>
-                        Final cleaning and polishing to deliver a spotless, ready-to-use
-                        kitchen.
+                        The entire bed unit is cleaned, rechecked, and securely assembled — ensuring a spotless,
+                        ready-to-install product.
                     </p>
                 </div>
             </div>
@@ -237,13 +261,17 @@
     </div>
 </section>
 
+
+
+
+
 <section class="doc-section about bg-gray">
     <div class="container">
         <div class="section-title">
             <h2>Documentation & Handover</h2>
             <p class="text-muted">
-                Providing all necessary documents, guidance, and training for a
-                smooth handover.
+                Providing all essential documents, usage guidance, and care instructions for a smooth and confident
+                handover of your customized steel bed.
             </p>
         </div>
 
@@ -255,9 +283,8 @@
                         <h5><i class="fa-solid fa-file-alt"></i> Completion Reports</h5>
                     </div>
                     <p>
-                        We prepare and submit detailed project completion reports
-                        documenting all stages of the installation process for your
-                        records.
+                        We provide detailed reports including frame structure details, storage mechanisms, and finishing
+                        information for your steel bed.
                     </p>
                 </div>
             </div>
@@ -266,13 +293,11 @@
             <div class="col-md-4 mb-4">
                 <div class="doc-card">
                     <div class="card-header">
-                        <h5>
-                            <i class="fa-solid fa-tools"></i> Warranty & Maintenance
-                        </h5>
+                        <h5><i class="fa-solid fa-shield-halved"></i> Warranty & Care Guide</h5>
                     </div>
                     <p>
-                        Comprehensive warranty details and maintenance guidelines are
-                        provided to ensure long-term durability and hassle-free use.
+                        Includes warranty details and a simple care manual to help you maintain your bed’s durability,
+                        shine, and smooth operation over time.
                     </p>
                 </div>
             </div>
@@ -281,15 +306,11 @@
             <div class="col-md-4 mb-4">
                 <div class="doc-card">
                     <div class="card-header">
-                        <h5>
-                            <i class="fa-solid fa-chalkboard-teacher"></i> Walkthrough &
-                            Training
-                        </h5>
+                        <h5><i class="fa-solid fa-person-chalkboard"></i> Handover Walkthrough</h5>
                     </div>
                     <p>
-                        A complete walkthrough of the installed kitchen is conducted,
-                        along with hands-on training for efficient usage and
-                        maintenance.
+                        Our team gives a complete walkthrough explaining bed assembly, storage usage, and maintenance
+                        steps for long-term comfort and reliability.
                     </p>
                 </div>
             </div>
@@ -299,18 +320,24 @@
 
 
 
+
+
+
+
 <section class="hero">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <h3 class=" fw-bold text-gradient"
+                <h3 class="fw-bold text-gradient"
                     style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                    Looking for Stainless Steel Modular Kitchen? Plan Your Kitchen with Livsatva Interiors!</h3>
-                <p class="  ">There are a number of aspects to consider before you leap in: Space, Storage, Material —
-                    and many more. At Livsatva Interiors, we help you complete your dream kitchen with ease. You are
-                    just <strong>5 steps</strong> away from getting your home a dream kitchen from Livsatva Interiors.
+                    Looking for Stylish Steel Beds 🛏️ & Vanity Units 💄? Design Yours with Livsatva Interiors!
+                </h3>
+                <p>
+                    Whether you’re upgrading your bedroom with a premium steel bed or adding elegance with a modern
+                    vanity unit,
+                    Livsatva Interiors brings you durability, precision, and style.
+                    You are just <strong>5 steps</strong> away from creating your dream furniture setup.
                 </p>
-
             </div>
         </div>
 
@@ -326,7 +353,10 @@
                     <div class="icon"><i class="fa-solid fa-calculator"></i></div>
                     <div class="content">
                         <div class="title">Estimation</div>
-                        <div class="subtitle">We begin with a clear cost estimation based on requirements.</div>
+                        <div class="subtitle">
+                            We start with a clear estimate based on your space, size preferences, and design
+                            requirements for both beds and vanity units.
+                        </div>
                     </div>
                 </div>
 
@@ -335,7 +365,10 @@
                     <div class="icon"><i class="fa-solid fa-pencil-ruler"></i></div>
                     <div class="content">
                         <div class="title">Design & Customization</div>
-                        <div class="subtitle">Our team creates 2D/3D designs tailored to your needs.</div>
+                        <div class="subtitle">
+                            Our experts create 2D/3D designs — whether it’s your bed’s frame layout or vanity mirror
+                            setup, we ensure perfect fit and style.
+                        </div>
                     </div>
                 </div>
 
@@ -344,7 +377,10 @@
                     <div class="icon"><i class="fa-solid fa-check-circle"></i></div>
                     <div class="content">
                         <div class="title">Customer Approval</div>
-                        <div class="subtitle">Production begins only after your final approval.</div>
+                        <div class="subtitle">
+                            We proceed only after your final approval of the bed and vanity design, finishes, and
+                            layout.
+                        </div>
                     </div>
                 </div>
 
@@ -352,8 +388,11 @@
                     <div class="step-number">4</div>
                     <div class="icon"><i class="fa-solid fa-industry"></i></div>
                     <div class="content">
-                        <div class="title">State-of-the-Art Production</div>
-                        <div class="subtitle">Manufactured with advanced machinery & superior quality.</div>
+                        <div class="title">Fabrication & Assembly</div>
+                        <div class="subtitle">
+                            Precision steel fabrication ensures strong bed frames and sleek vanity units — with smooth
+                            joints, fine edges, and powder-coated finishes.
+                        </div>
                     </div>
                 </div>
 
@@ -361,8 +400,11 @@
                     <div class="step-number">5</div>
                     <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
                     <div class="content">
-                        <div class="title">On-Time Delivery</div>
-                        <div class="subtitle">Delivered & installed within the committed timeline.</div>
+                        <div class="title">Delivery & Installation</div>
+                        <div class="subtitle">
+                            Both your bed and vanity unit are safely delivered and installed on time — with perfect
+                            alignment and finishing touch.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -371,111 +413,26 @@
                 <div class="d-flex justify-content-between align-items-start">
                     <div>
                         <h5 id="detailTitle">Make An Enquiry</h5>
-                        <p class="muted-note mb-2" id="detailSubtitle">Enquire via our website, WhatsApp, call us or
-                            just walk in to any of our outlet.</p>
-                        <p class="mb-0"><strong>Contact Livsatva Interiors engineers</strong></p>
+                        <p class="muted-note mb-2" id="detailSubtitle">
+                            Contact us via our website or WhatsApp to design your personalized steel bed or vanity unit.
+                        </p>
+                        <p class="mb-0"><strong>Contact Livsatva Interiors Experts</strong></p>
                     </div>
                     <div class="text-end">
                         <div class="small text-muted">Step <span id="currentStep">1</span> of 5</div>
                         <div class="fw-bold fs-5"
                             style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                            Ready?</div>
-                        <!-- <a href="#" class="btn btn-primary btn-lg" style="background:var(--s); border:none">Make An Enquiry <i class="fa-solid fa-arrow-right ms-2"></i></a> -->
-
-                    </div>
-                </div>
-
-                <div class="d-flex gap-2 mt-3">
-                    <button id="prevBtn" class="btn btn-outline-secondary" disabled><i
-                            class="fa-solid fa-chevron-left me-1"></i> Prev</button>
-                    <button id="nextBtn" class="btn btn-outline-secondary">Next <i
-                            class="fa-solid fa-chevron-right ms-1"></i></button>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-8 offset-md-2 offset-0 col-12 text-center">
-                <form id="contact-form" method="post" action="contact.php">
-                    <div class="section-head">
-                        <h6 class="custom-font">Contact Us</h6>
-                        <h2 class="playfont cta_heading">Book Design Consultation</h2>
-                    </div>
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-                        <div class="row">
-                            <!-- Left Column -->
-                            <div class="col-md-6">
-                                <!-- Name -->
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-user"></i>
-                                        <input id="form_name" type="text" name="name" placeholder="Name" required
-                                            minlength="3" pattern="[A-Za-z\s]+"
-                                            title="Name should contain only letters and spaces">
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6">
-
-                                <!-- Mobile Number -->
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-phone"></i>
-                                        <input id="form_phone" type="tel" name="phone" placeholder="Mobile Number"
-                                            required pattern="[0-9]{10}"
-                                            title="Please enter a valid 10-digit mobile number">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Email -->
-                            <div class="col-md-6">
-
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-envelope"></i>
-                                        <input id="form_email" type="email" name="email" placeholder="Email" required
-                                            title="Enter a valid email address">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Right Column -->
-                            <div class="col-md-6">
-                                <!-- Location -->
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <input id="form_location" type="text" name="location" placeholder="Location"
-                                            required minlength="2">
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- Message -->
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-comment-dots" style="top: 20%;"></i>
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                                            required minlength="5"></textarea>
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn-curve btn-color"><span>Send Message</span></button>
-                            </div>
+                            Ready?
                         </div>
                     </div>
-                </form>
-
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
@@ -483,30 +440,33 @@ const stepsData = {
 
     1: {
         title: 'Estimation',
-        subtitle: 'We begin by providing a clear and transparent cost estimation based on customer requirements.',
-        note: 'transparent quotation for your needs'
+        subtitle: 'We begin by providing a clear and transparent cost estimation based on your steel bed or vanity unit design, dimensions, and material requirements.',
+        note: 'transparent quotation for your furniture project'
     },
     2: {
         title: 'Design & Customization',
-        subtitle: 'Once the order is confirmed, our design team creates detailed 2D/3D designs tailored to the customer’s needs.',
-        note: 'personalized 2D/3D designs'
+        subtitle: 'Once the order is confirmed, our design experts prepare precise 2D/3D layouts for your customized bed or vanity unit, ensuring it fits your space perfectly.',
+        note: 'personalized 2D/3D furniture designs'
     },
     3: {
         title: 'Customer Approval',
-        subtitle: 'The designs are shared with the customer, and production begins only after final approval.',
-        note: 'production after your approval'
+        subtitle: 'We share the final bed or vanity unit design for your review, and production begins only after your complete approval and satisfaction.',
+        note: 'production starts after your design approval'
     },
     4: {
-        title: 'State-of-the-Art Production',
-        subtitle: 'Using advanced machinery and precision engineering, we manufacture the furniture with superior quality and finish.',
-        note: 'advanced machinery & precision work'
+        title: 'Precision Fabrication',
+        subtitle: 'Using advanced steel fabrication machinery and high-quality materials, we craft your bed and vanity unit with precision, strength, and a flawless finish.',
+        note: 'crafted with advanced fabrication technology'
     },
     5: {
         title: 'On-Time Delivery',
-        subtitle: 'The final product is delivered and installed within the committed timeline, ensuring a smooth and hassle-free experience.',
-        note: 'delivered & installed on time'
+        subtitle: 'Your steel bed and vanity unit are safely delivered and installed within the committed timeline, ensuring a smooth and worry-free experience.',
+        note: 'on-time delivery & professional installation'
     }
+
 };
+
+
 
 
 const steps = Array.from(document.querySelectorAll('.step'));
@@ -582,10 +542,7 @@ updateUI();
             <!-- filter links -->
             <div class="filtering text-center col-12">
                 <div class="filter box">
-                    <span data-filter='*' class="active">All</span>
-                    <span data-filter='.Lshape'>L shape Kitchen</span>
-                    <span data-filter='.ushape'>U shape Kitchen</span>
-                    <span data-filter='.Linear'>Linear Kitchen</span>
+                    <span data-filter='*' class="active">Beds and Vanity Units Gallery</span>
                 </div>
             </div>
         </div>
@@ -594,132 +551,117 @@ updateUI();
         <div class="row gallery twsty inf-lit full-width">
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="assets/images/ushape.webp">
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other1.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/ushape.webp">
+                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/other1.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic U-shape</h5>
-                    <span>U-shape Design</span>
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Modern Design</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="assets/images/ushape2.webp">
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other2.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/ushape2.webp">
+                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/other2.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic U-shape</h5>
-                    <span>U-shape Design</span>
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Contemporary Finish</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="assets/images/ushape3.webp">
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other3.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/ushape3.webp">
+                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/other3.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic L-shape</h5>
-                    <span>L-shape Design</span>
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Space-Saving Design</span>
+                </div>
+            </div>
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other4.png">
+                    <div class="item-img-overlay">
+                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/other4.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Modern Design</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Lshape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/lshape1.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/lshape1.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other5.png">
+                    <div class="item-img-overlay">
+                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/other5.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Choose Your Dream</h5>
-                    <span>Architecture</span>
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Contemporary Finish</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Linear  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/linear3.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/linear3.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other6.png">
+                    <div class="item-img-overlay">
+                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/other6.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Luxury Villa</h5>
-                    <span>Architecture</span>
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Space-Saving Design</span>
+                </div>
+            </div>
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other7.png">
+                    <div class="item-img-overlay">
+                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/other7.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Modern Design</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Lshape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/lshape3.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/lshape3.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other8.png">
+                    <div class="item-img-overlay">
+                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/other8.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Choose Your Dream</h5>
-                    <span>Architecture</span>
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Contemporary Finish</span>
                 </div>
             </div>
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items ushape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/ushape4.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/ushape4.webp" alt="">
+            <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
+                <div class="item-img bg-img" data-background="assets/img/products/other9.png">
+                    <div class="item-img-overlay">
+                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/other9.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Fantastic L-shape</h5>
-                    <span>L-shape Design</span>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Lshape  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/lshape2.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/lshape2.webp" alt="">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Choose Your Dream</h5>
-                    <span>Architecture</span>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Linear  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/linear1.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/linear1.webp" alt="">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Luxury Villa</h5>
-                    <span>Architecture</span>
-                </div>
-            </div>
-
-            <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items Linear  mt-25">
-                <div class="item-img bg-img" data-background="./assets/images/linear2.webp">
-                    <div class="item-img-overlay valign">
-                        <img src="./assets/images/linear2.webp" alt="">
-                    </div>
-                </div>
-                <div class="info mt-10">
-                    <h5>Luxury Villa</h5>
-                    <span>Architecture</span>
+                    <h5>Beds and Vanity Units</h5>
+                    <span>Space-Saving Design</span>
                 </div>
             </div>
 
@@ -730,12 +672,13 @@ updateUI();
 
 
 
+
 <!-- FAQ Section -->
 <section class="faq-section py-5 bg-light">
     <div class="container">
         <div class="text-center mb-4">
             <h2 class="fw-bold">Frequently Asked Questions</h2>
-            <p class="text-muted">Find quick answers to common questions about our modular kitchens.</p>
+            <p class="text-muted">Find quick answers to common questions about our steel beds and vanity units.</p>
         </div>
 
         <div class="row">
@@ -747,15 +690,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq1-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
-                                What is the purpose of steel in the kitchen?
+                                Why choose steel for beds and vanity units?
                             </button>
                         </h2>
                         <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-heading"
                             data-bs-parent="#faqLeft">
                             <div class="accordion-body">
-                                Stainless steel’s exceptional corrosion resistance means that kitchens don’t have to
-                                worry about damage due to spills, steam, or food products. This resistance also benefits
-                                usage outside the kitchen.
+                                Steel beds and vanity units are durable, resistant to corrosion, and easy to maintain.
+                                They offer a sleek, modern look while ensuring long-lasting strength.
                             </div>
                         </div>
                     </div>
@@ -765,15 +707,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq2-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                Which steel is best for modular kitchen?
+                                What types of steel are used?
                             </button>
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading"
                             data-bs-parent="#faqLeft">
                             <div class="accordion-body">
-                                304 stainless steel is the most common form of stainless steel used worldwide due to
-                                excellent corrosion resistance and durability. It’s easy to sanitize and ideal for
-                                kitchens.
+                                We primarily use high-quality stainless steel (304 grade) for beds and vanity units,
+                                ensuring corrosion resistance, durability, and a premium finish.
                             </div>
                         </div>
                     </div>
@@ -783,14 +724,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq3-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                How much do the kitchens cost?
+                                How much does a steel bed or vanity unit cost?
                             </button>
                         </h2>
                         <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading"
                             data-bs-parent="#faqLeft">
                             <div class="accordion-body">
-                                The price depends on size, material, accessories, and products used. Fill out the
-                                enquiry form to get a call back from our team.
+                                Prices vary depending on size, design, steel grade, and accessories. Contact us to get a
+                                customized quotation for your space.
                             </div>
                         </div>
                     </div>
@@ -805,14 +746,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq4-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                What warranty do you offer?
+                                What warranty do steel beds and vanity units have?
                             </button>
                         </h2>
                         <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading"
                             data-bs-parent="#faqRight">
                             <div class="accordion-body">
-                                We offer a 15-year warranty* (conditions apply) along with maintenance services to keep
-                                your kitchen in top condition.
+                                We offer a 10-year warranty* (conditions apply) along with maintenance guidance to
+                                ensure your furniture remains in perfect condition.
                             </div>
                         </div>
                     </div>
@@ -822,14 +763,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq5-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                                What kitchen shutter options are available?
+                                Can beds and vanity units be customized?
                             </button>
                         </h2>
                         <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading"
                             data-bs-parent="#faqRight">
                             <div class="accordion-body">
-                                We offer shutters in Stainless Steel, Galvanized Steel, Ceramic/Porcelain, Lacquered
-                                Glass, and more in a wide range of colors.
+                                Yes, our steel beds and vanity units can be customized in terms of size, design, finish,
+                                storage compartments, and color to suit your space.
                             </div>
                         </div>
                     </div>
@@ -839,14 +780,14 @@ updateUI();
                         <h2 class="accordion-header" id="faq6-heading">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                                How long does it take to make a kitchen?
+                                How long does it take to deliver and install?
                             </button>
                         </h2>
                         <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading"
                             data-bs-parent="#faqRight">
                             <div class="accordion-body">
-                                Delivery is usually within 30–45 working days after order finalization and advance
-                                payment, depending on material and season.
+                                Delivery and installation typically take 15–30 working days after order confirmation,
+                                depending on design complexity and customization.
                             </div>
                         </div>
                     </div>
@@ -855,6 +796,7 @@ updateUI();
         </div>
     </div>
 </section>
+
 
 
 

@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="./assets/img/wardrobe/crockery.png" alt="Modular Crockery Unit" />
+                                <img src="./assets/img/products/crockery5.png" alt="Modular Crockery Unit" />
                             </div>
                         </div>
                     </div>
@@ -578,10 +578,7 @@ updateUI();
             <!-- filter links -->
             <div class="filtering text-center col-12">
                 <div class="filter box">
-                    <span data-filter='*' class="active">All</span>
-                    <span data-filter='.sliding'>Sliding Wardrobe</span>
-                    <span data-filter='.hinged'>Hinged Wardrobe</span>
-                    <span data-filter='.corner'>Corner Wardrobe</span>
+                    <span data-filter='*' class="active">Crockery Gallery</span>
                 </div>
             </div>
         </div>
@@ -590,103 +587,118 @@ updateUI();
         <div class="row gallery twsty inf-lit full-width">
 
             <!-- gallery item -->
-            <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/sliding.jpg">
+            <div class="col-lg-4 col-md-6 col-sm-6 items mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery1.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/sliding.jpg">
+                        <img alt="Modern Crockery Unit" src="./assets/img/products/crockery1.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Modern Sliding Wardrobe</h5>
-                    <span>Sleek Sliding Doors</span>
+                    <h5>Modern Crockery Unit</h5>
+                    <span>Elegant Design for Dining Spaces</span>
                 </div>
             </div>
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/holding.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery2.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/holding.jpg">
+                        <img alt="Glass Display Crockery Unit" src="./assets/img/products/crockery2.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Classic Hinged Wardrobe</h5>
-                    <span>Elegant Hinged Design</span>
+                    <h5>Glass Display Crockery Unit</h5>
+                    <span>Showcase Your Collection in Style</span>
                 </div>
             </div>
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/corner2.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery3.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/corner2.webp">
+                        <img alt="Corner Crockery Cabinet" src="./assets/img/products/crockery3.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Corner Wardrobe with Storage</h5>
-                    <span>Functional Corner Design</span>
+                    <h5>Corner Crockery Cabinet</h5>
+                    <span>Space-Saving Functional Design</span>
                 </div>
             </div>
+
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/sliding1.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery4.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/sliding1.jpg">
+                        <img alt="Luxury Crockery Unit" src="./assets/img/products/crockery4.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Luxury Sliding Wardrobe</h5>
-                    <span>Premium Sliding Doors</span>
+                    <h5>Luxury Crockery Unit</h5>
+                    <span>Premium Finish with Glass Doors</span>
                 </div>
             </div>
+
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/sliding3.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery5.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/sliding1.jpg">
+                        <img alt="Wooden Crockery Unit" src="./assets/img/products/crockery5.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Luxury Sliding Wardrobe</h5>
-                    <span>Premium Sliding Doors</span>
+                    <h5>Wooden Crockery Unit</h5>
+                    <span>Classic Wooden Finish</span>
                 </div>
             </div>
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/holding1.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery6.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/holding1.jpg">
+                        <img alt="Compact Crockery Shelf" src="./assets/img/products/crockery6.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Elegant Hinged Wardrobe</h5>
-                    <span>Stylish Hinged Doors</span>
+                    <h5>Compact Crockery Shelf</h5>
+                    <span>Perfect for Modern Apartments</span>
                 </div>
             </div>
+
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/holding2.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery7.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/wardrobe/holding1.jpg">
+                        <img alt="Minimal Crockery Unit" src="./assets/img/products/crockery7.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Elegant Hinged Wardrobe</h5>
-                    <span>Stylish Hinged Doors</span>
+                    <h5>Minimal Crockery Unit</h5>
+                    <span>Simple Yet Elegant Design</span>
                 </div>
             </div>
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/wardrobe/corner1.jpg">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery8.png">
                     <div class="item-img-overlay">
-                        <img alt="" src="assets/images/corner2.webp">
+                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery8.png">
                     </div>
                 </div>
                 <div class="info mt-10">
-                    <h5>Corner Wardrobe with Storage</h5>
-                    <span>Functional Corner Design</span>
+                    <h5>Contemporary Crockery Unit</h5>
+                    <span>Stylish Blend of Function & Design</span>
+                </div>
+            </div>
+            <!-- gallery item -->
+            <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery9.png">
+                    <div class="item-img-overlay">
+                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery9.png">
+                    </div>
+                </div>
+                <div class="info mt-10">
+                    <h5>Contemporary Crockery Unit</h5>
+                    <span>Stylish Blend of Function & Design</span>
                 </div>
             </div>
 
