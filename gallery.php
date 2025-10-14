@@ -4,7 +4,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/images/contact-ban.webp"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/woder1.png"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">

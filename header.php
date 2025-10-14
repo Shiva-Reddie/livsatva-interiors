@@ -186,15 +186,14 @@ $site_url = 'https://localhost/livsatva-interiors/';
 
 
                     <li class="nav-item">
-                        <a href="<?php echo $site_url; ?>book-a-home-visit.php"
-                            class="btn-curve btn-color mt-lg-3 me-2">
+                        <a href="<?php echo $site_url; ?>book-a-home-visit.php" class="btn-curve bg mt-lg-4 me-2">
                             <span>Book a Home Visit</span>
                         </a>
                         <!-- <a class="nav-link " href="<?php echo $site_url; ?>book-a-home-visit.php">Book a Home Visit</a> -->
                     </li>
 
                     <li class="nav-item">
-                        <a href="<?php echo $site_url; ?>book-a-home-visit.php" class="btn-curve btn-color mt-lg-3">
+                        <a href="<?php echo $site_url; ?>book-a-home-visit.php" class="btn-curve bg mt-lg-4">
                             <span>Book a Showroom
                                 Visit</span>
                         </a>

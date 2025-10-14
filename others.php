@@ -5,7 +5,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="img/portfolio/project1/bg.jpg"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/other1.png"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">

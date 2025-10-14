@@ -87,7 +87,7 @@
 }
 
 .accordion-button {
-      border-radius: 5px;
+    border-radius: 5px;
     /* margin-bottom: 15px; */
     background: linear-gradient(180deg, #fff, #fbfbff);
     /* border: 1px solid #ececec; */
@@ -122,10 +122,11 @@
 
 
 .faq-item {
-       margin-bottom: 20px !important;
+    margin-bottom: 20px !important;
     box-shadow: 1px 1px 4px 0px #0000002b;
     border-radius: 10px;
 }
+
 /* small screens tweak */
 @media (max-width: 991.98px) {
     .faq-visual {
@@ -142,7 +143,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/images/contact-ban.webp"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/office12.png"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -173,7 +174,7 @@
         <div class="card faq-card">
             <div class="row g-0">
                 <!-- Left: Visual / model -->
-           
+
 
                 <!-- Right: FAQ content -->
                 <div class="col-lg-12">
@@ -183,7 +184,7 @@
                                 <h2 class="mb-0" style="color:var(--deep-blue)">Frequently Asked Questions</h2>
                                 <small class="text-muted">Quick answers to common queries</small>
                             </div>
-                      
+
                         </div>
 
 

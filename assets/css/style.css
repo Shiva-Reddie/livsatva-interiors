@@ -1434,9 +1434,16 @@ body {
 
 [data-overlay-dark]:before {
     background: #02050b;
+    background: #01508c3d;
+      background: #012346;
+    background: #01508cba;
+    
+}
+[data-overlay-dark1]:before {
+    background: #02050b;
     /* background: #012346; */
     background: #01508c;
-     background: #01508c7d;
+     background: #01508c3d;
 }
 
 
@@ -1619,6 +1626,19 @@ body {
     cursor: pointer;
     border-radius: 3px;
 }
+.btn-curve.bg {
+    background: transparent;
+    padding: 4px 25px;
+    border: 1px solid var(--s);
+    font-family: "Teko", sans-serif;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
 
 .btn-curve:focus {
     outline: none;
@@ -1657,7 +1677,7 @@ body {
 
 .btn-curve span {
     font-size: 15px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
     z-index: 2;
@@ -5242,7 +5262,7 @@ body {
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--p);
+    color: #555;
 }
 
 .input-with-icon input,

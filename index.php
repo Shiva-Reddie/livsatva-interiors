@@ -8,7 +8,7 @@
             <!-- SLIDER ITEM -->
             <div class="cta__slider-item swiper-slide" style="background-image: url(assets/images/ban1.webp);">
                 <div class="media-wrapper slide-inner valign">
-                    <div class="bg-img" data-background="assets/img/slid/01.jpg" data-overlay-dark="5"></div>
+                    <div class="bg-img" data-background="assets/img/slid/01.jpg" data-overlay-dark1="5"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
@@ -44,7 +44,7 @@
             <!-- SLIDER ITEM -->
             <div class="cta__slider-item swiper-slide" style="background-image: url(assets/images/wardrobes-ban.webp);">
                 <div class="media-wrapper slide-inner valign">
-                    <div class="bg-img" data-background="assets/img/slid/02.jpg" data-overlay-dark="5"></div>
+                    <div class="bg-img" data-background="assets/img/slid/02.jpg" data-overlay-dark1="5"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
@@ -74,7 +74,7 @@
             <!-- SLIDER ITEM -->
             <div class="cta__slider-item swiper-slide" style="background-image: url(assets/images/ban3.webp);">
                 <div class="media-wrapper slide-inner valign">
-                    <div class="bg-img" data-background="assets/img/slid/03.jpg" data-overlay-dark="5"></div>
+                    <div class="bg-img" data-background="assets/img/slid/03.jpg" data-overlay-dark1="5"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
