@@ -58,36 +58,36 @@
                 <div class="item fotcont mb-2">
                     <div class="ads">
                         <lord-icon src="https://cdn.lordicon.com/rhvddzym.json" trigger="loop" colors="primary:#fff"
-                            style="width:35px;height:35px"></lord-icon>
+                            style="width:30px;height:30px"></lord-icon>
                         <a>info@livsatvainteriors.com</a>
                     </div>
 
                 </div>
-                <div class="item fotcont mb-2">
+                <div class="item fotcont">
                     <!-- <p>livsatvainteriors@gmail.com</p> -->
-                    <div>
+                    <div class="ads mb-2">
                         <lord-icon src="https://cdn.lordicon.com/tftaqjwp.json" trigger="loop" colors="primary:#fff"
-                            style="width:25px;height:25px"></lord-icon>
+                            style="width:30px;height:20px"></lord-icon>
                         <a href="">9492920955</a>
                     </div>
-                    <div>
+                    <div class="ads mb-2">
                         <lord-icon src="https://cdn.lordicon.com/tftaqjwp.json" trigger="loop" colors="primary:#fff"
-                            style="width:30px;height:30px"></lord-icon>
+                            style="width:30px;height:20px"></lord-icon>
                         <a href="">9052611234</a> <br>
                     </div>
-                    <div>
+                    <div class="ads mb-2">
                         <lord-icon src="https://cdn.lordicon.com/tftaqjwp.json" trigger="loop" colors="primary:#fff"
-                            style="width:25px;height:25px"></lord-icon>
+                            style="width:30px;height:20px"></lord-icon>
                         <a href="">9912264824</a>
                     </div>
-                    <br>
+
 
 
                 </div>
                 <div class="item fotcont">
                     <div class="ads">
                         <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="loop" colors="primary:#fff"
-                            style="width:90px;"></lord-icon>
+                            style="width:60px;"></lord-icon>
                         <a><b>Livsatva Interiors</b> <br>
                             SBR Gateway, 4th floor, C9WH+W92, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana -
                             500081.

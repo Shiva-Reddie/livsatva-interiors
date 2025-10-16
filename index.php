@@ -31,9 +31,15 @@
 
 
                                     </p>
-                                    <a href="./contact.php" class="btn-curve btn-color mt-30">
-                                        <span>Book a Free Consultation</span>
+                                    <!-- <a href="./contact.php" class="btn-curve btn-color mt-30">
+                                        <span></span>
+                                    </a> -->
+                                    <a href="#" class="btn-curve btn-color mt-30" data-bs-toggle="modal"
+                                        data-bs-target="#contactModal">
+                                        <span><i class="fa-solid fa-arrow-right me-2"></i>Book a Free
+                                            Consultation</span>
                                     </a>
+
                                 </div>
                             </div>
                         </div>
@@ -61,8 +67,13 @@
                                         low-maintenance spaces that stand the test of time.
 
                                     </p>
-                                    <a href="./book-a-home-visit.php" class="btn-curve btn-color mt-30">
+                                    <!-- <a href="./book-a-home-visit.php" class="btn-curve btn-color mt-30">
                                         <span>Discover Work</span>
+                                    </a> -->
+                                    <a href="#" class="btn-curve btn-color mt-30" data-bs-toggle="modal"
+                                        data-bs-target="#contactModal">
+                                        <span><i class="fa-solid fa-arrow-right me-2"></i>Book a Free
+                                            Consultation</span>
                                     </a>
                                 </div>
                             </div>
@@ -99,8 +110,14 @@
 
 
                                     </p>
-                                    <a href="./book-a-showroom-visit.php" class="btn-curve btn-color mt-30">
+                                    <!-- <a href="./book-a-showroom-visit.php" class="btn-curve btn-color mt-30">
                                         <span>Discover Work</span>
+                                    </a> -->
+
+                                    <a href="#" class="btn-curve btn-color mt-30" data-bs-toggle="modal"
+                                        data-bs-target="#contactModal">
+                                        <span><i class="fa-solid fa-arrow-right me-2"></i>Book a Free
+                                            Consultation</span>
                                     </a>
                                 </div>
                             </div>
@@ -121,6 +138,97 @@
     </div>
     <div class="swiper-pagination top custom-font"></div>
 </header>
+
+<!-- pop up form banner section -->
+<!-- ==================== Start Luxury Contact Form Modal ==================== -->
+<!-- ==================== Start Stylish Contact Modal ==================== -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-12 m-auto">
+            <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content glass-form border-0 position-relative overflow-hidden">
+
+                        <!-- Close Button -->
+                        <button type="button" class="btn-close custom-close" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+
+                        <!-- Form Body -->
+                        <div class="modal-body p-5 text-white">
+                            <div class="text-center mb-4">
+                                <h2 class="fw-bold text-uppercase mb-2">Let’s Talk About Your Project</h2>
+                                <p class="small mb-0">
+                                    Share your details below — our team will connect soon to bring your <b>steel
+                                        interior</b> vision
+                                    to life.
+                                </p>
+                            </div>
+
+                            <form class="row g-3">
+                                <!-- Name -->
+                                <div class="col-md-6">
+                                    <div class="input-group form-glass">
+                                        <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                                        <input type="text" class="form-control" placeholder="Full Name" required>
+                                    </div>
+                                </div>
+
+                                <!-- Phone -->
+                                <div class="col-md-6">
+                                    <div class="input-group form-glass">
+                                        <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                                        <input type="tel" class="form-control" placeholder="Mobile Number"
+                                            pattern="[0-9]{10}" required>
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="col-md-6">
+                                    <div class="input-group form-glass">
+                                        <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                                        <input type="email" class="form-control" placeholder="Email Address" required>
+                                    </div>
+                                </div>
+
+                                <!-- Location -->
+                                <div class="col-md-6">
+                                    <div class="input-group form-glass">
+                                        <span class="input-group-text"><i class="fa-solid fa-location-dot"></i></span>
+                                        <input type="text" class="form-control" placeholder="Location" required>
+                                    </div>
+                                </div>
+
+                                <!-- Message -->
+                                <div class="col-12">
+                                    <div class="input-group form-glass">
+                                        <span class="input-group-text"><i class="fa-solid fa-comment-dots"></i></span>
+                                        <textarea class="form-control" placeholder="Your Message" rows="4"
+                                            required></textarea>
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="col-12 text-center mt-3">
+                                    <button type="submit" class="btn btn-primary px-5 py-2 rounded-pill">
+                                        <i class="fa-solid fa-paper-plane me-2"></i> Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==================== End Stylish Contact Modal ==================== -->
+
+<!-- ==================== End Luxury Contact Form Modal ==================== -->
+
+<!-- pop up form banner section -->
 <!-- ==================== End Slider ==================== -->
 <!-- ==================== Start Services ==================== -->
 <section class="services">

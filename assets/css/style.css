@@ -1764,6 +1764,81 @@ body {
     border-radius: 30px;
 }
 
+/* pop up form in banner section */
+/* Luxury Glass Effect Form */
+.glass-form {
+    background: #fff;
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+}
+
+.custom-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: var(--p);
+    font-size: 22px;
+    background: transparent;
+    border: none;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.custom-close:hover {
+    transform: rotate(90deg);
+    color: #f8b400;
+}
+
+/* Input Styling */
+.form-glass .form-control {
+    background: #fff;
+    color: #000;
+     border-top-right-radius: 8px;
+     border-bottom-right-radius: 8px;
+    padding: 5px 15px;
+    border: 1px solid var(--s);
+}
+
+.form-glass .form-control:focus {
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(248, 180, 0, 0.5);
+}
+
+.form-glass .input-group-text {
+    background: #fff;
+    color: var(--s);
+    border: 1px solid var(--s);
+    border-top-right-radius: 8px;
+     border-bottom-right-radius: 8px;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--s), var(--p));
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, var(--s), var(--p));
+    transform: scale(1.05);
+}
+
+/* Text Adjustments */
+.modal-body h2 {
+    letter-spacing: 0.5px;
+}
+
+.modal-content {
+    overflow: hidden;
+}
+
+/* pop up form in banner section */
 /* ====================== [ End Button Style ] ====================== */
 /* ====================== [ Start navbar ] ====================== */
 .navbar {
@@ -4777,7 +4852,7 @@ body {
 }
 .ads {
     display: flex;
-    gap: 2px;
+    gap: 5px;
 }
 .main-footer .usful-links ul li {
     font-size: 13px;
