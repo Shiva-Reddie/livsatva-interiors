@@ -5,7 +5,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/crockery4.png"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/crockery4.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -32,7 +32,11 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>Elegant Modular Crockery Units for Organized & Stylish Living</h2>
+                    <h6 class="sub-title">Crockery</h6>
+                    <h2 class="mb-20 playfont">
+                        Elegant Modular Crockery Units for Organized & Stylish Living
+                    </h2>
+
 
                     <div class="text">
                         <p>Our modular crockery solutions are thoughtfully designed to keep your dining and kitchen
@@ -60,11 +64,11 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="./assets/img/products/crockery5.png" alt="Modular Crockery Unit" />
+                                <img src="./assets/img/products/crockery5.jpg" alt="Modular Crockery Unit" />
                             </div>
                         </div>
                     </div>
@@ -133,7 +137,11 @@
 <section class="install-section">
     <div class="container">
         <div class="section-title">
-            <h2>Installation Sequence</h2>
+            <h6 class="sub-title">Crockery</h6>
+            <h2 class="mb-20 playfont">
+                Installation Sequence
+            </h2>
+
             <p class="text-muted">
                 A simple step-by-step process to ensure your modular crockery unit is installed neatly and efficiently.
             </p>
@@ -186,7 +194,10 @@
     <div class="container">
         <div class="section-title">
             <h6 class="sub-title text-white">Ensuring elegance before handover</h6>
-            <h2>Quality Check & Final Finishing</h2>
+
+            <h2 class="mb-20 playfont">
+                Quality Check & Final Finishing
+            </h2>
         </div>
         <div class="row">
             <!-- Card 1 -->
@@ -247,7 +258,12 @@
 <section class="doc-section about bg-gray">
     <div class="container">
         <div class="section-title">
-            <h2>Your Crockery Unit, Ready to Use</h2>
+            <h6 class="sub-title text-white">Crockery</h6>
+
+            <h2 class="mb-20 playfont">
+                Your Crockery Unit, Ready to Use
+            </h2>
+
             <p class="text-muted">
                 Everything you need for hassle-free setup, care, and daily use of your modular crockery unit.
             </p>
@@ -588,9 +604,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery1.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Modern Crockery Unit" src="./assets/img/products/crockery1.png">
+                        <img alt="Modern Crockery Unit" src="./assets/img/products/crockery1.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -601,9 +617,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery2.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery2.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Glass Display Crockery Unit" src="./assets/img/products/crockery2.png">
+                        <img alt="Glass Display Crockery Unit" src="./assets/img/products/crockery2.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -614,9 +630,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery3.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery3.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Corner Crockery Cabinet" src="./assets/img/products/crockery3.png">
+                        <img alt="Corner Crockery Cabinet" src="./assets/img/products/crockery3.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -627,9 +643,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery4.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery4.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Luxury Crockery Unit" src="./assets/img/products/crockery4.png">
+                        <img alt="Luxury Crockery Unit" src="./assets/img/products/crockery4.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -640,9 +656,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery5.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery5.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Wooden Crockery Unit" src="./assets/img/products/crockery5.png">
+                        <img alt="Wooden Crockery Unit" src="./assets/img/products/crockery5.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -653,9 +669,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery6.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery6.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Compact Crockery Shelf" src="./assets/img/products/crockery6.png">
+                        <img alt="Compact Crockery Shelf" src="./assets/img/products/crockery6.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -666,9 +682,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery7.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery7.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Minimal Crockery Unit" src="./assets/img/products/crockery7.png">
+                        <img alt="Minimal Crockery Unit" src="./assets/img/products/crockery7.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -679,9 +695,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery8.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery8.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery8.png">
+                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery8.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -691,9 +707,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery9.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery9.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery9.png">
+                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery9.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">

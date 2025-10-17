@@ -93,9 +93,6 @@
                             500081.
                         </a>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
@@ -119,11 +116,6 @@
 </footer>
 
 <!-- ==================== End Footer ==================== -->
-
-
-
-
-
 
 <!-- jQuery -->
 <script src="<?php echo $site_url; ?>assets/js/jquery-3.0.0.min.js"></script>

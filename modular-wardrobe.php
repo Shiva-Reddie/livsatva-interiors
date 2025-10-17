@@ -5,7 +5,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/woder1.png"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/woder1.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -60,11 +60,11 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="./assets/img/products/woder6.png" alt="Modular Wardrobe" />
+                                <img src="./assets/img/products/woder6.jpg" alt="Modular Wardrobe" />
                             </div>
                         </div>
                     </div>
@@ -744,9 +744,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder1.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder1.png">
+                        <img alt="" src="./assets/img/products/woder1.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -757,9 +757,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder2.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder2.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder2.png">
+                        <img alt="" src="./assets/img/products/woder2.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -770,9 +770,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder3.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder3.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder3.png">
+                        <img alt="" src="./assets/img/products/woder3.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -782,9 +782,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder4.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder4.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder4.png">
+                        <img alt="" src="./assets/img/products/woder4.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -794,9 +794,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder5.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder5.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder5.png">
+                        <img alt="" src="./assets/img/products/woder5.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -807,9 +807,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder6.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder6.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder6.png">
+                        <img alt="" src="./assets/img/products/woder6.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -819,9 +819,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder7.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder7.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder7.png">
+                        <img alt="" src="./assets/img/products/woder7.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -832,9 +832,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder8.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder8.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder8.png">
+                        <img alt="" src="./assets/img/products/woder8.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -844,9 +844,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder9.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder9.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder9.png">
+                        <img alt="" src="./assets/img/products/woder9.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">

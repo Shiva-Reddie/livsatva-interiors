@@ -105,8 +105,11 @@
         </div> -->
         <div class="row justify-content-center mb-5">
             <div class="col-lg-12 text-center">
-                <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Our Mission & vision</h6>
-                <h2 class="playfont wow flipInX" data-wow-delay=".5s">Our Philosophy</h2>
+
+                <h6 class="sub-title">Our Mission & vision</h6>
+                <h2 class="mb-20 playfont">
+                    Our Philosophy
+                </h2>
             </div>
         </div>
 
@@ -254,8 +257,11 @@
         <!-- Section Heading -->
 
         <div class="text-center mb-4">
-            <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Our Expertise</h6>
-            <h2 class="playfont wow flipInX" data-wow-delay=".5s">What We Do Best</h2>
+
+            <h6 class="sub-title">Our Expertise</h6>
+            <h2 class="mb-20 playfont">
+                What We Do Best
+            </h2>
         </div>
 
 
@@ -339,8 +345,11 @@
         <div class="section-head text-center">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10">
-                    <h6 class="custom-font">Creative Minds</h6>
-                    <h4 class="playfont">Our Employees</h4>
+
+                    <h6 class="sub-title">Creative Minds</h6>
+                    <h2 class="mb-20 playfont">
+                        Our Employees
+                    </h2>
                 </div>
             </div>
         </div>

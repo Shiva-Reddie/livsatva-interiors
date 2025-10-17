@@ -40,8 +40,10 @@
                         <span class="icon pe-7s-phone"></span>
                         <div class="cont">
                             <h6 class="custom-font">Call Us</h6>
-                            <p>+7 (111) 1234 56789</p>
-                            <p>+1 (000) 9876 54321</p>
+                            <p><a href="tel:+919492920955">+91 94929 20955</a></p>
+                            <p><a href="tel:+919052611234">+91 90526 11234</a></p>
+                            <p><a href="tel:+919912264824">+91 99122 64824</a></p>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -50,8 +52,10 @@
                         <span class="icon pe-7s-mail-open"></span>
                         <div class="cont">
                             <h6 class="custom-font">Email Us</h6>
-                            <p>contact@Archo.com</p>
-                            <p>Username@website.com</p>
+                            <p><a href="">info@livsatvainteriors.com</a></p>
+                            <br>
+                            <br>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -60,7 +64,12 @@
                         <span class="icon pe-7s-map"></span>
                         <div class="cont">
                             <h6 class="custom-font">Address</h6>
-                            <p>B17 Princess Road, London, Greater London NW18JR, United Kingdom</p>
+                            <p> <a><b>Livsatva Interiors</b> <br>
+                                    SBR Gateway, 4th floor, C9WH+W92, HUDA Techno Enclave, HITEC City, Hyderabad,
+                                    Telangana
+                                    -
+                                    500081.
+                                </a></p>
                         </div>
                     </div>
                 </div>

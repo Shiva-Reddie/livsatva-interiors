@@ -5,7 +5,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/tv1.png"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/tv1.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -33,7 +33,11 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>Stylish Steel & Metal TV Unit Designs for a Modern Living Experience!</h2>
+                    <h6 class="sub-title">Steel & Metal Partition Components</h6>
+                    <h2 class="mb-20 playfont">
+                        Stylish Steel & Metal TV Unit Designs for a Modern Living Experience!
+                    </h2>
+
 
                     <div class="text">
                         <p>Upgrade your living room with Livsatva Interiors’ premium steel and metal TV unit designs
@@ -52,11 +56,11 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="assets/img/products/tv6.png" alt="Steel Metal TV Unit Design" />
+                                <img src="assets/img/products/tv6.jpg" alt="Steel Metal TV Unit Design" />
                             </div>
                         </div>
                     </div>
@@ -125,6 +129,8 @@
 <section class="install-section">
     <div class="container">
         <div class="section-title">
+            <h6 class="sub-title">Steel & Metal TV Unit Components</h6>
+
             <h2>Installation Sequence</h2>
             <p class="text-muted">
                 A step-by-step process to ensure smooth and precise steel & metal TV unit installation.
@@ -240,6 +246,7 @@
 <section class="doc-section about bg-gray">
     <div class="container">
         <div class="section-title">
+            <h6 class="sub-title">Steel & Metal TV Unit Components</h6>
             <h2>Documentation & Handover</h2>
             <p class="text-muted">
                 Providing all necessary documents, guidance, and support for a smooth and confident handover of your
@@ -594,9 +601,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv-7.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv-7.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/tv-7.png">
+                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/tv-7.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -607,9 +614,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv-8.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv-8.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/tv-8.png">
+                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/tv-8.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -620,9 +627,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv-9.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv-9.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/tv-9.png">
+                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/tv-9.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -632,9 +639,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv1.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv1.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/tv1.png">
+                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/tv1.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -645,9 +652,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv10.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv10.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/tv10.png">
+                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/tv10.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -658,9 +665,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv11.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv11.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/tv11.png">
+                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/tv11.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -670,9 +677,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv12.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv12.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/tv12.png">
+                        <img alt="Steel Metal TV Unit 1" src="assets/img/products/tv12.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -683,9 +690,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv13.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv13.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/tv13.png">
+                        <img alt="Steel Metal TV Unit 2" src="assets/img/products/tv13.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -696,9 +703,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tvunit mt-25">
-                <div class="item-img bg-img" data-background="assets/img/products/tv14.png">
+                <div class="item-img bg-img" data-background="assets/img/products/tv14.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/tv14.png">
+                        <img alt="Steel Metal TV Unit 3" src="assets/img/products/tv14.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -713,12 +720,11 @@ updateUI();
 
 
 
-
-
 <!-- FAQ Section -->
 <section class="faq-section py-5 bg-light">
     <div class="container">
         <div class="text-center mb-4">
+            <h6 class="sub-title">Steel & Metal TV Unit Components</h6>
             <h2 class="fw-bold">Frequently Asked Questions</h2>
             <p class="text-muted">Find quick answers to common questions about our steel metal TV units.</p>
         </div>

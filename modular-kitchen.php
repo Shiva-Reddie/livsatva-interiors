@@ -33,7 +33,9 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>The Best Modular Kitchen Designs with a Wide Range of Customization Options!</h2>
+                    <h6 class="sub-title">Kitchen</h6>
+                    <h2 class="mb-20 playfont">The Best Modular Kitchen Designs with a Wide Range of Customization
+                        Options!</h2>
 
                     <div class="text">
                         <p>When it comes to creating a kitchen that combines style, functionality, and durability,
@@ -51,7 +53,7 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
@@ -122,7 +124,11 @@
 <section class="install-section">
     <div class="container">
         <div class="section-title">
-            <h2>Installation Sequence</h2>
+            <h6 class="sub-title">Kitchen</h6>
+            <h2 class="mb-20 playfont">
+                Installation Sequence
+            </h2>
+
             <p class="text-muted">
                 A step-by-step process to ensure smooth and efficient kitchen
                 installation.
@@ -240,7 +246,11 @@
 <section class="doc-section about bg-gray">
     <div class="container">
         <div class="section-title">
-            <h2>Documentation & Handover</h2>
+            <h6 class="sub-title">Kitchen</h6>
+            <h2 class="mb-20 playfont">
+                Documentation & Handover
+            </h2>
+
             <p class="text-muted">
                 Providing all necessary documents, guidance, and training for a
                 smooth handover.
@@ -734,7 +744,11 @@ updateUI();
 <section class="faq-section py-5 bg-light">
     <div class="container">
         <div class="text-center mb-4">
-            <h2 class="fw-bold">Frequently Asked Questions</h2>
+            <h6 class="sub-title">Kitchen</h6>
+            <h2 class="mb-20 playfont">
+                Frequently Asked Questions
+            </h2>
+
             <p class="text-muted">Find quick answers to common questions about our modular kitchens.</p>
         </div>
 

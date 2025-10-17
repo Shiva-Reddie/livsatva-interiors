@@ -1436,7 +1436,7 @@ body {
     background: #02050b;
     background: #01508c3d;
       background: #012346;
-    background: #01508cba;
+    /* background: #01508cba; */
     
 }
 [data-overlay-dark1]:before {
@@ -1565,7 +1565,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 14px;
-    padding-left: 60px;
+    /* padding-left: 60px; */
     letter-spacing: 4px;
     margin-bottom: 0px;
     position: relative;
@@ -1579,6 +1579,7 @@ body {
     position: absolute;
     left: 0;
     top: 50%;
+    display: none;
 }
 
 .extra-title {
@@ -1629,13 +1630,13 @@ body {
 .btn-curve.bg {
     background: transparent;
     padding: 4px 25px;
-    border: 1px solid var(--s);
+    border: 1px solid #cacaca;
     font-family: "Teko", sans-serif;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     border-radius: 3px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -1666,7 +1667,7 @@ body {
     left: -30px;
     right: -30px;
     bottom: 130%;
-    background: #1e1e1e;
+    background: var(--s);
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -1684,7 +1685,8 @@ body {
     -webkit-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
-    font-weight: 600;
+    font-weight: 500;
+    color: var(--p);
 }
 
 .btn-curve.btn-lit {
@@ -5337,7 +5339,7 @@ body {
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: #555;
+    color:#5555554f;
 }
 
 .input-with-icon input,
@@ -5351,7 +5353,7 @@ body {
 }
 .form-sec {
     padding: 50px;
-    border: 5px solid var(--s);
+    border: 1px solid #cacaca;
     border-radius: 8px;
 }
 

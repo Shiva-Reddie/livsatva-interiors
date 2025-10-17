@@ -417,7 +417,7 @@
                      </div>
                      </div> -->
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
+                            <div class="img wow imago  image-anime reveal">
                                 <img src="assets/images/kitchen1.webp" alt="" />
                             </div>
                         </div>
@@ -442,7 +442,7 @@
                      </div>
                      </div> -->
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
+                            <div class="img wow imago  image-anime reveal">
                                 <img src="assets/images/Wardrobes.webp" alt="" />
                             </div>
                         </div>
@@ -525,8 +525,8 @@
                      </div>
                      </div> -->
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="assets/img/products/partition3.png" alt="" />
+                            <div class="img wow imago  image-anime reveal">
+                                <img src="assets/img/products/partition3.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -585,8 +585,8 @@
                      </div>
                      </div> -->
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="assets/img/products/tv3.png" alt="" />
+                            <div class="img wow imago  image-anime reveal">
+                                <img src="assets/img/products/tv3.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -632,7 +632,7 @@
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="assets/img/products/office8.png" alt="" />
+                                <img src="assets/img/products/office8.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -654,13 +654,13 @@
                             <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
                         </div>
                         <div class="col-md-8 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img mb-20 wow imago">
-                                <img src="assets/img/products/other1.png" alt="" />
+                            <div class="img mb-20 wow imago  image-anime reveal">
+                                <img src="assets/img/products/other1.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-md-7 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="img wow imago">
-                                <img src="assets/img/products/other5.png" alt="" />
+                            <div class="img wow imago  image-anime reveal">
+                                <img src="assets/img/products/other5.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -753,7 +753,7 @@
         <div class="section-head text-center">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10">
-                    <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">How We Do It</h6>
+                    <h6 class="sub-title" data-wow-delay=".3s">How We Do It</h6>
                     <h2 class="playfont wow flipInX" data-wow-delay=".5s">Why Choose Us</h2>
                 </div>
             </div>
@@ -886,12 +886,14 @@
             <div class="col-lg-5">
                 <div class="tit">
                     <h6 class="custom-font mb-10 wow fadeInDown" data-wow-delay=".3s">Some Thoughts from Us</h6>
-                    <h3 class="wow flipInX" data-wow-delay=".3s">Our People, Our Pride</h3>
+                    <h2 class="playfont wow flipInX" data-wow-delay=".5s">Our People, Our Pride</h2>
                     <p class="wow fadeInUp" data-wow-delay=".3s">
 
                         At Livsatva, our strength lies in our people. We are proud of our expert team members, whose
-                        creativity, dedication, and skill transform every project into a masterpiece. Their passion for
-                        innovation and commitment to quality ensure that each interior we design is functional, durable,
+                        creativity, dedication, and skill transform every project into a masterpiece. Their passion
+                        for
+                        innovation and commitment to quality ensure that each interior we design is functional,
+                        durable,
                         and visually stunning.
                     </p>
                     <div class="navs mt-30 wow fadeInUp" data-wow-delay=".3s">
@@ -1010,7 +1012,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10">
                     <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Testimonials</h6>
-                    <h4 class="playfont wow flipInX" data-wow-delay=".5s">What Our Clients Say</h4>
+                    <h2 class="playfont wow flipInX" data-wow-delay=".5s">What Our Clients Say</h2>
                 </div>
             </div>
         </div>
@@ -1098,42 +1100,42 @@
             <div class="col-lg col-md-3 col-sm-6">
                 <div class="item">
                     <div class="img">
-                        <img src="assets/img/clients/brands/01.png" alt="" />
+                        <img src="assets/img/clients/brands/01.jpg" alt="" />
                     </div>
                 </div>
             </div>
             <div class="col-lg col-md-3 col-sm-6">
                 <div class="item">
                     <div class="img">
-                        <img src="assets/img/clients/brands/02.png" alt="" />
+                        <img src="assets/img/clients/brands/02.jpg" alt="" />
                     </div>
                 </div>
             </div>
             <div class="col-lg col-md-3 col-sm-6">
                 <div class="item">
                     <div class="img">
-                        <img src="assets/img/clients/brands/01.png" alt="" />
+                        <img src="assets/img/clients/brands/01.jpg" alt="" />
                     </div>
                 </div>
             </div>
             <div class="col-lg col-md-3 col-sm-6">
                 <div class="item">
                     <div class="img">
-                        <img src="assets/img/clients/brands/02.png" alt="" />
+                        <img src="assets/img/clients/brands/02.jpg" alt="" />
                     </div>
                 </div>
             </div>
             <div class="col-lg col-md-3 col-sm-6">
                 <div class="item">
                     <div class="img">
-                        <img src="assets/img/clients/brands/01.png" alt="" />
+                        <img src="assets/img/clients/brands/01.jpg" alt="" />
                     </div>
                 </div>
             </div>
             <div class="col-lg col-md-3 col-sm-6">
                 <div class="item">
                     <div class="img">
-                        <img src="assets/img/clients/brands/02.png" alt="" />
+                        <img src="assets/img/clients/brands/02.jpg" alt="" />
                     </div>
                 </div>
             </div>
