@@ -42,8 +42,8 @@
                     <ul>
                         <li><i class="fas fa-chevron-right"></i> <a href="#0"> Modular Kitchen</a></li>
                         <li><i class="fas fa-chevron-right"></i> <a href="#0"> Modular Wardrobe</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Modular crockery</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Office </a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Modular Crockery</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Office Furniture </a></li>
                         <li><i class="fas fa-chevron-right"></i> <a href="#0"> TV Unit</a></li>
                         <li><i class="fas fa-chevron-right"></i> <a href="#0"> Partitions</a></li>
                         <li><i class="fas fa-chevron-right"></i> <a href="#0"> Others</a></li>

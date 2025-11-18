@@ -88,12 +88,12 @@ select.form-control {
         <div class="row">
             <div class="col-lg-12">
                 <div class="cont text-center">
-                    <h1>Book a Home Visit</h1>
+                    <h1>Book a Visit</h1>
                     <p>Let our experts visit your home, take precise measurements, and help design your perfect kitchen.
                     </p>
                     <div class="path">
                         <a href="<?php echo $site_url; ?>">Home</a><span>/</span><a href="#0" class="active">Book a
-                            Home Visit
+                            Visit
                         </a>
                     </div>
                 </div>

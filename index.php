@@ -6,7 +6,7 @@
     <div id="js-cta-slider" class="cta__slider-wrapper nofull swiper-container">
         <div class="swiper-wrapper cta__slider">
             <!-- SLIDER ITEM -->
-            <div class="cta__slider-item swiper-slide" style="background-image: url(assets/images/ban1.webp);">
+            <div class="cta__slider-item swiper-slide" style="background-image: url(assets/img/products/banner-4.png);">
                 <div class="media-wrapper slide-inner valign">
                     <div class="bg-img" data-background="assets/img/slid/01.jpg" data-overlay-dark1="5"></div>
                     <div class="container">
@@ -16,21 +16,19 @@
                                     <span class="top-corn"></span>
                                     <span class="bottom-corn"></span>
                                     <div class="custom-font">
-                                        <h5 class="thin custom-font"> Style that lasts. Strength that endures.</h5>
+                                        <!-- <h5 class="thin custom-font"> Style that lasts. Strength that endures.</h5> -->
                                         <h1 data-splitting="">
                                             <a href="#0">
                                                 Modern Metal Designs
                                             </a>
                                         </h1>
                                     </div>
-                                    <p>
+                                    <!-- <h6>
                                         Discover interiors that combine the strength of metal with the grace of modern
                                         design.
                                         At LivSatva, every kitchen and wardrobe is crafted from premium steel — durable,
                                         sleek, and sustainable.
-
-
-                                    </p>
+                                    </h6> -->
                                     <!-- <a href="./contact.php" class="btn-curve btn-color mt-30">
                                         <span></span>
                                     </a> -->
@@ -48,7 +46,7 @@
             </div>
             <!-- SLIDER ITEM -->
             <!-- SLIDER ITEM -->
-            <div class="cta__slider-item swiper-slide" style="background-image: url(assets/images/wardrobes-ban.webp);">
+            <div class="cta__slider-item swiper-slide" style="background-image: url(assets/img/products/banner-5.png);">
                 <div class="media-wrapper slide-inner valign">
                     <div class="bg-img" data-background="assets/img/slid/02.jpg" data-overlay-dark1="5"></div>
                     <div class="container">
@@ -58,15 +56,15 @@
                                     <span class="top-corn"></span>
                                     <span class="bottom-corn"></span>
                                     <div class="custom-font">
-                                        <h5 class="thin custom-font"> Beautiful today. Brilliant forever.</h5>
+                                        <!-- <h5 class="thin custom-font"> Beautiful today. Brilliant forever.</h5> -->
                                         <h1 data-splitting=""><a href="#0"> Redefining Modern Interiors</a></h1>
                                     </div>
-                                    <p>
+                                    <!-- <h6>
                                         Step into the future of interior design with LivSatva’s all-steel creations.
                                         We replace wood with innovation — creating eco-friendly, termite-free, and
                                         low-maintenance spaces that stand the test of time.
 
-                                    </p>
+                                    </h6> -->
                                     <!-- <a href="./book-a-home-visit.php" class="btn-curve btn-color mt-30">
                                         <span>Discover Work</span>
                                     </a> -->
@@ -83,7 +81,7 @@
             </div>
             <!-- SLIDER ITEM -->
             <!-- SLIDER ITEM -->
-            <div class="cta__slider-item swiper-slide" style="background-image: url(assets/images/ban3.webp);">
+            <div class="cta__slider-item swiper-slide" style="background-image: url(assets/img/products/banner-3.png);">
                 <div class="media-wrapper slide-inner valign">
                     <div class="bg-img" data-background="assets/img/slid/03.jpg" data-overlay-dark1="5"></div>
                     <div class="container">
@@ -93,14 +91,14 @@
                                     <span class="top-corn"></span>
                                     <span class="bottom-corn"></span>
                                     <div class="custom-font">
-                                        <h5 class="thin custom-font">Beautiful. Durable. Sustainable.</h5>
+                                        <!-- <h5 class="thin custom-font">Beautiful. Durable. Sustainable.</h5> -->
                                         <h1 data-splitting="">
                                             <a href="#0">
                                                 Modern Metal Designs for Modern Living
                                             </a>
                                         </h1>
                                     </div>
-                                    <p>
+                                    <!-- <h6>
 
                                         Welcome to LivSatva, where innovation meets elegance.
                                         We create luxurious, long-lasting steel interiors — from modular kitchens to
@@ -109,7 +107,7 @@
 
 
 
-                                    </p>
+                                    </h6> -->
                                     <!-- <a href="./book-a-showroom-visit.php" class="btn-curve btn-color mt-30">
                                         <span>Discover Work</span>
                                     </a> -->
@@ -166,56 +164,7 @@
                                 </p>
                             </div>
 
-                            <form class="row g-3">
-                                <!-- Name -->
-                                <div class="col-md-6">
-                                    <div class="input-group form-glass">
-                                        <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
-                                        <input type="text" class="form-control" placeholder="Full Name" required>
-                                    </div>
-                                </div>
-
-                                <!-- Phone -->
-                                <div class="col-md-6">
-                                    <div class="input-group form-glass">
-                                        <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
-                                        <input type="tel" class="form-control" placeholder="Mobile Number"
-                                            pattern="[0-9]{10}" required>
-                                    </div>
-                                </div>
-
-                                <!-- Email -->
-                                <div class="col-md-6">
-                                    <div class="input-group form-glass">
-                                        <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
-                                        <input type="email" class="form-control" placeholder="Email Address" required>
-                                    </div>
-                                </div>
-
-                                <!-- Location -->
-                                <div class="col-md-6">
-                                    <div class="input-group form-glass">
-                                        <span class="input-group-text"><i class="fa-solid fa-location-dot"></i></span>
-                                        <input type="text" class="form-control" placeholder="Location" required>
-                                    </div>
-                                </div>
-
-                                <!-- Message -->
-                                <div class="col-12">
-                                    <div class="input-group form-glass">
-                                        <span class="input-group-text"><i class="fa-solid fa-comment-dots"></i></span>
-                                        <textarea class="form-control" placeholder="Your Message" rows="4"
-                                            required></textarea>
-                                    </div>
-                                </div>
-
-                                <!-- Submit Button -->
-                                <div class="col-12 text-center mt-3">
-                                    <button type="submit" class="btn btn-primary px-5 py-2 rounded-pill">
-                                        <i class="fa-solid fa-paper-plane me-2"></i> Send Message
-                                    </button>
-                                </div>
-                            </form>
+                            <?php include './form-location.php'; ?>
                         </div>
                     </div>
                 </div>
@@ -240,7 +189,7 @@
                     <div class="item-sm wow fadeInUp" data-wow-delay="1s">
                         <div class="box">
                             <h6 class="mb-20"><span class="custom-font numb">01</span> Connect with Our Experts</h6>
-                            <p> Share your vision with our design specialists.
+                            <p>
                                 We understand your lifestyle, preferences, and space to create concepts that perfectly
                                 reflect you.
 
@@ -253,8 +202,7 @@
                         <div class="box">
                             <h6 class="mb-20"><span class="custom-font numb">02</span> Visualize Your Dream Design
                             </h6>
-                            <p> Get a personalized 3D design preview and a clear, transparent quote — no hidden charges,
-                                no surprises.
+                            <p>
                                 You’ll see exactly how your dream kitchen or interior will look before we begin.
 
                             </p>
@@ -266,8 +214,7 @@
                         <div class="box">
                             <h6 class="mb-20"><span class="custom-font numb">03</span> Confirm & Experience Perfection
                             </h6>
-                            <p> Once approved, our team handles everything — from precision manufacturing to seamless
-                                installation.
+                            <p>
                                 Enjoy strong, stylish, and termite-free steel interiors that are built to last.
 
                             </p>
@@ -319,17 +266,17 @@
             <div class="col-lg-6">
                 <div class="ab-exp">
                     <div class="row">
-                        <div class="col-md-4 mb-20">
+                        <!-- <div class="col-md-4 mb-20">
                             <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
-                        </div>
-                        <div class="col-md-8 wow fadeInUp" data-wow-delay=".3s">
+                        </div> -->
+                        <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img mb-20 wow imago">
-                                <img src="assets/img/ab1.jpg" alt="" />
+                                <img src="./assets/img/products/woder2.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-md-7 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago">
-                                <img src="assets/img/ab2.jpg" alt="" />
+                                <img src="./assets/img/products/crockery1.jpg" alt="" />
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -580,10 +527,10 @@
                             <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
                         </div>
                         <!-- <div class="col-md-8 wow fadeInUp" data-wow-delay=".3s">
-                     <div class="img mb-20 wow imago">
-                         <img src="assets/images/tv-unit.webp" alt="">
-                     </div>
-                     </div> -->
+                        <div class="img mb-20 wow imago">
+                            <img src="assets/images/tv-unit.webp" alt="">
+                        </div>
+                        </div> -->
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago  image-anime reveal">
                                 <img src="assets/img/products/tv3.jpg" alt="" />
@@ -605,10 +552,10 @@
             <div class="col-lg-5 valign">
                 <div class="exp-content text-right nopat wow fadeInUp" data-wow-delay=".3s">
                     <h6 class="sub-title">Professional Spaces, Designed to Inspire.</h6>
-                    <h2 class="mb-20 playfont">Office Interiors</h2>
+                    <h2 class="mb-20 playfont">Office Furniture</h2>
                     <p>
                         Your workspace should motivate productivity and reflect your brand’s personality.
-                        LivSatva creates premium steel-based office interiors that are stylish, ergonomic, and built for
+                        LivSatva creates premium steel-based office Furniture that are stylish, ergonomic, and built for
                         long-term performance.
 
                     </p>
@@ -880,7 +827,7 @@
 </section>
 <!-- ==================== End process ==================== -->
 <!-- ==================== Start Team ==================== -->
-<section class="team space2">
+<section class="team space2 d-none">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
@@ -1238,65 +1185,7 @@
         <div class="row">
             <div class="col-lg-5 col-md-6 contact-form wow fadeInDown" data-wow-delay=".3s">
                 <!-- Contact Form -->
-                <form id="contact-form" method="post" action="contact.php">
-                    <div class="section-head">
-                        <h6 class="custom-font">Contact Us</h6>
-                        <h2 class="playfont cta_heading">Book Design Consultation
-                        </h2>
-                    </div>
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-
-                        <!-- Name -->
-                        <div class="form-group">
-                            <div class="input-with-icon">
-                                <i class="fas fa-user"></i>
-                                <input id="form_name" type="text" name="name" placeholder="Name" required minlength="3"
-                                    pattern="[A-Za-z\s]+" title="Name should contain only letters and spaces">
-                            </div>
-                        </div>
-
-                        <!-- Mobile Number -->
-                        <div class="form-group">
-                            <div class="input-with-icon">
-                                <i class="fas fa-phone"></i>
-                                <input id="form_phone" type="tel" name="phone" placeholder="Mobile Number" required
-                                    pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number">
-                            </div>
-                        </div>
-
-                        <!-- Email -->
-                        <div class="form-group">
-                            <div class="input-with-icon">
-                                <i class="fas fa-envelope"></i>
-                                <input id="form_email" type="email" name="email" placeholder="Email" required
-                                    title="Enter a valid email address">
-                            </div>
-                        </div>
-
-                        <!-- Location -->
-                        <div class="form-group">
-                            <div class="input-with-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <input id="form_location" type="text" name="location" placeholder="Location" required
-                                    minlength="2">
-                            </div>
-                        </div>
-
-                        <!-- Message -->
-                        <div class="form-group">
-                            <div class="input-with-icon">
-                                <i class="fas fa-comment-dots" style="top: 20%;"></i>
-                                <textarea id="form_message" name="message" placeholder="Message" rows="4" required
-                                    minlength="5"></textarea>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="btn-curve btn-color"><span>Send Message</span></button>
-                    </div>
-                </form>
+                <?php include './form-location.php'; ?>
 
                 <!-- FontAwesome CDN -->
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -1318,5 +1207,228 @@
 
 <!-- ==================== End contact ==================== -->
 
+
+
+
+
+
+<style>
+:root {
+    --p: #01386e;
+    --s: #0092f9;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f5f7fa;
+}
+
+/* Modal customization */
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.popup-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Left side (image + text) */
+.popup-left {
+    flex: 1 1 50%;
+    background: linear-gradient(to bottom, rgb(0 146 249), rgb(1 56 110));
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.popup-left h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.popup-left p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #dcdcdc;
+}
+
+/* Right side (form) */
+.popup-right {
+    flex: 1 1 50%;
+    background: var(--p);
+    color: #fff;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popup-right h4 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.form-control {
+    border: none;
+    border-radius: 8px;
+    padding-left: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #e0e0e0;
+}
+
+.input-group-text {
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: var(--s);
+    font-size: 1rem;
+}
+
+.btn-submit {
+    background: linear-gradient(135deg, var(--s), var(--p));
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    transform: scale(1.03);
+    opacity: 0.95;
+}
+
+/* Custom Close Button */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #fff;
+    color: var(--p);
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.close-btn:hover {
+    background: var(--s);
+    color: #fff;
+    transform: rotate(90deg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .popup-wrapper {
+        flex-direction: column;
+    }
+
+    .popup-left,
+    .popup-right {
+        flex: 1 1 100%;
+    }
+
+    .popup-left {
+        padding: 30px 15px;
+    }
+}
+</style>
+
+
+<!-- Modal -->
+<div class="modal fade" id="popupForm" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Custom close button -->
+            <button class="close-btn" id="closePopup"><i class="fa-solid fa-xmark"></i></button>
+
+            <div class="popup-wrapper">
+                <!-- Left Section -->
+                <div class="popup-left">
+                    <p>Tired of searching?</p>
+                    <h2>Let us simplify it for you!</h2>
+                </div>
+
+                <!-- Right Section -->
+                <div class="popup-right">
+                    <h4>Get a Free Estimate</h4>
+                    <form>
+                        <div class="mb-3 position-relative">
+                            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                            <input type="text" class="form-control" placeholder="Name" required />
+                        </div>
+                        <div class="mb-3 position-relative">
+                            <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                            <input type="tel" class="form-control" placeholder="Contact Number" required />
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    // Create modal instance
+    const modalEl = document.getElementById('popupForm');
+    const popupModal = new bootstrap.Modal(modalEl);
+
+    // Show popup automatically
+    popupModal.show();
+
+    // Close button functionality
+    const closeBtn = document.getElementById('closePopup');
+    closeBtn.addEventListener('click', () => {
+        popupModal.hide();
+    });
+});
+</script>
+
+
+
+
+
+
+
+
 <!-- ==================== End Blog ==================== -->
 <?php include './footer.php'; ?>
+
+</body>
+
+</html>

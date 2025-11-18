@@ -410,74 +410,7 @@
             </div>
 
             <div class="col-md-8 offset-md-2 offset-0 col-12 text-center">
-                <form id="contact-form" method="post" action="contact.php">
-                    <div class="section-head">
-                        <h6 class="custom-font">Contact Us</h6>
-                        <h2 class="playfont cta_heading">Book Design Consultation</h2>
-                    </div>
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-user"></i>
-                                        <input id="form_name" type="text" name="name" placeholder="Name" required
-                                            minlength="3" pattern="[A-Za-z\s]+"
-                                            title="Name should contain only letters and spaces">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-phone"></i>
-                                        <input id="form_phone" type="tel" name="phone" placeholder="Mobile Number"
-                                            required pattern="[0-9]{10}"
-                                            title="Please enter a valid 10-digit mobile number">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-envelope"></i>
-                                        <input id="form_email" type="email" name="email" placeholder="Email" required
-                                            title="Enter a valid email address">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <input id="form_location" type="text" name="location" placeholder="Location"
-                                            required minlength="2">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-comment-dots" style="top: 20%;"></i>
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                                            required minlength="5"></textarea>
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn-curve btn-color">
-                                    <span>Send Message</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                <?php include './form-location.php'; ?>
             </div>
         </div>
     </div>
