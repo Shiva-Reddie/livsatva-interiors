@@ -5,7 +5,7 @@
 
 
     <?php
-$site_url = 'https://localhost/livsatva-interiors/';
+$site_url = 'http://localhost/livsatva-interiors/';
     ?>
 
     <!-- Metas -->
