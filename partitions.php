@@ -5,7 +5,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/partition1.png"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/partition1.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -53,11 +53,11 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="assets/img/products/partition3.png" alt="Steel Metal Partition Design" />
+                                <img src="assets/img/products/partition3.jpg" alt="Steel Metal Partition Design" />
                             </div>
                         </div>
                     </div>
@@ -77,6 +77,7 @@
         <h2 class="mb-20 playfont">
             Essential Steel Parts Prepared Before Partition Installation
         </h2>
+
         <div class="row">
             <!-- Card 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
@@ -243,7 +244,11 @@
 <section class="doc-section about bg-gray">
     <div class="container">
         <div class="section-title">
-            <h2>Documentation & Handover</h2>
+            <h6 class="sub-title">Steel & Metal Partition Components</h6>
+            <h2 class="mb-20 playfont">
+                Documentation & Handover
+            </h2>
+
             <p class="text-muted">
                 Providing all necessary documents, guidance, and support for a smooth and confident handover of your
                 steel & metal partitions.
@@ -408,75 +413,7 @@
             </div>
 
             <div class="col-md-8 offset-md-2 offset-0 col-12 text-center">
-                <form id="contact-form" method="post" action="contact.php">
-                    <div class="section-head">
-                        <h6 class="custom-font">Contact Us</h6>
-                        <h2 class="playfont cta_heading">Book Design Consultation</h2>
-                    </div>
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-user"></i>
-                                        <input id="form_name" type="text" name="name" placeholder="Name" required
-                                            minlength="3" pattern="[A-Za-z\s]+"
-                                            title="Name should contain only letters and spaces">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-phone"></i>
-                                        <input id="form_phone" type="tel" name="phone" placeholder="Mobile Number"
-                                            required pattern="[0-9]{10}"
-                                            title="Please enter a valid 10-digit mobile number">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-envelope"></i>
-                                        <input id="form_email" type="email" name="email" placeholder="Email" required
-                                            title="Enter a valid email address">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <input id="form_location" type="text" name="location" placeholder="Location"
-                                            required minlength="2">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-comment-dots" style="top: 20%;"></i>
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                                            required minlength="5"></textarea>
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn-curve btn-color">
-                                    <span>Send Message</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </form>
+                <?php include './form-location.php'; ?>
             </div>
         </div>
 
@@ -605,9 +542,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition1.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition1.png">
+                        <img alt="" src="./assets/img/products/partition1.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -618,9 +555,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items folding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition2.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition2.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition2.png">
+                        <img alt="" src="./assets/img/products/partition2.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -631,9 +568,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition3.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition3.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition3.png">
+                        <img alt="" src="./assets/img/products/partition3.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -644,9 +581,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition4.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition4.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition4.png">
+                        <img alt="" src="./assets/img/products/partition4.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -657,9 +594,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items glass mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition5.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition5.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition5.png">
+                        <img alt="" src="./assets/img/products/partition5.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -670,9 +607,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition6.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition6.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition6.png">
+                        <img alt="" src="./assets/img/products/partition6.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -683,9 +620,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items folding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition7.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition7.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition7.png">
+                        <img alt="" src="./assets/img/products/partition7.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -696,9 +633,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items glass mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition8.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition8.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition8.png">
+                        <img alt="" src="./assets/img/products/partition8.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -708,9 +645,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items glass mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition9.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition9.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/partition9.png">
+                        <img alt="" src="./assets/img/products/partition9.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -732,7 +669,10 @@ updateUI();
 <section class="faq-section py-5 bg-light">
     <div class="container">
         <div class="text-center mb-4">
-            <h2 class="fw-bold">Frequently Asked Questions</h2>
+            <h6 class="sub-title">Steel & Metal Partition Components</h6>
+            <h2 class="mb-20 playfont">
+                Frequently Asked Questions
+            </h2>
             <p class="text-muted">Find quick answers to common questions about our steel & metal partitions.</p>
         </div>
 

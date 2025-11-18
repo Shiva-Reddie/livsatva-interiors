@@ -5,7 +5,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/crockery4.png"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/crockery4.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -32,7 +32,11 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>Elegant Modular Crockery Units for Organized & Stylish Living</h2>
+                    <h6 class="sub-title">Crockery</h6>
+                    <h2 class="mb-20 playfont">
+                        Elegant Modular Crockery Units for Organized & Stylish Living
+                    </h2>
+
 
                     <div class="text">
                         <p>Our modular crockery solutions are thoughtfully designed to keep your dining and kitchen
@@ -60,11 +64,11 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="./assets/img/products/crockery5.png" alt="Modular Crockery Unit" />
+                                <img src="./assets/img/products/crockery5.jpg" alt="Modular Crockery Unit" />
                             </div>
                         </div>
                     </div>
@@ -79,496 +83,27 @@
 
 
 
-<section class="py-5 about bg-gray">
-    <div class="container">
 
-        <h6 class="sub-title">Crockery Unit Components</h6>
-        <h2 class="mb-20 playfont">
-            Key elements prepared before installation
-        </h2>
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="component-card">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-layer-group"></i>
-                    </div>
-                    <h5>Shelves & Compartments</h5>
-                    <p>
-                        Pre-designed shelves and compartments to neatly store plates, bowls, and everyday dining
-                        essentials.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="component-card">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-door-open"></i>
-                    </div>
-                    <h5>Glass Doors & Shutters</h5>
-                    <p>
-                        Elegant glass doors and shutters prepared for display and protection of crockery items.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="component-card">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-box-archive"></i>
-                    </div>
-                    <h5>Drawers & Organizers</h5>
-                    <p>
-                        Smooth drawers and modular organizers for cutlery, cups, and delicate dining accessories.
-                    </p>
-                </div>
-            </div>
+
+
+
+<section class="inquiry-section">
+    <div class="row g-0">
+        <!-- Left Section -->
+        <div class="col-lg-6 left-sec">
+            <h2>Modern Stainless Steel Interiors</h2>
+            <p>Bring sophistication and strength to your interiors. From modular kitchens to architectural steel
+                detailing — our designs redefine durability and elegance.</p>
+            <img src="./assets/img/products/banner-4.png" alt="Stainless Steel Interior" class="img-fluid">
+        </div>
+
+        <!-- Right Section -->
+        <div class="col-lg-6 right-sec">
+            <h3 class="fw-semibold mb-4" style="color: var(--p);">Get in Touch</h3>
+            <?php include './form-location.php'; ?>
         </div>
     </div>
 </section>
-
-
-
-<section class="install-section">
-    <div class="container">
-        <div class="section-title">
-            <h2>Installation Sequence</h2>
-            <p class="text-muted">
-                A simple step-by-step process to ensure your modular crockery unit is installed neatly and efficiently.
-            </p>
-        </div>
-        <div class="timeline1">
-            <!-- Step 1 -->
-            <div class="step1">
-                <div class="step-icon">
-                    <i class="fa-solid fa-cubes"></i>
-                    <div class="step-number">1</div>
-                </div>
-                <h5>Fix Base Cabinets & Frames</h5>
-                <p>
-                    Start by securely installing the base cabinets and supporting frames to provide a strong foundation
-                    for the crockery unit.
-                </p>
-            </div>
-            <!-- Step 2 -->
-            <div class="step1">
-                <div class="step-icon">
-                    <i class="fa-solid fa-layer-group"></i>
-                    <div class="step-number">2</div>
-                </div>
-                <h5>Install Shelves & Organizers</h5>
-                <p>
-                    Add shelves, racks, and modular organizers to create dedicated spaces for plates, bowls, glasses,
-                    and cutlery.
-                </p>
-            </div>
-            <!-- Step 3 -->
-            <div class="step1">
-                <div class="step-icon">
-                    <i class="fa-solid fa-door-open"></i>
-                    <div class="step-number">3</div>
-                </div>
-                <h5>Attach Doors & Finishing Touches</h5>
-                <p>
-                    Complete the unit by fixing glass doors, shutters, and handles. Add finishing touches to ensure
-                    smooth operation and elegant display.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-<section class="quality-section">
-    <div class="container">
-        <div class="section-title">
-            <h6 class="sub-title text-white">Ensuring elegance before handover</h6>
-            <h2>Quality Check & Final Finishing</h2>
-        </div>
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-cubes"></i>
-                    </div>
-                    <h5>Check Cabinets & Structure</h5>
-                    <p>
-                        Inspect crockery cabinets and framework to ensure solid build, stability, and long-term
-                        durability.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-wine-glass-alt"></i>
-                    </div>
-                    <h5>Test Shelves & Glass Units</h5>
-                    <p>
-                        Ensure glass shutters, shelves, and display sections are fitted securely and function smoothly.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-sliders-h"></i>
-                    </div>
-                    <h5>Align & Adjust</h5>
-                    <p>
-                        Fine-tune shelf spacing, door alignments, and hardware fittings for a perfect finish.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-spray-can-sparkles"></i>
-                    </div>
-                    <h5>Clean & Polish</h5>
-                    <p>
-                        Final cleaning and polishing to make the crockery unit spotless, shiny, and ready for use.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="doc-section about bg-gray">
-    <div class="container">
-        <div class="section-title">
-            <h2>Your Crockery Unit, Ready to Use</h2>
-            <p class="text-muted">
-                Everything you need for hassle-free setup, care, and daily use of your modular crockery unit.
-            </p>
-        </div>
-
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="doc-card">
-                    <div class="card-header">
-                        <h5><i class="fa-solid fa-clipboard-check"></i> Installation Overview</h5>
-                    </div>
-                    <p>
-                        Summary of installed crockery unit components like cabinets, glass shutters, and shelves for
-                        quick reference.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="doc-card">
-                    <div class="card-header">
-                        <h5><i class="fa-solid fa-shield-halved"></i> Warranty & Care Guide</h5>
-                    </div>
-                    <p>
-                        Detailed instructions for maintaining your crockery unit, plus warranty information for
-                        durability assurance.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="doc-card">
-                    <div class="card-header">
-                        <h5><i class="fa-solid fa-lightbulb"></i> Usage & Organization Tips</h5>
-                    </div>
-                    <p>
-                        Practical tips for arranging crockery, handling glass sections safely, and maximizing storage
-                        efficiency.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-<section class="hero">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <h3 class="fw-bold text-gradient"
-                    style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                    Plan Your Dream Modular Crockery Unit with Livsatva Interiors!
-                </h3>
-                <p>
-                    Designing your perfect crockery unit involves layout, storage, finishes, and style.
-                    At Livsatva Interiors, we simplify the process. You are just <strong>5 steps</strong>
-                    away from a beautifully organized modular crockery unit.
-                </p>
-            </div>
-        </div>
-
-        <div class="stepper mt-4 position-relative">
-            <div class="connector">
-                <div class="track"></div>
-                <div class="progress" id="progressBar"></div>
-            </div>
-
-            <div class="steps">
-                <div class="step active" data-step="1">
-                    <div class="step-number">1</div>
-                    <div class="icon"><i class="fa-solid fa-ruler-combined"></i></div>
-                    <div class="content">
-                        <div class="title">Measurement & Estimation</div>
-                        <div class="subtitle">We begin with precise kitchen/dining space measurements and cost...</div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="2">
-                    <div class="step-number">2</div>
-                    <div class="icon"><i class="fa-solid fa-pencil-ruler"></i></div>
-                    <div class="content">
-                        <div class="title">Design & Customization</div>
-                        <div class="subtitle">Our experts create tailored 3D crockery layouts to match your style...
-                        </div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="3">
-                    <div class="step-number">3</div>
-                    <div class="icon"><i class="fa-solid fa-check-circle"></i></div>
-                    <div class="content">
-                        <div class="title">Customer Approval</div>
-                        <div class="subtitle">We proceed with manufacturing only after your approval of the final
-                            design...</div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="4">
-                    <div class="step-number">4</div>
-                    <div class="icon"><i class="fa-solid fa-industry"></i></div>
-                    <div class="content">
-                        <div class="title">Precision Manufacturing</div>
-                        <div class="subtitle">Crockery units are crafted with premium materials and advanced
-                            machinery...</div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="5">
-                    <div class="step-number">5</div>
-                    <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
-                    <div class="content">
-                        <div class="title">Delivery & Installation</div>
-                        <div class="subtitle">Your modular crockery unit is delivered and installed with care...</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="detail-card" id="detailCard">
-                <div class="d-flex justify-content-between align-items-start">
-                    <div>
-                        <h5 id="detailTitle">Get Started</h5>
-                        <p class="muted-note mb-2" id="detailSubtitle">
-                            Connect with us via website, WhatsApp, call, or visit our showroom.
-                        </p>
-                        <p class="mb-0"><strong>Consult Livsatva Interiors experts</strong></p>
-                    </div>
-                    <div class="text-end">
-                        <div class="small text-muted">Step <span id="currentStep">1</span> of 5</div>
-                        <div class="fw-bold fs-5"
-                            style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                            Ready?
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex gap-2 mt-3">
-                    <button id="prevBtn" class="btn btn-outline-secondary" disabled>
-                        <i class="fa-solid fa-chevron-left me-1"></i> Prev
-                    </button>
-                    <button id="nextBtn" class="btn btn-outline-secondary">
-                        Next <i class="fa-solid fa-chevron-right ms-1"></i>
-                    </button>
-                </div>
-            </div>
-
-            <div class="col-md-8 offset-md-2 col-12 text-center">
-                <form id="contact-form" method="post" action="contact.php">
-                    <div class="section-head">
-                        <h6 class="custom-font">Contact Us</h6>
-                        <h2 class="playfont cta_heading">Book Crockery Design Consultation</h2>
-                    </div>
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-user"></i>
-                                        <input id="form_name" type="text" name="name" placeholder="Name" required
-                                            minlength="3" pattern="[A-Za-z\s]+"
-                                            title="Name should contain only letters and spaces">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-phone"></i>
-                                        <input id="form_phone" type="tel" name="phone" placeholder="Mobile Number"
-                                            required pattern="[0-9]{10}"
-                                            title="Please enter a valid 10-digit mobile number">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-envelope"></i>
-                                        <input id="form_email" type="email" name="email" placeholder="Email" required
-                                            title="Enter a valid email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <input id="form_location" type="text" name="location" placeholder="Location"
-                                            required minlength="2">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-comment-dots" style="top: 20%;"></i>
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                                            required minlength="5"></textarea>
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn-curve btn-color">
-                                    <span>Send Message</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-const stepsData = {
-    1: {
-        title: 'Measurement & Estimation',
-        subtitle: 'We begin with precise measurements of your kitchen or dining area and provide a transparent cost estimation.',
-        note: 'Accurate space planning with clear quotation'
-    },
-    2: {
-        title: 'Design & Customization',
-        subtitle: 'Our designers create tailored 2D/3D crockery unit layouts with finishes, colors, and storage options.',
-        note: 'Personalized 2D/3D crockery designs'
-    },
-    3: {
-        title: 'Customer Approval',
-        subtitle: 'We share the final design for your review, and production starts only after your approval.',
-        note: 'Production begins after approval'
-    },
-    4: {
-        title: 'Precision Manufacturing',
-        subtitle: 'Crockery units are crafted using advanced machinery and premium materials for durability and aesthetics.',
-        note: 'Crafted with premium quality materials'
-    },
-    5: {
-        title: 'Delivery & Installation',
-        subtitle: 'Your modular crockery unit is delivered safely and installed on time for a hassle-free experience.',
-        note: 'Delivered & installed on schedule'
-    }
-};
-
-
-
-const steps = Array.from(document.querySelectorAll('.step'));
-const progress = document.getElementById('progressBar');
-const detailTitle = document.getElementById('detailTitle');
-const detailSubtitle = document.getElementById('detailSubtitle');
-const currentStepText = document.getElementById('currentStep');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-
-let current = 1;
-
-function updateUI() {
-    steps.forEach((el) => {
-        const s = Number(el.dataset.step);
-        el.classList.toggle('active', s === current);
-        el.classList.toggle('inactive', s !== current);
-    });
-    const pct = ((current - 1) / (steps.length - 1)) * 100;
-    progress.style.width = pct + '%';
-    detailTitle.textContent = stepsData[current].title;
-    detailSubtitle.textContent = stepsData[current].subtitle;
-    currentStepText.textContent = current;
-    prevBtn.disabled = current === 1;
-    nextBtn.disabled = current === steps.length;
-}
-
-steps.forEach(s => s.addEventListener('click', () => {
-    current = Number(s.dataset.step);
-    updateUI();
-}));
-
-prevBtn.addEventListener('click', () => {
-    if (current > 1) {
-        current--;
-        updateUI();
-    }
-});
-nextBtn.addEventListener('click', () => {
-    if (current < steps.length) {
-        current++;
-        updateUI();
-    }
-});
-
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight') {
-        if (current < steps.length) {
-            current++;
-            updateUI();
-        }
-    }
-    if (e.key === 'ArrowLeft') {
-        if (current > 1) {
-            current--;
-            updateUI();
-        }
-    }
-});
-
-updateUI();
-</script>
-
-
-
-
 
 
 <section class="portfolio section-padding">
@@ -588,9 +123,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery1.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Modern Crockery Unit" src="./assets/img/products/crockery1.png">
+                        <img alt="Modern Crockery Unit" src="./assets/img/products/crockery1.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -601,9 +136,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery2.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery2.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Glass Display Crockery Unit" src="./assets/img/products/crockery2.png">
+                        <img alt="Glass Display Crockery Unit" src="./assets/img/products/crockery2.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -614,9 +149,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery3.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery3.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Corner Crockery Cabinet" src="./assets/img/products/crockery3.png">
+                        <img alt="Corner Crockery Cabinet" src="./assets/img/products/crockery3.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -627,9 +162,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery4.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery4.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Luxury Crockery Unit" src="./assets/img/products/crockery4.png">
+                        <img alt="Luxury Crockery Unit" src="./assets/img/products/crockery4.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -640,9 +175,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items sliding mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery5.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery5.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Wooden Crockery Unit" src="./assets/img/products/crockery5.png">
+                        <img alt="Wooden Crockery Unit" src="./assets/img/products/crockery5.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -653,9 +188,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery6.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery6.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Compact Crockery Shelf" src="./assets/img/products/crockery6.png">
+                        <img alt="Compact Crockery Shelf" src="./assets/img/products/crockery6.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -666,9 +201,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items hinged mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery7.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery7.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Minimal Crockery Unit" src="./assets/img/products/crockery7.png">
+                        <img alt="Minimal Crockery Unit" src="./assets/img/products/crockery7.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -679,9 +214,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery8.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery8.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery8.png">
+                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery8.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -691,9 +226,9 @@ updateUI();
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items corner mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery9.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery9.jpg">
                     <div class="item-img-overlay">
-                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery9.png">
+                        <img alt="Contemporary Crockery Unit" src="./assets/img/products/crockery9.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -898,5 +433,5 @@ lightbox.onclick = (e) => {
     if (e.target === lightbox) lightbox.style.display = 'none';
 }
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <?php include './footer.php'; ?>

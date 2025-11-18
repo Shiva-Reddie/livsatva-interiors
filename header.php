@@ -139,9 +139,8 @@ $site_url = 'http://localhost/livsatva-interiors/';
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " data-toggle="dropdown" href="<?php echo $site_url; ?>index.php"
-                            role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo $site_url; ?>">Home</a>
 
                     </li>
                     <li class="nav-item">
@@ -159,7 +158,7 @@ $site_url = 'http://localhost/livsatva-interiors/';
                             <a class="dropdown-item" href="<?php echo $site_url; ?>modular-crockery.php">Modular
                                 crockery</a>
 
-                            <a class="dropdown-item" href="<?php echo $site_url; ?>office.php">Office</a>
+                            <a class="dropdown-item" href="<?php echo $site_url; ?>office.php">Office Furniture</a>
                             <a class="dropdown-item" href="<?php echo $site_url; ?>tv-unit.php">TV Unit</a>
                             <a class="dropdown-item" href="<?php echo $site_url; ?>partitions.php">Partitions</a>
                             <a class="dropdown-item" href="<?php echo $site_url; ?>others.php">Others</a>
@@ -186,20 +185,20 @@ $site_url = 'http://localhost/livsatva-interiors/';
 
 
                     <li class="nav-item">
-                        <a href="<?php echo $site_url; ?>book-a-home-visit.php" class="btn-curve bg mt-lg-4 me-2">
-                            <span>Book a Home Visit</span>
+                        <a href="<?php echo $site_url; ?>book-a-visit.php" class="btn-curve bg mt-lg-4 me-2">
+                            <span>Book a Visit</span>
                         </a>
                         <!-- <a class="nav-link " href="<?php echo $site_url; ?>book-a-home-visit.php">Book a Home Visit</a> -->
                     </li>
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="<?php echo $site_url; ?>book-a-home-visit.php" class="btn-curve bg mt-lg-4">
                             <span>Book a Showroom
                                 Visit</span>
                         </a>
-                        <!-- <a class="nav-link" href="<?php echo $site_url; ?>book-a-showroom-visit.php">Book a Showroom
-                            Visit</a> -->
-                    </li>
+                        <a class="nav-link" href="<?php echo $site_url; ?>book-a-showroom-visit.php">Book a Showroom
+                            Visit</a>
+                    </li> -->
 
                 </ul>
 

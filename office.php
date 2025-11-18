@@ -5,7 +5,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/office1.png"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/office1.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -32,7 +32,10 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>Modern Modular Office Furniture for Productive Workspaces</h2>
+                    <h6 class="sub-title">office</h6>
+                    <h2 class="mb-20 playfont">
+                        Modern Modular Office Furniture for Productive Workspaces
+                    </h2>
 
                     <div class="text">
                         <p>Our modular office solutions are designed to create smart, flexible, and comfortable
@@ -59,11 +62,11 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
-                                <img src="./assets/img/products/office6.png" alt="Modular Office Furniture" />
+                                <img src="./assets/img/products/office6.jpg" alt="Modular Office Furniture" />
                             </div>
                         </div>
                     </div>
@@ -188,8 +191,10 @@
 <section class="quality-section">
     <div class="container">
         <div class="section-title">
-            <h6 class="sub-title text-white">Ensuring perfection before handover</h6>
-            <h2>Quality Check & Final Finishing</h2>
+            <h6 class="sub-title">office</h6>
+            <h2 class="mb-20 playfont">
+                Quality Check & Final Finishing
+            </h2>
         </div>
         <div class="row">
             <!-- Card 1 -->
@@ -246,12 +251,14 @@
 </section>
 
 
-
-
 <section class="doc-section about bg-gray">
     <div class="container">
         <div class="section-title">
-            <h2>Your Office Furniture, Ready to Use</h2>
+            <h6 class="sub-title">office</h6>
+            <h2 class="mb-20 playfont">
+                Your Office Furniture, Ready to Use
+            </h2>
+
             <p class="text-muted">
                 Everything you need for smooth setup, maintenance, and daily use of your modular office furniture.
             </p>
@@ -298,11 +305,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
 
 
 <section class="hero">
@@ -408,75 +410,11 @@
             </div>
 
             <div class="col-md-8 offset-md-2 col-12 text-center">
-                <form id="contact-form" method="post" action="contact.php">
-                    <div class="section-head">
-                        <h6 class="custom-font">Contact Us</h6>
-                        <h2 class="playfont cta_heading">Book Office Furniture Consultation</h2>
-                    </div>
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-user"></i>
-                                        <input id="form_name" type="text" name="name" placeholder="Name" required
-                                            minlength="3" pattern="[A-Za-z\s]+"
-                                            title="Name should contain only letters and spaces">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-phone"></i>
-                                        <input id="form_phone" type="tel" name="phone" placeholder="Mobile Number"
-                                            required pattern="[0-9]{10}"
-                                            title="Please enter a valid 10-digit mobile number">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-envelope"></i>
-                                        <input id="form_email" type="email" name="email" placeholder="Email" required
-                                            title="Enter a valid email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <input id="form_location" type="text" name="location" placeholder="Location"
-                                            required minlength="2">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-comment-dots" style="top: 20%;"></i>
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                                            required minlength="5"></textarea>
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn-curve btn-color">
-                                    <span>Send Message</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                <?php include './form-location.php'; ?>
             </div>
         </div>
     </div>
 </section>
-
 
 
 
@@ -595,9 +533,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items cabinet mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office10.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office10.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office1.png">
+                        <img alt="" src="./assets/img/products/office1.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -608,9 +546,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items cabinet mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office11.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office11.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office2.png">
+                        <img alt="" src="./assets/img/products/office2.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -621,9 +559,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office12.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office12.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office3.png">
+                        <img alt="" src="./assets/img/products/office3.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -634,9 +572,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office13.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office13.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office4.png">
+                        <img alt="" src="./assets/img/products/office4.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -647,9 +585,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items workstation mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office14.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office14.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office5.png">
+                        <img alt="" src="./assets/img/products/office5.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -660,9 +598,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items cabinet mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office6.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office6.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office6.png">
+                        <img alt="" src="./assets/img/products/office6.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -673,9 +611,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items conference mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office7.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office7.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office7.png">
+                        <img alt="" src="./assets/img/products/office7.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -686,9 +624,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items conference mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office8.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office8.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office8.png">
+                        <img alt="" src="./assets/img/products/office8.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -699,9 +637,9 @@ updateUI();
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items conference mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office9.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office9.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/office9.png">
+                        <img alt="" src="./assets/img/products/office9.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">

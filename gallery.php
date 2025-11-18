@@ -4,7 +4,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/woder1.png"
+<header class="pages-header bg-img valign parallaxie" data-background="./assets/img/products/woder1.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -46,9 +46,9 @@
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items ward  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder1.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder1.png">
+                        <img alt="" src="./assets/img/products/woder1.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -58,9 +58,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items ward  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder2.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder2.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder2.png">
+                        <img alt="" src="./assets/img/products/woder2.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -70,9 +70,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items ward  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/woder3.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/woder3.jpg">
                     <div class="item-img-overlay">
-                        <img alt="" src="./assets/img/products/woder3.png">
+                        <img alt="" src="./assets/img/products/woder3.jpg">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -122,9 +122,9 @@
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items croc  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery1.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/crockery1.png" alt="">
+                        <img src="./assets/img/products/crockery1.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -135,9 +135,9 @@
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items croc  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery2.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery2.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/crockery2.png" alt="">
+                        <img src="./assets/img/products/crockery2.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -148,9 +148,9 @@
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items croc  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/crockery3.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/crockery3.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/crockery3.png" alt="">
+                        <img src="./assets/img/products/crockery3.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -161,9 +161,9 @@
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tv  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/tv10.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/tv10.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/tv10.png" alt="">
+                        <img src="./assets/img/products/tv10.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -174,9 +174,9 @@
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tv  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/tv11.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/tv11.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/tv11.png" alt="">
+                        <img src="./assets/img/products/tv11.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -187,9 +187,9 @@
 
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items tv  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/tv12.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/tv12.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/tv12.png" alt="">
+                        <img src="./assets/img/products/tv12.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -199,9 +199,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items office  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office12.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office12.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/office12.png" alt="">
+                        <img src="./assets/img/products/office12.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -211,9 +211,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items office  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office13.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office13.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/office13.png" alt="">
+                        <img src="./assets/img/products/office13.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -223,9 +223,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items office  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/office14.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/office14.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/office14.png" alt="">
+                        <img src="./assets/img/products/office14.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -235,9 +235,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items parti  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition1.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/partition1.png" alt="">
+                        <img src="./assets/img/products/partition1.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -247,9 +247,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items parti  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition2.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition2.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/partition2.png" alt="">
+                        <img src="./assets/img/products/partition2.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -259,9 +259,9 @@
             </div>
             <!-- gallery item -->
             <div class="col-lg-4 col-md-6 col-sm-6 items parti  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/partition3.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/partition3.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/partition3.png" alt="">
+                        <img src="./assets/img/products/partition3.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -270,9 +270,9 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 items other  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/other1.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/other1.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/other1.png" alt="">
+                        <img src="./assets/img/products/other1.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -281,9 +281,9 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 items other  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/other5.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/other5.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/other5.png" alt="">
+                        <img src="./assets/img/products/other5.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">
@@ -292,9 +292,9 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 items other  mt-25">
-                <div class="item-img bg-img" data-background="./assets/img/products/other6.png">
+                <div class="item-img bg-img" data-background="./assets/img/products/other6.jpg">
                     <div class="item-img-overlay valign">
-                        <img src="./assets/img/products/other6.png" alt="">
+                        <img src="./assets/img/products/other6.jpg" alt="">
                     </div>
                 </div>
                 <div class="info mt-10">

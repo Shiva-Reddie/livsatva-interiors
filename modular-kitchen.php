@@ -33,7 +33,9 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="htit">
-                    <h2>The Best Modular Kitchen Designs with a Wide Range of Customization Options!</h2>
+                    <h6 class="sub-title">Kitchen</h6>
+                    <h2 class="mb-20 playfont">The Best Modular Kitchen Designs with a Wide Range of Customization
+                        Options!</h2>
 
                     <div class="text">
                         <p>When it comes to creating a kitchen that combines style, functionality, and durability,
@@ -51,7 +53,7 @@
                 <div class="ab-exp">
                     <div class="row">
                         <div class="col-md-4 mb-20">
-                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.png"></div>
+                            <div class="pattern bg-img bg-repeat" data-background="assets/img/line-pattern.jpg"></div>
                         </div>
                         <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago image-anime reveal">
@@ -68,511 +70,23 @@
 
 <!-- ==================== End Intro ==================== -->
 
-<section class="py-5 about bg-gray">
-    <div class="container">
+<section class="inquiry-section">
+    <div class="row g-0">
+        <!-- Left Section -->
+        <div class="col-lg-6 left-sec">
+            <h2>Modern Stainless Steel Interiors</h2>
+            <p>Bring sophistication and strength to your interiors. From modular kitchens to architectural steel
+                detailing — our designs redefine durability and elegance.</p>
+            <img src="./assets/img/products/banner-4.png" alt="Stainless Steel Interior" class="img-fluid">
+        </div>
 
-        <h6 class="sub-title">Kitchen Components</h6>
-        <h2 class="mb-20 playfont">
-            Essential parts prepared before installation
-        </h2>
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="component-card">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-box"></i>
-                    </div>
-                    <h5>Cabinet Frames, Shelves & Drawers</h5>
-                    <p>
-                        Assemble and organize all cabinet structures, shelves, and
-                        drawers for efficient setup.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="component-card">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-sink"></i>
-                    </div>
-                    <h5>Countertops, Sinks & Faucets</h5>
-                    <p>
-                        Prepare durable countertops and essential fittings like sinks
-                        and faucets.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="component-card">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-tools"></i>
-                    </div>
-                    <h5>Hardware Sorting & Labeling</h5>
-                    <p>
-                        Sort and label all hardware items to ensure smooth installation
-                        workflow.
-                    </p>
-                </div>
-            </div>
+        <!-- Right Section -->
+        <div class="col-lg-6 right-sec">
+            <h3 class="fw-semibold mb-4" style="color: var(--p);">Get in Touch</h3>
+            <?php include './form-location.php'; ?>
         </div>
     </div>
 </section>
-
-<section class="install-section">
-    <div class="container">
-        <div class="section-title">
-            <h2>Installation Sequence</h2>
-            <p class="text-muted">
-                A step-by-step process to ensure smooth and efficient kitchen
-                installation.
-            </p>
-        </div>
-        <div class="timeline1">
-            <!-- Step 1 -->
-            <div class="step1">
-                <div class="step-icon">
-                    <i class="fa-solid fa-box"></i>
-                    <div class="step-number">1</div>
-                </div>
-                <h5>Base Cabinets</h5>
-                <p>
-                    We start with precise placement of base cabinets to create a solid
-                    foundation. Proper leveling ensures durability and accurate
-                    alignment for the entire kitchen.
-                </p>
-            </div>
-            <!-- Step 2 -->
-            <div class="step1">
-                <div class="step-icon">
-                    <i class="fa-solid fa-box-archive"></i>
-                    <div class="step-number">2</div>
-                </div>
-                <h5>Wall Cabinets, Shelves & Drawers</h5>
-                <p>
-                    Next, wall cabinets, shelves, and drawers are carefully installed
-                    for maximum storage. Each piece is aligned to maintain symmetry
-                    and usability.
-                </p>
-            </div>
-            <!-- Step 3 -->
-            <div class="step1">
-                <div class="step-icon">
-                    <i class="fa-solid fa-sink"></i>
-                    <div class="step-number">3</div>
-                </div>
-                <h5>Countertops, Sinks & Faucets</h5>
-                <p>
-                    Finally, countertops are fixed securely, followed by installation
-                    of sinks and faucets. This step ensures a polished finish and
-                    complete functionality of your kitchen.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="quality-section">
-    <div class="container">
-        <div class="section-title">
-            <h6 class="sub-title text-white">Ensuring perfection before delivery</h6>
-
-            <h2>Quality Control & Final Touches</h2>
-        </div>
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
-                    </div>
-                    <h5>Inspect Installations</h5>
-                    <p>
-                        Thorough inspection to ensure every element is installed with
-                        precision.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
-                    </div>
-                    <h5>Test Doors & Drawers</h5>
-                    <p>
-                        Check smooth operation of doors, drawers, and hardware
-                        mechanisms.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
-                    </div>
-                    <h5>Make Adjustments</h5>
-                    <p>
-                        Fine-tune alignments and fix any minor issues for a perfect
-                        finish.
-                    </p>
-                </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fa-solid fa-check-circle"></i>
-                    </div>
-                    <h5>Clean & Polish</h5>
-                    <p>
-                        Final cleaning and polishing to deliver a spotless, ready-to-use
-                        kitchen.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="doc-section about bg-gray">
-    <div class="container">
-        <div class="section-title">
-            <h2>Documentation & Handover</h2>
-            <p class="text-muted">
-                Providing all necessary documents, guidance, and training for a
-                smooth handover.
-            </p>
-        </div>
-
-        <div class="row">
-            <!-- Card 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="doc-card">
-                    <div class="card-header">
-                        <h5><i class="fa-solid fa-file-alt"></i> Completion Reports</h5>
-                    </div>
-                    <p>
-                        We prepare and submit detailed project completion reports
-                        documenting all stages of the installation process for your
-                        records.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="doc-card">
-                    <div class="card-header">
-                        <h5>
-                            <i class="fa-solid fa-tools"></i> Warranty & Maintenance
-                        </h5>
-                    </div>
-                    <p>
-                        Comprehensive warranty details and maintenance guidelines are
-                        provided to ensure long-term durability and hassle-free use.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="doc-card">
-                    <div class="card-header">
-                        <h5>
-                            <i class="fa-solid fa-chalkboard-teacher"></i> Walkthrough &
-                            Training
-                        </h5>
-                    </div>
-                    <p>
-                        A complete walkthrough of the installed kitchen is conducted,
-                        along with hands-on training for efficient usage and
-                        maintenance.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="hero">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <h3 class=" fw-bold text-gradient"
-                    style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                    Looking for Stainless Steel Modular Kitchen? Plan Your Kitchen with Livsatva Interiors!</h3>
-                <p class="  ">There are a number of aspects to consider before you leap in: Space, Storage, Material —
-                    and many more. At Livsatva Interiors, we help you complete your dream kitchen with ease. You are
-                    just <strong>5 steps</strong> away from getting your home a dream kitchen from Livsatva Interiors.
-                </p>
-
-            </div>
-        </div>
-
-        <div class="stepper mt-4 position-relative">
-            <div class="connector">
-                <div class="track"></div>
-                <div class="progress" id="progressBar"></div>
-            </div>
-
-            <div class="steps">
-                <div class="step active" data-step="1">
-                    <div class="step-number">1</div>
-                    <div class="icon"><i class="fa-solid fa-calculator"></i></div>
-                    <div class="content">
-                        <div class="title">Estimation</div>
-                        <div class="subtitle">We begin with a clear cost estimation based on requirements.</div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="2">
-                    <div class="step-number">2</div>
-                    <div class="icon"><i class="fa-solid fa-pencil-ruler"></i></div>
-                    <div class="content">
-                        <div class="title">Design & Customization</div>
-                        <div class="subtitle">Our team creates 2D/3D designs tailored to your needs.</div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="3">
-                    <div class="step-number">3</div>
-                    <div class="icon"><i class="fa-solid fa-check-circle"></i></div>
-                    <div class="content">
-                        <div class="title">Customer Approval</div>
-                        <div class="subtitle">Production begins only after your final approval.</div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="4">
-                    <div class="step-number">4</div>
-                    <div class="icon"><i class="fa-solid fa-industry"></i></div>
-                    <div class="content">
-                        <div class="title">State-of-the-Art Production</div>
-                        <div class="subtitle">Manufactured with advanced machinery & superior quality.</div>
-                    </div>
-                </div>
-
-                <div class="step inactive" data-step="5">
-                    <div class="step-number">5</div>
-                    <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
-                    <div class="content">
-                        <div class="title">On-Time Delivery</div>
-                        <div class="subtitle">Delivered & installed within the committed timeline.</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="detail-card" id="detailCard">
-                <div class="d-flex justify-content-between align-items-start">
-                    <div>
-                        <h5 id="detailTitle">Make An Enquiry</h5>
-                        <p class="muted-note mb-2" id="detailSubtitle">Enquire via our website, WhatsApp, call us or
-                            just walk in to any of our outlet.</p>
-                        <p class="mb-0"><strong>Contact Livsatva Interiors engineers</strong></p>
-                    </div>
-                    <div class="text-end">
-                        <div class="small text-muted">Step <span id="currentStep">1</span> of 5</div>
-                        <div class="fw-bold fs-5"
-                            style="background:linear-gradient(90deg,var(--p),var(--s)); -webkit-background-clip:text; color:transparent">
-                            Ready?</div>
-                        <!-- <a href="#" class="btn btn-primary btn-lg" style="background:var(--s); border:none">Make An Enquiry <i class="fa-solid fa-arrow-right ms-2"></i></a> -->
-
-                    </div>
-                </div>
-
-                <div class="d-flex gap-2 mt-3">
-                    <button id="prevBtn" class="btn btn-outline-secondary" disabled><i
-                            class="fa-solid fa-chevron-left me-1"></i> Prev</button>
-                    <button id="nextBtn" class="btn btn-outline-secondary">Next <i
-                            class="fa-solid fa-chevron-right ms-1"></i></button>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-8 offset-md-2 offset-0 col-12 text-center">
-                <form id="contact-form" method="post" action="contact.php">
-                    <div class="section-head">
-                        <h6 class="custom-font">Contact Us</h6>
-                        <h2 class="playfont cta_heading">Book Design Consultation</h2>
-                    </div>
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-                        <div class="row">
-                            <!-- Left Column -->
-                            <div class="col-md-6">
-                                <!-- Name -->
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-user"></i>
-                                        <input id="form_name" type="text" name="name" placeholder="Name" required
-                                            minlength="3" pattern="[A-Za-z\s]+"
-                                            title="Name should contain only letters and spaces">
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6">
-
-                                <!-- Mobile Number -->
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-phone"></i>
-                                        <input id="form_phone" type="tel" name="phone" placeholder="Mobile Number"
-                                            required pattern="[0-9]{10}"
-                                            title="Please enter a valid 10-digit mobile number">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Email -->
-                            <div class="col-md-6">
-
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-envelope"></i>
-                                        <input id="form_email" type="email" name="email" placeholder="Email" required
-                                            title="Enter a valid email address">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Right Column -->
-                            <div class="col-md-6">
-                                <!-- Location -->
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <input id="form_location" type="text" name="location" placeholder="Location"
-                                            required minlength="2">
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- Message -->
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="input-with-icon">
-                                        <i class="fas fa-comment-dots" style="top: 20%;"></i>
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                                            required minlength="5"></textarea>
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn-curve btn-color"><span>Send Message</span></button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-const stepsData = {
-
-    1: {
-        title: 'Estimation',
-        subtitle: 'We begin by providing a clear and transparent cost estimation based on customer requirements.',
-        note: 'transparent quotation for your needs'
-    },
-    2: {
-        title: 'Design & Customization',
-        subtitle: 'Once the order is confirmed, our design team creates detailed 2D/3D designs tailored to the customer’s needs.',
-        note: 'personalized 2D/3D designs'
-    },
-    3: {
-        title: 'Customer Approval',
-        subtitle: 'The designs are shared with the customer, and production begins only after final approval.',
-        note: 'production after your approval'
-    },
-    4: {
-        title: 'State-of-the-Art Production',
-        subtitle: 'Using advanced machinery and precision engineering, we manufacture the furniture with superior quality and finish.',
-        note: 'advanced machinery & precision work'
-    },
-    5: {
-        title: 'On-Time Delivery',
-        subtitle: 'The final product is delivered and installed within the committed timeline, ensuring a smooth and hassle-free experience.',
-        note: 'delivered & installed on time'
-    }
-};
-
-
-const steps = Array.from(document.querySelectorAll('.step'));
-const progress = document.getElementById('progressBar');
-const detailTitle = document.getElementById('detailTitle');
-const detailSubtitle = document.getElementById('detailSubtitle');
-const currentStepText = document.getElementById('currentStep');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-
-let current = 1;
-
-function updateUI() {
-    steps.forEach((el) => {
-        const s = Number(el.dataset.step);
-        el.classList.toggle('active', s === current);
-        el.classList.toggle('inactive', s !== current);
-    });
-    const pct = ((current - 1) / (steps.length - 1)) * 100;
-    progress.style.width = pct + '%';
-    detailTitle.textContent = stepsData[current].title;
-    detailSubtitle.textContent = stepsData[current].subtitle;
-    currentStepText.textContent = current;
-    prevBtn.disabled = current === 1;
-    nextBtn.disabled = current === steps.length;
-}
-
-steps.forEach(s => s.addEventListener('click', () => {
-    current = Number(s.dataset.step);
-    updateUI();
-}));
-
-prevBtn.addEventListener('click', () => {
-    if (current > 1) {
-        current--;
-        updateUI();
-    }
-});
-nextBtn.addEventListener('click', () => {
-    if (current < steps.length) {
-        current++;
-        updateUI();
-    }
-});
-
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight') {
-        if (current < steps.length) {
-            current++;
-            updateUI();
-        }
-    }
-    if (e.key === 'ArrowLeft') {
-        if (current > 1) {
-            current--;
-            updateUI();
-        }
-    }
-});
-
-updateUI();
-</script>
-
-
-
-
 
 
 <section class="portfolio section-padding">
@@ -734,7 +248,11 @@ updateUI();
 <section class="faq-section py-5 bg-light">
     <div class="container">
         <div class="text-center mb-4">
-            <h2 class="fw-bold">Frequently Asked Questions</h2>
+            <h6 class="sub-title">Kitchen</h6>
+            <h2 class="mb-20 playfont">
+                Frequently Asked Questions
+            </h2>
+
             <p class="text-muted">Find quick answers to common questions about our modular kitchens.</p>
         </div>
 
@@ -916,5 +434,5 @@ lightbox.onclick = (e) => {
     if (e.target === lightbox) lightbox.style.display = 'none';
 }
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <?php include './footer.php'; ?>

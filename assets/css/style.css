@@ -20,7 +20,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-p{
+p {
     color: #000;
 }
 
@@ -41,24 +41,24 @@ h1 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 25px;
     color: var(--p);
 }
 
 h3 {
-    font-size: 35px;
-}
-
-h4 {
-    font-size: 30px;
-}
-
-h5 {
     font-size: 25px;
 }
 
-h6 {
+h4 {
+    font-size: 20px;
+}
+
+h5 {
     font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 h1,
@@ -1435,15 +1435,16 @@ body {
 [data-overlay-dark]:before {
     background: #02050b;
     background: #01508c3d;
-      background: #012346;
-    background: #01508cba;
-    
+    background: #012346;
+    /* background: #01508cba; */
+
 }
+
 [data-overlay-dark1]:before {
     background: #02050b;
     /* background: #012346; */
     background: #01508c;
-     background: #01508c3d;
+    background: #01508c3d;
 }
 
 
@@ -1565,7 +1566,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 14px;
-    padding-left: 60px;
+    /* padding-left: 60px; */
     letter-spacing: 4px;
     margin-bottom: 0px;
     position: relative;
@@ -1579,6 +1580,7 @@ body {
     position: absolute;
     left: 0;
     top: 50%;
+    display: none;
 }
 
 .extra-title {
@@ -1626,16 +1628,17 @@ body {
     cursor: pointer;
     border-radius: 3px;
 }
+
 .btn-curve.bg {
     background: transparent;
     padding: 4px 25px;
-    border: 1px solid var(--s);
+    border: 1px solid #cacaca;
     font-family: "Teko", sans-serif;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     border-radius: 3px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -1666,7 +1669,7 @@ body {
     left: -30px;
     right: -30px;
     bottom: 130%;
-    background: #1e1e1e;
+    background: var(--s);
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
@@ -1684,7 +1687,8 @@ body {
     -webkit-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
-    font-weight: 600;
+    font-weight: 500;
+    color: var(--p);
 }
 
 .btn-curve.btn-lit {
@@ -1795,8 +1799,8 @@ body {
 .form-glass .form-control {
     background: #fff;
     color: #000;
-     border-top-right-radius: 8px;
-     border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     padding: 5px 15px;
     border: 1px solid var(--s);
 }
@@ -1812,7 +1816,7 @@ body {
     color: var(--s);
     border: 1px solid var(--s);
     border-top-right-radius: 8px;
-     border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .btn-primary {
@@ -2698,9 +2702,9 @@ body {
 
 .about .ab-exp .years-exp .exp-text {
     position: absolute;
-    bottom: 40px;
-    left: -10px;
-    padding: 10px 0;
+    bottom: 5px;
+    left: 4px;
+    padding: 28px 20px;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
@@ -2788,6 +2792,69 @@ body {
 }
 
 /* ====================== [ End Intro ] ====================== */
+
+/* --- Section Wrapper --- */
+.inquiry-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* --- Left Section --- */
+.left-sec {
+    background: linear-gradient(135deg, var(--p), var(--s));
+    color: #fff;
+    text-align: center;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-sec h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.left-sec p {
+    max-width: 450px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.left-sec img {
+    object-fit: cover;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Right Section --- */
+.right-sec {
+    background: #ffffff;
+    padding: 60px 40px;
+}
+
+
+/* --- Responsive --- */
+@media (max-width: 992px) {
+    .left-sec {
+        padding: 50px 30px;
+    }
+
+    .right-sec {
+        padding: 40px 25px;
+    }
+}
+
 /* ====================== [ Start services ] ====================== */
 .services .bord-box {
     overflow: hidden;
@@ -2905,7 +2972,7 @@ body {
     font-size: 40px;
     font-weight: 400;
     color: var(--p);
-    padding-right: 70px;
+    padding-right: 10px;
     line-height: 1;
     position: relative;
 }
@@ -2918,6 +2985,7 @@ body {
     background: #ddd;
     width: 50px;
     height: 1px;
+    display: none;
 }
 
 .services.halfbg .background {
@@ -4309,11 +4377,11 @@ body {
     padding-top: 25px;
 }
 
- .tags {
+.tags {
     margin-bottom: 10px;
 }
 
- .tags a {
+.tags a {
     font-size: 12px;
     font-weight: 500;
     color: var(--s);
@@ -4321,7 +4389,7 @@ body {
     position: relative;
 }
 
- .tags a:after {
+.tags a:after {
     content: "";
     width: 8px;
     height: 2px;
@@ -4331,11 +4399,11 @@ body {
     top: 50%;
 }
 
- .tags a:last-of-type {
+.tags a:last-of-type {
     padding-right: 0;
 }
 
- .tags a:last-of-type:after {
+.tags a:last-of-type:after {
     display: none;
 }
 
@@ -4712,7 +4780,8 @@ body {
     border-radius: 5px;
 }
 
-.cont-map .contact-form form input, .cont-map .contact-form form textarea {
+.cont-map .contact-form form input,
+.cont-map .contact-form form textarea {
     padding: 5px;
     background: #fff;
     border: 1px solid #0092f9;
@@ -4737,6 +4806,7 @@ body {
 .cont-map .contact-map .map {
     height: 100%;
 }
+
 .cont-map .contact-map .map iframe {
     height: 500px;
 }
@@ -4850,10 +4920,12 @@ body {
     margin: 0;
     padding-left: 0px;
 }
+
 .ads {
     display: flex;
     gap: 5px;
 }
+
 .main-footer .usful-links ul li {
     font-size: 13px;
     margin-bottom: 10px;
@@ -5337,7 +5409,7 @@ body {
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: #555;
+    color: #5555554f;
 }
 
 .input-with-icon input,
@@ -5349,9 +5421,10 @@ body {
     color: #000;
     border: 1px solid var(--s);
 }
+
 .form-sec {
     padding: 50px;
-    border: 5px solid var(--s);
+    border: 1px solid #cacaca;
     border-radius: 8px;
 }
 

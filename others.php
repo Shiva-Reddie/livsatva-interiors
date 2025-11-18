@@ -95,7 +95,7 @@
 
 <!-- ==================== Start Header ==================== -->
 
-<header class="pages-header bg-img valign parallaxie" data-background="assets/img/products/ot-2.png"
+<header class="pages-header bg-img valign parallaxie" data-background="assets/img/products/ot-2.jpg"
     data-overlay-dark="5">
     <div class="container">
         <div class="row">
@@ -118,7 +118,7 @@
 <section class="products-section py-5">
     <div class="container">
         <div class="text-center">
-            <!-- <h6 class="sub-title">Others</h6> -->
+            <h6 class="sub-title">Others</h6>
             <h2 class="mb-3 playfont">Our Premium Steel Interior Collection</h2>
             <p>Explore Livsatva Interiors’ modern and durable designs — crafted entirely in stainless
                 steel for timeless style and strength.</p>
@@ -128,7 +128,7 @@
             <!-- Card 1 -->
             <div class="col-lg-4 col-md-6">
                 <div class="product-card">
-                    <img src="./assets/img/products/ot-1.png" alt="Vanity Units" class="img-fluid">
+                    <img src="./assets/img/products/ot-1.jpg" alt="Vanity Units" class="img-fluid">
                     <div class="card-content">
                         <h4>Vanity Units</h4>
                         <p>Modern steel vanity units combining elegance and durability, designed with premium finishes
@@ -146,7 +146,7 @@
             <!-- Card 2 -->
             <div class="col-lg-4 col-md-6">
                 <div class="product-card">
-                    <img src="./assets/img/products/ot-2.png" alt="Living Room Partitions" class="img-fluid">
+                    <img src="./assets/img/products/ot-2.jpg" alt="Living Room Partitions" class="img-fluid">
                     <div class="card-content">
                         <h4>Living Room Partitions</h4>
                         <p>Stylish stainless steel partitions that create elegant divisions and bring a premium look to
@@ -164,7 +164,7 @@
             <!-- Card 3 -->
             <div class="col-lg-4 col-md-6">
                 <div class="product-card">
-                    <img src="./assets/img/products/ot-3.png" alt="TV Units" class="img-fluid">
+                    <img src="./assets/img/products/ot-3.jpg" alt="TV Units" class="img-fluid">
                     <div class="card-content">
                         <h4>TV Units</h4>
                         <p>Premium steel TV units designed with a modern aesthetic, perfect for stylish and functional
@@ -182,7 +182,7 @@
             <!-- Card 4 -->
             <div class="col-lg-4 col-md-6">
                 <div class="product-card">
-                    <img src="./assets/img/products/ot-4.png" alt="Beds & T-Tables" class="img-fluid">
+                    <img src="./assets/img/products/ot-4.jpg" alt="Beds & T-Tables" class="img-fluid">
                     <div class="card-content">
                         <h4>Beds & T-Tables</h4>
                         <p>Luxury stainless steel beds and tables built for comfort and lasting strength, offering a
@@ -200,7 +200,7 @@
             <!-- Card 5 -->
             <div class="col-lg-4 col-md-6">
                 <div class="product-card">
-                    <img src="./assets/img/products/ot-5.png" alt="Sofas" class="img-fluid">
+                    <img src="./assets/img/products/ot-5.jpg" alt="Sofas" class="img-fluid">
                     <div class="card-content">
                         <h4>Sofas</h4>
                         <p>Contemporary steel-framed sofas offering superior comfort and sleek design — perfect for
@@ -218,7 +218,7 @@
             <!-- Card 6 -->
             <div class="col-lg-4 col-md-6">
                 <div class="product-card">
-                    <img src="./assets/img/products/ot-6.png" alt="Office Furniture" class="img-fluid">
+                    <img src="./assets/img/products/ot-6.jpg" alt="Office Furniture" class="img-fluid">
                     <div class="card-content">
                         <h4>Office Furniture</h4>
                         <p>Elegant and ergonomic steel office furniture designed for durability, comfort, and a
