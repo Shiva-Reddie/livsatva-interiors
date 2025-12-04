@@ -25,12 +25,12 @@
                         <h6>Quick Links</h6>
                     </div>
                     <ul>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Home </a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> About Us</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Career </a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Gallery </a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Blog</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Contact Us</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>index.php">Home</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>about-us.php">About Us</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>career.php">Career</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>gallery.php">Gallery</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>blog.php">Blog</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>contact.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,13 +40,13 @@
                         <h6>Products</h6>
                     </div>
                     <ul>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Modular Kitchen</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Modular Wardrobe</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Modular Crockery</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Office Furniture </a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> TV Unit</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Partitions</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#0"> Others</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>modular-kitchen.php">Modular Kitchen</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>modular-wardrobe.php">Modular Wardrobe</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>modular-crockery.php">Modular Crockery</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>office-furniture.php">Office Furniture</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>tv-unit.php">TV Unit</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>partitions.php">Partitions</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="<?php echo $site_url; ?>others.php">Others</a></li>
                     </ul>
                 </div>
             </div>

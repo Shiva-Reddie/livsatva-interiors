@@ -1,4 +1,4 @@
-<form class="form-sec mt-4" action="send-form.php" method="POST">
+<form class="form-sec mt-4" action="send-form" method="POST">
     <div class="controls">
         <div class="row">
             <!-- Name -->
